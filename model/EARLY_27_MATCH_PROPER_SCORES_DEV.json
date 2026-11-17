@@ -1,0 +1,380 @@
+[
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四001",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.68,
+      "平": 0.21,
+      "负": 0.11
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.15859999999999996,
+    "rps": 0.05724999999999998,
+    "log_loss": 0.3856624808119846
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四002",
+    "actual_wdl": "平",
+    "model_wdl": {
+      "胜": 0.49,
+      "平": 0.27,
+      "负": 0.24
+    },
+    "wdl_top1_hit": 0,
+    "brier": 0.8305999999999999,
+    "rps": 0.14884999999999998,
+    "log_loss": 1.3093333199837622
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四003",
+    "actual_wdl": "负",
+    "model_wdl": {
+      "胜": 0.17,
+      "平": 0.21,
+      "负": 0.62
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.2174,
+    "rps": 0.08665,
+    "log_loss": 0.4780358009429998
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四004",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.44,
+      "平": 0.3,
+      "负": 0.26
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.47120000000000006,
+    "rps": 0.19060000000000002,
+    "log_loss": 0.8209805520698302
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四005",
+    "actual_wdl": "平",
+    "model_wdl": {
+      "胜": 0.54,
+      "平": 0.26,
+      "负": 0.2
+    },
+    "wdl_top1_hit": 0,
+    "brier": 0.8792,
+    "rps": 0.1658,
+    "log_loss": 1.3470736479666092
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四006",
+    "actual_wdl": "负",
+    "model_wdl": {
+      "胜": 0.66,
+      "平": 0.21,
+      "负": 0.13
+    },
+    "wdl_top1_hit": 0,
+    "brier": 1.2366000000000001,
+    "rps": 0.5962500000000001,
+    "log_loss": 2.0402208285265546
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四007",
+    "actual_wdl": "负",
+    "model_wdl": {
+      "胜": 0.39,
+      "平": 0.28,
+      "负": 0.33
+    },
+    "wdl_top1_hit": 0,
+    "brier": 0.6793999999999999,
+    "rps": 0.30050000000000004,
+    "log_loss": 1.1086626245216111
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四008",
+    "actual_wdl": "负",
+    "model_wdl": {
+      "胜": 0.63,
+      "平": 0.23,
+      "负": 0.14
+    },
+    "wdl_top1_hit": 0,
+    "brier": 1.1894,
+    "rps": 0.5682499999999999,
+    "log_loss": 1.9661128563728327
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四009",
+    "actual_wdl": "负",
+    "model_wdl": {
+      "胜": 0.4,
+      "平": 0.3,
+      "负": 0.3
+    },
+    "wdl_top1_hit": 0,
+    "brier": 0.74,
+    "rps": 0.32499999999999996,
+    "log_loss": 1.2039728043259361
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四010",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.66,
+      "平": 0.21,
+      "负": 0.13
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.17659999999999998,
+    "rps": 0.06624999999999999,
+    "log_loss": 0.4155154439616658
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四011",
+    "actual_wdl": "负",
+    "model_wdl": {
+      "胜": 0.29,
+      "平": 0.29,
+      "负": 0.42
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.5046,
+    "rps": 0.21025,
+    "log_loss": 0.8675005677047231
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四012",
+    "actual_wdl": "负",
+    "model_wdl": {
+      "胜": 0.67,
+      "平": 0.21,
+      "负": 0.12
+    },
+    "wdl_top1_hit": 0,
+    "brier": 1.2674,
+    "rps": 0.61165,
+    "log_loss": 2.120263536200091
+  },
+  {
+    "source": "RECAP_13_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周四013",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.72,
+      "平": 0.19,
+      "负": 0.09
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.12260000000000001,
+    "rps": 0.04325000000000001,
+    "log_loss": 0.3285040669720361
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五001",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.655,
+      "平": 0.202,
+      "负": 0.143
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.180278,
+    "rps": 0.069737,
+    "log_loss": 0.4231200433468851
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五002",
+    "actual_wdl": "平",
+    "model_wdl": {
+      "胜": 0.516,
+      "平": 0.227,
+      "负": 0.257
+    },
+    "wdl_top1_hit": 0,
+    "brier": 0.9298339999999999,
+    "rps": 0.16615249999999998,
+    "log_loss": 1.4828052615007343
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五003",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.725,
+      "平": 0.169,
+      "负": 0.106
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.11542200000000001,
+    "rps": 0.043430500000000004,
+    "log_loss": 0.32158362412746233
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五004",
+    "actual_wdl": "负",
+    "model_wdl": {
+      "胜": 0.529,
+      "平": 0.24,
+      "负": 0.231
+    },
+    "wdl_top1_hit": 0,
+    "brier": 0.928802,
+    "rps": 0.435601,
+    "log_loss": 1.4653375684603434
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五005",
+    "actual_wdl": "平",
+    "model_wdl": {
+      "胜": 0.311,
+      "平": 0.252,
+      "负": 0.437
+    },
+    "wdl_top1_hit": 0,
+    "brier": 0.847194,
+    "rps": 0.14384500000000003,
+    "log_loss": 1.3783261914707137
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五006",
+    "actual_wdl": "平",
+    "model_wdl": {
+      "胜": 0.237,
+      "平": 0.234,
+      "负": 0.529
+    },
+    "wdl_top1_hit": 0,
+    "brier": 0.9227660000000001,
+    "rps": 0.16800500000000002,
+    "log_loss": 1.4524341636244356
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五007",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.405,
+      "平": 0.27,
+      "负": 0.325
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.53255,
+    "rps": 0.22982499999999997,
+    "log_loss": 0.9038682118755978
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五008",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.399,
+      "平": 0.266,
+      "负": 0.335
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.544182,
+    "rps": 0.23671299999999998,
+    "log_loss": 0.9187938620922735
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五009",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.477,
+      "平": 0.244,
+      "负": 0.279
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.41090600000000005,
+    "rps": 0.17568500000000004,
+    "log_loss": 0.7402387880937958
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五010",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.614,
+      "平": 0.221,
+      "负": 0.166
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.225393,
+    "rps": 0.08811050000000001,
+    "log_loss": 0.4877603508349946
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五011",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.377,
+      "平": 0.265,
+      "负": 0.358
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.586518,
+    "rps": 0.2581465,
+    "log_loss": 0.9755100915341263
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五012",
+    "actual_wdl": "平",
+    "model_wdl": {
+      "胜": 0.532,
+      "平": 0.27,
+      "负": 0.197
+    },
+    "wdl_top1_hit": 0,
+    "brier": 0.854733,
+    "rps": 0.161114,
+    "log_loss": 1.3093333199837622
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五013",
+    "actual_wdl": "胜",
+    "model_wdl": {
+      "胜": 0.424,
+      "平": 0.288,
+      "负": 0.288
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.49766400000000005,
+    "rps": 0.20736000000000004,
+    "log_loss": 0.8580218237501793
+  },
+  {
+    "source": "RECAP_14_INPUT_CONVERSATION_ONLY.json",
+    "match_id": "周五014",
+    "actual_wdl": "负",
+    "model_wdl": {
+      "胜": 0.326,
+      "平": 0.283,
+      "负": 0.39
+    },
+    "wdl_top1_hit": 1,
+    "brier": 0.558465,
+    "rps": 0.23857849999999997,
+    "log_loss": 0.941608539858445
+  }
+]

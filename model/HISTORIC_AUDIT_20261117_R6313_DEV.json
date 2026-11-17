@@ -1,0 +1,331 @@
+{
+  "description": "Research diagnostics only: not R6.3.13 historical forecasts or live forward test",
+  "project_model": "M79.3.6 Production FROZEN + Shadow R6.3.13",
+  "data_grading": "Prior conversation selections, retrospective outcomes; no independent immutable pre-match probability grid Q for any of 46",
+  "n": 46,
+  "dates": {
+    "2026-11-12": {
+      "n": 6,
+      "single_hit": {
+        "hits": 5,
+        "n": 6,
+        "rate": 0.8333333333333334
+      },
+      "protection_hit": {
+        "hits": 5,
+        "n": 6,
+        "rate": 0.8333333333333334
+      },
+      "jc_top1_hit": {
+        "hits": 2,
+        "n": 6,
+        "rate": 0.3333333333333333
+      },
+      "goals_top3_hit": {
+        "hits": 6,
+        "n": 6,
+        "rate": 1.0
+      },
+      "score_top1_hit": {
+        "hits": 2,
+        "n": 6,
+        "rate": 0.3333333333333333
+      },
+      "score_top3_hit": {
+        "hits": 5,
+        "n": 6,
+        "rate": 0.8333333333333334
+      },
+      "htft_top1_hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "htft_top2_hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "actual_jc_letdraw_n": 3,
+      "jc_top1_letdraw_n": 0,
+      "score_top3_two_letdraw_not_first_n": 2,
+      "matches_with_goal_score_coverage_gap": 3,
+      "goal_score_unrepresented_slots": 3
+    },
+    "2026-11-13": {
+      "n": 11,
+      "single_hit": {
+        "hits": 7,
+        "n": 11,
+        "rate": 0.6363636363636364
+      },
+      "protection_hit": {
+        "hits": 9,
+        "n": 11,
+        "rate": 0.8181818181818182
+      },
+      "jc_top1_hit": {
+        "hits": 3,
+        "n": 11,
+        "rate": 0.2727272727272727
+      },
+      "goals_top3_hit": {
+        "hits": 7,
+        "n": 11,
+        "rate": 0.6363636363636364
+      },
+      "score_top1_hit": {
+        "hits": 0,
+        "n": 11,
+        "rate": 0.0
+      },
+      "score_top3_hit": {
+        "hits": 2,
+        "n": 11,
+        "rate": 0.18181818181818182
+      },
+      "htft_top1_hit": {
+        "hits": 5,
+        "n": 11,
+        "rate": 0.45454545454545453
+      },
+      "htft_top2_hit": {
+        "hits": 6,
+        "n": 11,
+        "rate": 0.5454545454545454
+      },
+      "actual_jc_letdraw_n": 4,
+      "jc_top1_letdraw_n": 0,
+      "score_top3_two_letdraw_not_first_n": 5,
+      "matches_with_goal_score_coverage_gap": 6,
+      "goal_score_unrepresented_slots": 6
+    },
+    "2026-11-14": {
+      "n": 14,
+      "single_hit": {
+        "hits": 8,
+        "n": 14,
+        "rate": 0.5714285714285714
+      },
+      "protection_hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "jc_top1_hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "goals_top3_hit": {
+        "hits": 8,
+        "n": 14,
+        "rate": 0.5714285714285714
+      },
+      "score_top1_hit": {
+        "hits": 0,
+        "n": 14,
+        "rate": 0.0
+      },
+      "score_top3_hit": {
+        "hits": 5,
+        "n": 14,
+        "rate": 0.35714285714285715
+      },
+      "htft_top1_hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "htft_top2_hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "actual_jc_letdraw_n": 0,
+      "jc_top1_letdraw_n": 0,
+      "score_top3_two_letdraw_not_first_n": 0,
+      "matches_with_goal_score_coverage_gap": 8,
+      "goal_score_unrepresented_slots": 8
+    },
+    "2026-11-15": {
+      "n": 7,
+      "single_hit": {
+        "hits": 3,
+        "n": 7,
+        "rate": 0.42857142857142855
+      },
+      "protection_hit": {
+        "hits": 5,
+        "n": 7,
+        "rate": 0.7142857142857143
+      },
+      "jc_top1_hit": {
+        "hits": 3,
+        "n": 7,
+        "rate": 0.42857142857142855
+      },
+      "goals_top3_hit": {
+        "hits": 2,
+        "n": 7,
+        "rate": 0.2857142857142857
+      },
+      "score_top1_hit": {
+        "hits": 0,
+        "n": 7,
+        "rate": 0.0
+      },
+      "score_top3_hit": {
+        "hits": 2,
+        "n": 7,
+        "rate": 0.2857142857142857
+      },
+      "htft_top1_hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "htft_top2_hit": {
+        "hits": 0,
+        "n": 0,
+        "rate": null
+      },
+      "actual_jc_letdraw_n": 1,
+      "jc_top1_letdraw_n": 0,
+      "score_top3_two_letdraw_not_first_n": 4,
+      "matches_with_goal_score_coverage_gap": 5,
+      "goal_score_unrepresented_slots": 5
+    },
+    "2026-11-16": {
+      "n": 8,
+      "single_hit": {
+        "hits": 7,
+        "n": 8,
+        "rate": 0.875
+      },
+      "protection_hit": {
+        "hits": 8,
+        "n": 8,
+        "rate": 1.0
+      },
+      "jc_top1_hit": {
+        "hits": 2,
+        "n": 8,
+        "rate": 0.25
+      },
+      "goals_top3_hit": {
+        "hits": 5,
+        "n": 8,
+        "rate": 0.625
+      },
+      "score_top1_hit": {
+        "hits": 0,
+        "n": 8,
+        "rate": 0.0
+      },
+      "score_top3_hit": {
+        "hits": 2,
+        "n": 8,
+        "rate": 0.25
+      },
+      "htft_top1_hit": {
+        "hits": 3,
+        "n": 8,
+        "rate": 0.375
+      },
+      "htft_top2_hit": {
+        "hits": 5,
+        "n": 8,
+        "rate": 0.625
+      },
+      "actual_jc_letdraw_n": 3,
+      "jc_top1_letdraw_n": 1,
+      "score_top3_two_letdraw_not_first_n": 3,
+      "matches_with_goal_score_coverage_gap": 3,
+      "goal_score_unrepresented_slots": 3
+    }
+  },
+  "pooled_DESCRIPTIVE_ONLY": {
+    "n": 46,
+    "single_hit": {
+      "hits": 30,
+      "n": 46,
+      "rate": 0.6521739130434783
+    },
+    "protection_hit": {
+      "hits": 27,
+      "n": 32,
+      "rate": 0.84375
+    },
+    "jc_top1_hit": {
+      "hits": 10,
+      "n": 32,
+      "rate": 0.3125
+    },
+    "goals_top3_hit": {
+      "hits": 28,
+      "n": 46,
+      "rate": 0.6086956521739131
+    },
+    "score_top1_hit": {
+      "hits": 2,
+      "n": 46,
+      "rate": 0.043478260869565216
+    },
+    "score_top3_hit": {
+      "hits": 16,
+      "n": 46,
+      "rate": 0.34782608695652173
+    },
+    "htft_top1_hit": {
+      "hits": 8,
+      "n": 19,
+      "rate": 0.42105263157894735
+    },
+    "htft_top2_hit": {
+      "hits": 11,
+      "n": 19,
+      "rate": 0.5789473684210527
+    },
+    "actual_jc_letdraw_n": 11,
+    "jc_top1_letdraw_n": 1,
+    "score_top3_two_letdraw_not_first_n": 14,
+    "matches_with_goal_score_coverage_gap": 25,
+    "goal_score_unrepresented_slots": 25
+  },
+  "early_archive_probabilities_development_only": {
+    "RECAP_13_INPUT_CONVERSATION_ONLY.json": {
+      "n": 13,
+      "wdl_top1": 6,
+      "brier": 0.6518153846153846,
+      "rps": 0.25927307692307694,
+      "log_loss": 1.1070645023354335
+    },
+    "RECAP_14_INPUT_CONVERSATION_ONLY.json": {
+      "n": 14,
+      "wdl_top1": 9,
+      "brier": 0.5810505,
+      "rps": 0.18730739285714287,
+      "log_loss": 0.9756244171824107
+    }
+  },
+  "nov14_odds_aware_same_games_DIFFERENT_INPUT_TIME": {
+    "n": 14,
+    "single_score_derived_hits": 10,
+    "score_top1_hits": 1,
+    "score_top3_hits": 3,
+    "goal_top3_hits": 8
+  },
+  "excluded_11_15_finished_before_forecast": 4,
+  "not_available": [
+    "Prematch complete Q",
+    "Historical estimated home/away lambdas",
+    "prematch market timestamped odds for 46",
+    "historical fit parameters for halftime",
+    "independent immutable time proof"
+  ],
+  "R6313_verified_accuracy": null,
+  "R6313_full_matrix_scoreable_n": 0,
+  "R6313_forward_certified_n": 0,
+  "no_training_or_parameter_tuning": true
+}
