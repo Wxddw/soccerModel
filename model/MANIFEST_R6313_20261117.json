@@ -1,0 +1,25 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.13_20261117",
+  "inherited_unchanged": 115,
+  "new_file_count": 15,
+  "new_files": [
+    "candidate_models_r6313.py",
+    "halftime_bridge_r6313.py",
+    "market_audit_r6313.py",
+    "shadow_r6313.py",
+    "forward_validation_r6313.py",
+    "run_r6313.py",
+    "test_shadow_r6313.py",
+    "GITHUB_MODULE_COMPARISON_R6313_20261117.md",
+    "README_SHADOW_R6313_20261117.md",
+    "SYNTHETIC_EXAMPLE_PREMATCH_R6313_NOT_REAL.json",
+    "SYNTHETIC_CANDIDATE_R6313_NOT_REAL.json",
+    "INHERITED_R6312_FILES_SHA256_UNCHANGED_R6313.json",
+    "CHANGELOG_R6313_20261117.md",
+    "TEST_RESULTS_R6313_20261117.txt",
+    "MANIFEST_R6313_20261117.json"
+  ],
+  "summary": "GitHub source comparisons; four candidate Q families; half-time full-time bridge; devig benchmarks; strictly postmatch scoring; no Production changes",
+  "program_tests_passed": 332,
+  "prediction_accuracy_gain_verified": false
+}

@@ -1,0 +1,6 @@
+Execution: 2026-11-17
+Command: python -m pytest -q test_selection_efficiency_r633.py test_motivation_squad_r634.py test_shadow_r635.py test_shadow_r636.py test_shadow_r637.py test_shadow_r638.py test_shadow_r639.py test_shadow_r6310.py test_shadow_r6311.py test_shadow_r6312.py test_shadow_r6313.py
+Result: 332 passed in 0.42s (272 inherited + 60 new).
+Synthetic CLI prematch: succeeded, see synthetic-not-real input.
+Synthetic CLI candidate-grid: succeeded, see synthetic-not-real input.
+Provenance: container local testing only; no GitHub Actions run and no authentic football match validation.

@@ -1,0 +1,359 @@
+{
+  "id": "SYNTHETIC_ONLY_R6313_EXAMPLE",
+  "cutoff": "2027-01-09T12:00:00+00:00",
+  "kickoff": "2027-01-09T20:00:00+00:00",
+  "ordinary_sale": true,
+  "probabilities": [
+    0.5,
+    0.3,
+    0.2
+  ],
+  "evidence": [
+    {
+      "family": "official_lineup",
+      "source_id": "source-XI",
+      "observed_at": "2026-11-04T09:00:00+08:00",
+      "state": "favorable"
+    },
+    {
+      "family": "market_price",
+      "source_id": "price",
+      "observed_at": "2026-11-04T09:00:00+08:00",
+      "state": "neutral"
+    }
+  ],
+  "squads": {
+    "home": {
+      "lineup_status": "confirmed",
+      "minutes_source": {
+        "source_id": "s-home-XI",
+        "observed_at": "2026-11-04T09:00:00+08:00",
+        "method": "confirmed_starters_projected_minutes"
+      },
+      "rating_model_source": {
+        "source_id": "s-home-rating",
+        "observed_at": "2026-11-04T09:00:00+08:00",
+        "method": "independent_prior_player_ratings",
+        "scale_id": "calibrated_shared_pool",
+        "trained_until": "2026-11-03T12:00:00+08:00"
+      },
+      "players": [
+        {
+          "id": "homeGK",
+          "role": "goalkeeper",
+          "rating_0_100": 80,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "homeCB1",
+          "role": "center_back",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "homeCB2",
+          "role": "center_back",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "homeFB1",
+          "role": "fullback",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "homeFB2",
+          "role": "fullback",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "homeDM",
+          "role": "defensive_midfielder",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "homeCM",
+          "role": "central_midfielder",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "homeAM",
+          "role": "attacking_midfielder",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "homeRW",
+          "role": "winger",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "homeST",
+          "role": "striker",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "homeLW",
+          "role": "winger",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        }
+      ]
+    },
+    "away": {
+      "lineup_status": "confirmed",
+      "minutes_source": {
+        "source_id": "s-away-XI",
+        "observed_at": "2026-11-04T09:00:00+08:00",
+        "method": "confirmed_starters_projected_minutes"
+      },
+      "rating_model_source": {
+        "source_id": "s-away-rating",
+        "observed_at": "2026-11-04T09:00:00+08:00",
+        "method": "independent_prior_player_ratings",
+        "scale_id": "calibrated_shared_pool",
+        "trained_until": "2026-11-03T12:00:00+08:00"
+      },
+      "players": [
+        {
+          "id": "awayGK",
+          "role": "goalkeeper",
+          "rating_0_100": 80,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "awayCB1",
+          "role": "center_back",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "awayCB2",
+          "role": "center_back",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "awayFB1",
+          "role": "fullback",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "awayFB2",
+          "role": "fullback",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "awayDM",
+          "role": "defensive_midfielder",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "awayCM",
+          "role": "central_midfielder",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "awayAM",
+          "role": "attacking_midfielder",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "awayRW",
+          "role": "winger",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "awayST",
+          "role": "striker",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        },
+        {
+          "id": "awayLW",
+          "role": "winger",
+          "rating_0_100": 70,
+          "expected_minutes": 90,
+          "reference_minutes": 90,
+          "availability": "available"
+        }
+      ]
+    }
+  },
+  "motivation": {
+    "home": {
+      "competition_context": "league",
+      "stakes_type": "relegation",
+      "urgency": "high",
+      "win_mathematically_necessary": true,
+      "basis_source": {
+        "source_id": "s-home-league",
+        "observed_at": "2026-11-04T09:00:00+08:00",
+        "basis": "official_table_and_rules"
+      },
+      "next_fixture_days": 4,
+      "fixture_source": {
+        "source_id": "s-home-fixture",
+        "observed_at": "2026-11-04T09:00:00+08:00",
+        "basis": "official_schedule"
+      }
+    },
+    "away": {
+      "competition_context": "league",
+      "stakes_type": "routine",
+      "urgency": "low",
+      "win_mathematically_necessary": false,
+      "basis_source": {
+        "source_id": "s-away-league",
+        "observed_at": "2026-11-04T09:00:00+08:00",
+        "basis": "official_table_and_rules"
+      },
+      "next_fixture_days": 4,
+      "fixture_source": {
+        "source_id": "s-away-fixture",
+        "observed_at": "2026-11-04T09:00:00+08:00",
+        "basis": "official_schedule"
+      }
+    }
+  },
+  "score_matrix": [
+    {
+      "score": "0:0",
+      "probability": 0.05
+    },
+    {
+      "score": "1:1",
+      "probability": 0.1
+    },
+    {
+      "score": "2:2",
+      "probability": 0.15
+    },
+    {
+      "score": "1:0",
+      "probability": 0.1
+    },
+    {
+      "score": "2:0",
+      "probability": 0.2
+    },
+    {
+      "score": "3:1",
+      "probability": 0.1
+    },
+    {
+      "score": "4:0",
+      "probability": 0.1
+    },
+    {
+      "score": "0:1",
+      "probability": 0.08
+    },
+    {
+      "score": "0:2",
+      "probability": 0.07
+    },
+    {
+      "score": "0:7",
+      "probability": 0.05
+    }
+  ],
+  "goal_distribution": {
+    "0": 0.05,
+    "1": 0.18,
+    "2": 0.37,
+    "3": 0.0,
+    "4": 0.35,
+    "5": 0.0,
+    "6": 0.0,
+    "7+": 0.05
+  },
+  "official_handicap_line": -1,
+  "official_handicap_line_source": {
+    "basis": "official_jc_handicap",
+    "source_id": "jc-official",
+    "observed_at": "2026-11-04T09:00:00+08:00"
+  },
+  "frozen_handicap_pick": "让负",
+  "research_candidate_model": {
+    "source_id": "SYNTHETIC_PREMATCH_NOT_REAL",
+    "observed_at": "2027-01-09T11:00:00+00:00",
+    "kickoff": "2027-01-09T20:00:00+00:00",
+    "model": "dixon_coles",
+    "home_lambda": 1.45,
+    "away_lambda": 0.9,
+    "rho": -0.065
+  },
+  "research_htft": {
+    "source_id": "SYNTHETIC_PREMATCH_NOT_REAL",
+    "observed_at": "2027-01-09T11:00:00+00:00",
+    "kickoff": "2027-01-09T20:00:00+00:00",
+    "fraction_home": 0.46,
+    "fraction_away": 0.43
+  },
+  "research_market_odds": {
+    "source_id": "SYNTHETIC_PREMATCH_NOT_REAL",
+    "observed_at": "2027-01-09T11:00:00+00:00",
+    "kickoff": "2027-01-09T20:00:00+00:00",
+    "market_type": "WDL_DECIMAL",
+    "odds": {
+      "胜": 1.85,
+      "平": 3.7,
+      "负": 4.6
+    }
+  }
+}
