@@ -1,0 +1,24 @@
+{
+  "new_version": "M79 Shadow R6.3.14",
+  "previous_version": "R6.3.13",
+  "date": "2026-11-17",
+  "production": "M79.3.6 frozen",
+  "tests": 367,
+  "inherited_files_unchanged": 130,
+  "new_files": [
+    "calibration_r6314.py",
+    "shadow_r6314.py",
+    "benchmark_r6314.py",
+    "test_calibration_r6314.py",
+    "EXTERNAL_EPL_2023_26_EXPERIMENT_R6314.json",
+    "README_SHADOW_R6314_20261117.md",
+    "CHANGELOG_R6314_20261117.md",
+    "MANIFEST_R6314_20261117.json",
+    "INHERITED_R6313_FILES_SHA256_UNCHANGED_R6314.json",
+    "TEST_RESULTS_R6314_20261117.txt"
+  ],
+  "external_eval_test_matches": 380,
+  "official_forward_certified_matches": 0,
+  "source_data_included": false,
+  "git_branch": "import/r6.3.12-unified-score-matrix-20261117"
+}
