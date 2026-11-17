@@ -1,0 +1,38 @@
+{
+  "base": "2026-10-31 R6.3 research archive copied in R6.4",
+  "key_files_verified": 6,
+  "matches": {
+    "football_workflow/policy.json": {
+      "observed_sha256": "2274344e3b6d7dbd8222a8be502bf6065404869050ca4ceb8c07baa2646a38ff",
+      "expected_sha256": "2274344e3b6d7dbd8222a8be502bf6065404869050ca4ceb8c07baa2646a38ff",
+      "matched": true
+    },
+    "football_workflow/vendor/legacy/calculate.py": {
+      "observed_sha256": "c4837c45f3929be0da4ea18d382a623536e0c4c7e44efd0f1f625889fdc2f927",
+      "expected_sha256": "c4837c45f3929be0da4ea18d382a623536e0c4c7e44efd0f1f625889fdc2f927",
+      "matched": true
+    },
+    "football_workflow/vendor/legacy/models/gs/m79_gs_v1/m79_gs.py": {
+      "observed_sha256": "a98441da4fc5f0fd186347c7b750aa011116d5838a0f79fc32f256a0fa09fa68",
+      "expected_sha256": "a98441da4fc5f0fd186347c7b750aa011116d5838a0f79fc32f256a0fa09fa68",
+      "matched": true
+    },
+    "football_workflow/vendor/legacy/models/policy/output_adapter.py": {
+      "observed_sha256": "e26be52ea662d8fbcfb48b0654baf0e54623a91e5c0ebdeaaf29a78f9b38521e",
+      "expected_sha256": "e26be52ea662d8fbcfb48b0654baf0e54623a91e5c0ebdeaaf29a78f9b38521e",
+      "matched": true
+    },
+    "football_workflow/vendor/legacy/models/policy/output_policy.json": {
+      "observed_sha256": "7be6c5b11af80743a064a5f161c083d0df092b9ee62e46d5b6699472a6dc1892",
+      "expected_sha256": "7be6c5b11af80743a064a5f161c083d0df092b9ee62e46d5b6699472a6dc1892",
+      "matched": true
+    },
+    "football_workflow/workflow.py": {
+      "observed_sha256": "23d91e762a7639eb5672a3cb8c82578f5613030ed51505ee741fcd085dcbb646",
+      "expected_sha256": "23d91e762a7639eb5672a3cb8c82578f5613030ed51505ee741fcd085dcbb646",
+      "matched": true
+    }
+  },
+  "formal_full_production_verified": false,
+  "all_matched": true
+}

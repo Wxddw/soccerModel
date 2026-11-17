@@ -1,0 +1,139 @@
+{
+  "status": "CONVERSATION_REFERENCE_ONLY_NOT_OFFICIALLY_FROZEN_NOT_HOLDOUT",
+  "date": "2026-11-12",
+  "production_score_eligible": false,
+  "training_or_calibration_performed": false,
+  "all_research_directions": {
+    "unique_hit": {
+      "hits": 5,
+      "n": 6
+    },
+    "protection_hit": {
+      "hits": 5,
+      "n": 6
+    },
+    "jc_hit": {
+      "hits": 2,
+      "n": 6
+    },
+    "goals_top3_hit": {
+      "hits": 6,
+      "n": 6
+    },
+    "score_top3_hit": {
+      "hits": 5,
+      "n": 6
+    },
+    "score_top1_hit": {
+      "hits": 2,
+      "n": 6
+    }
+  },
+  "ordinary_sale_subset": {
+    "unique_hit": {
+      "hits": 4,
+      "n": 5
+    },
+    "protection_hit": {
+      "hits": 4,
+      "n": 5
+    },
+    "jc_hit": {
+      "hits": 2,
+      "n": 5
+    },
+    "goals_top3_hit": {
+      "hits": 5,
+      "n": 5
+    },
+    "score_top3_hit": {
+      "hits": 4,
+      "n": 5
+    },
+    "score_top1_hit": {
+      "hits": 1,
+      "n": 5
+    }
+  },
+  "let_draw_actual_count": 3,
+  "rows": [
+    {
+      "id": "001",
+      "actual_score": "1:2",
+      "actual_wdl": "负",
+      "actual_jc": "让平",
+      "ordinary_sale": true,
+      "unique_hit": true,
+      "protection_hit": true,
+      "jc_hit": false,
+      "goals_top3_hit": true,
+      "score_top3_hit": true,
+      "score_top1_hit": true
+    },
+    {
+      "id": "002",
+      "actual_score": "1:1",
+      "actual_wdl": "平",
+      "actual_jc": "让负",
+      "ordinary_sale": true,
+      "unique_hit": false,
+      "protection_hit": false,
+      "jc_hit": true,
+      "goals_top3_hit": true,
+      "score_top3_hit": true,
+      "score_top1_hit": false
+    },
+    {
+      "id": "003",
+      "actual_score": "2:0",
+      "actual_wdl": "胜",
+      "actual_jc": "让胜",
+      "ordinary_sale": true,
+      "unique_hit": true,
+      "protection_hit": true,
+      "jc_hit": false,
+      "goals_top3_hit": true,
+      "score_top3_hit": false,
+      "score_top1_hit": false
+    },
+    {
+      "id": "004",
+      "actual_score": "2:1",
+      "actual_wdl": "胜",
+      "actual_jc": "让平",
+      "ordinary_sale": true,
+      "unique_hit": true,
+      "protection_hit": true,
+      "jc_hit": false,
+      "goals_top3_hit": true,
+      "score_top3_hit": true,
+      "score_top1_hit": false
+    },
+    {
+      "id": "005",
+      "actual_score": "2:1",
+      "actual_wdl": "胜",
+      "actual_jc": "让负",
+      "ordinary_sale": true,
+      "unique_hit": true,
+      "protection_hit": true,
+      "jc_hit": true,
+      "goals_top3_hit": true,
+      "score_top3_hit": true,
+      "score_top1_hit": false
+    },
+    {
+      "id": "006",
+      "actual_score": "0:2",
+      "actual_wdl": "负",
+      "actual_jc": "让平",
+      "ordinary_sale": false,
+      "unique_hit": true,
+      "protection_hit": true,
+      "jc_hit": false,
+      "goals_top3_hit": true,
+      "score_top3_hit": true,
+      "score_top1_hit": true
+    }
+  ]
+}

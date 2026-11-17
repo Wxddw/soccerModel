@@ -1,0 +1,8 @@
+[
+ {"id":"001","match":"土耳其 vs 比利时","ordinary_sale":true,"actual_score":"1:2","single":"负","protection":["胜","负"],"official_handicap_line":1,"jc_pick":"让胜","goals_top3":[2,3,1],"scores_top3":["1:2","1:1","0:1"]},
+ {"id":"002","match":"亚美尼亚 vs 塞浦路斯","ordinary_sale":true,"actual_score":"1:1","single":"负","protection":["胜","负"],"official_handicap_line":-1,"jc_pick":"让负","goals_top3":[2,1,3],"scores_top3":["0:1","1:1","1:2"]},
+ {"id":"003","match":"阿尔巴尼亚 vs 芬兰","ordinary_sale":true,"actual_score":"2:0","single":"胜","protection":["胜","平"],"official_handicap_line":-1,"jc_pick":"让负","goals_top3":[2,1,3],"scores_top3":["1:1","1:0","2:1"]},
+ {"id":"004","match":"黑山 vs 拉脱维亚","ordinary_sale":true,"actual_score":"2:1","single":"胜","protection":["胜","平"],"official_handicap_line":-1,"jc_pick":"让胜","goals_top3":[2,3,4],"scores_top3":["2:0","2:1","3:0"]},
+ {"id":"005","match":"英格兰 vs 克罗地亚","ordinary_sale":true,"actual_score":"2:1","single":"胜","protection":["胜","平"],"official_handicap_line":-2,"jc_pick":"让负","goals_top3":[3,2,4],"scores_top3":["2:0","2:1","3:0"]},
+ {"id":"006","match":"捷克 vs 西班牙","ordinary_sale":false,"actual_score":"0:2","single":"负","protection":["平","负"],"official_handicap_line":2,"jc_pick":"让胜","goals_top3":[3,2,4],"scores_top3":["0:2","0:3","1:2"]}
+]

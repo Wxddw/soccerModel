@@ -1,0 +1,337 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.6_20261108",
+  "dataset": "PRIOR_CONVERSATION_RECAP_ONLY_NOT_OFFICIALLY_FROZEN_NOT_HOLDOUT",
+  "n": 14,
+  "metrics": {
+    "single": {
+      "hits": 9,
+      "n": 14,
+      "rate": 0.6428571428571429
+    },
+    "protection": {
+      "hits": 10,
+      "n": 14,
+      "rate": 0.7142857142857143
+    },
+    "handicap": {
+      "hits": 7,
+      "n": 14,
+      "rate": 0.5
+    },
+    "goals_top3": {
+      "hits": 9,
+      "n": 14,
+      "rate": 0.6428571428571429
+    },
+    "score_top3": {
+      "hits": 4,
+      "n": 14,
+      "rate": 0.2857142857142857
+    },
+    "half_full_top2": {
+      "hits": 5,
+      "n": 14,
+      "rate": 0.35714285714285715
+    }
+  },
+  "research_levels": {
+    "core_candidate": {
+      "n": 2,
+      "raw_top1_hits": 2,
+      "avoided_correct_top1": 0
+    },
+    "observation": {
+      "n": 8,
+      "raw_top1_hits": 3,
+      "avoided_correct_top1": 0
+    },
+    "avoid": {
+      "n": 3,
+      "raw_top1_hits": 3,
+      "avoided_correct_top1": 3
+    },
+    "hot_favorite_review": {
+      "n": 1,
+      "raw_top1_hits": 1,
+      "avoided_correct_top1": 0
+    }
+  },
+  "correct_top1_in_avoidance_groups": 3,
+  "avoidance_group_n": 3,
+  "training_or_threshold_fit": false,
+  "independent_validation": false,
+  "proper_probability_scores": null,
+  "notes": [
+    "Descriptive arithmetic only; source rows came from prior conversation recap.",
+    "Do not fit thresholds or claim independent performance from this batch.",
+    "Actual outcomes are joined only after the prematch predictions in each row are frozen."
+  ],
+  "rows": [
+    {
+      "id": "周五001",
+      "raw_direction": "胜",
+      "actual_wdl": "胜",
+      "actual_score": "4:1",
+      "actual_htft": "胜胜",
+      "actual_total_goals": 5,
+      "actual_handicap": "让胜",
+      "predicted_handicap": "让胜",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "handicap": true,
+        "goals_top3": false,
+        "score_top3": false,
+        "half_full_top2": true
+      },
+      "research_level": "core_candidate"
+    },
+    {
+      "id": "周五002",
+      "raw_direction": "胜",
+      "actual_wdl": "平",
+      "actual_score": "0:0",
+      "actual_htft": "平平",
+      "actual_total_goals": 0,
+      "actual_handicap": "让负",
+      "predicted_handicap": "让负",
+      "hits": {
+        "single": false,
+        "protection": false,
+        "handicap": true,
+        "goals_top3": false,
+        "score_top3": false,
+        "half_full_top2": false
+      },
+      "research_level": "observation"
+    },
+    {
+      "id": "周五003",
+      "raw_direction": "胜",
+      "actual_wdl": "胜",
+      "actual_score": "4:1",
+      "actual_htft": "胜胜",
+      "actual_total_goals": 5,
+      "actual_handicap": "让胜",
+      "predicted_handicap": "让胜",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "handicap": true,
+        "goals_top3": false,
+        "score_top3": false,
+        "half_full_top2": true
+      },
+      "research_level": "core_candidate"
+    },
+    {
+      "id": "周五004",
+      "raw_direction": "胜",
+      "actual_wdl": "负",
+      "actual_score": "2:3",
+      "actual_htft": "负负",
+      "actual_total_goals": 5,
+      "actual_handicap": "让负",
+      "predicted_handicap": "让负",
+      "hits": {
+        "single": false,
+        "protection": false,
+        "handicap": true,
+        "goals_top3": false,
+        "score_top3": false,
+        "half_full_top2": false
+      },
+      "research_level": "observation"
+    },
+    {
+      "id": "周五005",
+      "raw_direction": "负",
+      "actual_wdl": "平",
+      "actual_score": "1:1",
+      "actual_htft": "平平",
+      "actual_total_goals": 2,
+      "actual_handicap": "让胜",
+      "predicted_handicap": "让胜",
+      "hits": {
+        "single": false,
+        "protection": false,
+        "handicap": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": false
+      },
+      "research_level": "observation"
+    },
+    {
+      "id": "周五006",
+      "raw_direction": "负",
+      "actual_wdl": "平",
+      "actual_score": "1:1",
+      "actual_htft": "胜平",
+      "actual_total_goals": 2,
+      "actual_handicap": "让胜",
+      "predicted_handicap": "让胜",
+      "hits": {
+        "single": false,
+        "protection": false,
+        "handicap": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": false
+      },
+      "research_level": "observation"
+    },
+    {
+      "id": "周五007",
+      "raw_direction": "胜",
+      "actual_wdl": "胜",
+      "actual_score": "3:1",
+      "actual_htft": "平胜",
+      "actual_total_goals": 4,
+      "actual_handicap": "让胜",
+      "predicted_handicap": "让负",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "handicap": false,
+        "goals_top3": true,
+        "score_top3": false,
+        "half_full_top2": false
+      },
+      "research_level": "observation"
+    },
+    {
+      "id": "周五008",
+      "raw_direction": "胜",
+      "actual_wdl": "胜",
+      "actual_score": "2:1",
+      "actual_htft": "平胜",
+      "actual_total_goals": 3,
+      "actual_handicap": "让平",
+      "predicted_handicap": "让负",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "handicap": false,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": false
+      },
+      "research_level": "avoid"
+    },
+    {
+      "id": "周五009",
+      "raw_direction": "胜",
+      "actual_wdl": "胜",
+      "actual_score": "3:1",
+      "actual_htft": "胜胜",
+      "actual_total_goals": 4,
+      "actual_handicap": "让胜",
+      "predicted_handicap": "让负",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "handicap": false,
+        "goals_top3": true,
+        "score_top3": false,
+        "half_full_top2": true
+      },
+      "research_level": "observation"
+    },
+    {
+      "id": "周五010",
+      "raw_direction": "胜",
+      "actual_wdl": "胜",
+      "actual_score": "3:1",
+      "actual_htft": "平胜",
+      "actual_total_goals": 4,
+      "actual_handicap": "让胜",
+      "predicted_handicap": "让负",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "handicap": false,
+        "goals_top3": true,
+        "score_top3": false,
+        "half_full_top2": true
+      },
+      "research_level": "hot_favorite_review"
+    },
+    {
+      "id": "周五011",
+      "raw_direction": "胜",
+      "actual_wdl": "胜",
+      "actual_score": "3:1",
+      "actual_htft": "负胜",
+      "actual_total_goals": 4,
+      "actual_handicap": "让胜",
+      "predicted_handicap": "让负",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "handicap": false,
+        "goals_top3": true,
+        "score_top3": false,
+        "half_full_top2": false
+      },
+      "research_level": "avoid"
+    },
+    {
+      "id": "周五012",
+      "raw_direction": "胜",
+      "actual_wdl": "平",
+      "actual_score": "0:0",
+      "actual_htft": "平平",
+      "actual_total_goals": 0,
+      "actual_handicap": "让负",
+      "predicted_handicap": "让负",
+      "hits": {
+        "single": false,
+        "protection": true,
+        "handicap": true,
+        "goals_top3": false,
+        "score_top3": false,
+        "half_full_top2": false
+      },
+      "research_level": "observation"
+    },
+    {
+      "id": "周五013",
+      "raw_direction": "胜",
+      "actual_wdl": "胜",
+      "actual_score": "1:0",
+      "actual_htft": "平胜",
+      "actual_total_goals": 1,
+      "actual_handicap": "让平",
+      "predicted_handicap": "让负",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "handicap": false,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": false
+      },
+      "research_level": "observation"
+    },
+    {
+      "id": "周五014",
+      "raw_direction": "负",
+      "actual_wdl": "负",
+      "actual_score": "0:3",
+      "actual_htft": "负负",
+      "actual_total_goals": 3,
+      "actual_handicap": "让负",
+      "predicted_handicap": "让胜",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "handicap": false,
+        "goals_top3": true,
+        "score_top3": false,
+        "half_full_top2": true
+      },
+      "research_level": "avoid"
+    }
+  ]
+}

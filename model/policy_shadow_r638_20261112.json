@@ -1,0 +1,66 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.8_20261112",
+  "production": "M79.3.6_FROZEN_UNCHANGED",
+  "inherits": "M79.3.6_SHADOW_R6.3.7_20261109",
+  "research_only": true,
+  "formal_grants_all_null": true,
+  "wdl_probability_adjustment": false,
+  "goal_probability_adjustment": false,
+  "automatic_direction_flip": false,
+  "score_top3_reordered": false,
+  "modules": {
+    "LCRG_v0.1": {
+      "inputs": "timestamped projected/last_league/official starting elevens",
+      "reference_rotation_watch_gte": 3,
+      "reference_rotation_core_review_hold_gte": 6,
+      "projected_surprise_watch_gte": 2,
+      "projected_surprise_core_review_hold_gte": 4,
+      "threshold_status": "heuristic_unfitted_shadow_only",
+      "roster_family_new_independent_votes": 0,
+      "probability_adjustment": false
+    },
+    "S4_v1.8": {
+      "source": "official_jc_integer_line_and_coherent_joint_score_matrix",
+      "let_draw_net_margin": "home_goals-away_goals == -official_handicap_line",
+      "asian_handicap_substitution_forbidden": true,
+      "picks_modified": false
+    },
+    "RC2.6": {
+      "buckets": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7+"
+      ],
+      "seven_plus_aggregate_not_exact_integer": true,
+      "rc25_router_modified": false,
+      "one_tail_slot_rule_unchanged": true
+    },
+    "inplay_leakage_gate": {
+      "postmatch_score_and_card_fields_forbidden": true
+    }
+  },
+  "recap_2026_11_11": {
+    "n": 6,
+    "frozen_model_inputs_complete": false,
+    "used_for_fit": false,
+    "independent_test": false,
+    "accuracy_gain_claimed": false
+  },
+  "tests": {
+    "new": 14,
+    "previous": 112,
+    "combined_passed": 126,
+    "combined_failed": 0,
+    "real_world_forward_validation": false
+  },
+  "promotion": {
+    "min_forward_matches": 50,
+    "recommended": 100,
+    "automatic_promotion": false
+  }
+}

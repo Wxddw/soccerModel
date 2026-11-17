@@ -1,0 +1,226 @@
+{
+  "period": "2026-11-16",
+  "grade": "CONVERSATION_ONLY_DEV_NOT_FORWARD",
+  "n": 8,
+  "actual_letdraw_count": 3,
+  "published_jc_top1_hits": 2,
+  "missing_goal_family_matches": 3,
+  "multiple_scoretop3_letdraw_but_frozen_not_letdraw_count": 3,
+  "matches": [
+    {
+      "match_id": "001",
+      "score_top3_mapping": [
+        {
+          "score": "1:1",
+          "goal_bucket": "2",
+          "jc": "让负"
+        },
+        {
+          "score": "1:0",
+          "goal_bucket": "1",
+          "jc": "让平"
+        },
+        {
+          "score": "2:1",
+          "goal_bucket": "3",
+          "jc": "让平"
+        }
+      ],
+      "goal_top3_absent_from_score_top3": [],
+      "score_top3_letdraw_count": 2,
+      "actual_jc": "让平",
+      "frozen_jc": "让负",
+      "frozen_jc_hit": false,
+      "historical_chat_only_no_probability_matrix": true
+    },
+    {
+      "match_id": "002",
+      "score_top3_mapping": [
+        {
+          "score": "1:1",
+          "goal_bucket": "2",
+          "jc": "让胜"
+        },
+        {
+          "score": "0:1",
+          "goal_bucket": "1",
+          "jc": "让平"
+        },
+        {
+          "score": "1:2",
+          "goal_bucket": "3",
+          "jc": "让平"
+        }
+      ],
+      "goal_top3_absent_from_score_top3": [],
+      "score_top3_letdraw_count": 2,
+      "actual_jc": "让胜",
+      "frozen_jc": "让胜",
+      "frozen_jc_hit": true,
+      "historical_chat_only_no_probability_matrix": true
+    },
+    {
+      "match_id": "003",
+      "score_top3_mapping": [
+        {
+          "score": "1:0",
+          "goal_bucket": "1",
+          "jc": "让平"
+        },
+        {
+          "score": "1:1",
+          "goal_bucket": "2",
+          "jc": "让负"
+        },
+        {
+          "score": "2:0",
+          "goal_bucket": "2",
+          "jc": "让胜"
+        }
+      ],
+      "goal_top3_absent_from_score_top3": [
+        "3"
+      ],
+      "score_top3_letdraw_count": 1,
+      "actual_jc": "让平",
+      "frozen_jc": "让负",
+      "frozen_jc_hit": false,
+      "historical_chat_only_no_probability_matrix": true
+    },
+    {
+      "match_id": "004",
+      "score_top3_mapping": [
+        {
+          "score": "2:0",
+          "goal_bucket": "2",
+          "jc": "让胜"
+        },
+        {
+          "score": "3:0",
+          "goal_bucket": "3",
+          "jc": "让胜"
+        },
+        {
+          "score": "2:1",
+          "goal_bucket": "3",
+          "jc": "让平"
+        }
+      ],
+      "goal_top3_absent_from_score_top3": [
+        "4"
+      ],
+      "score_top3_letdraw_count": 1,
+      "actual_jc": "让胜",
+      "frozen_jc": "让胜",
+      "frozen_jc_hit": true,
+      "historical_chat_only_no_probability_matrix": true
+    },
+    {
+      "match_id": "005",
+      "score_top3_mapping": [
+        {
+          "score": "1:1",
+          "goal_bucket": "2",
+          "jc": "让负"
+        },
+        {
+          "score": "2:1",
+          "goal_bucket": "3",
+          "jc": "让平"
+        },
+        {
+          "score": "1:0",
+          "goal_bucket": "1",
+          "jc": "让平"
+        }
+      ],
+      "goal_top3_absent_from_score_top3": [],
+      "score_top3_letdraw_count": 2,
+      "actual_jc": "让胜",
+      "frozen_jc": "让负",
+      "frozen_jc_hit": false,
+      "historical_chat_only_no_probability_matrix": true
+    },
+    {
+      "match_id": "006",
+      "score_top3_mapping": [
+        {
+          "score": "2:1",
+          "goal_bucket": "3",
+          "jc": "让平"
+        },
+        {
+          "score": "2:2",
+          "goal_bucket": "4",
+          "jc": "让负"
+        },
+        {
+          "score": "3:1",
+          "goal_bucket": "4",
+          "jc": "让胜"
+        }
+      ],
+      "goal_top3_absent_from_score_top3": [
+        "5"
+      ],
+      "score_top3_letdraw_count": 1,
+      "actual_jc": "让胜",
+      "frozen_jc": "让负",
+      "frozen_jc_hit": false,
+      "historical_chat_only_no_probability_matrix": true
+    },
+    {
+      "match_id": "007",
+      "score_top3_mapping": [
+        {
+          "score": "0:1",
+          "goal_bucket": "1",
+          "jc": "让平"
+        },
+        {
+          "score": "0:2",
+          "goal_bucket": "2",
+          "jc": "让负"
+        },
+        {
+          "score": "1:2",
+          "goal_bucket": "3",
+          "jc": "让平"
+        }
+      ],
+      "goal_top3_absent_from_score_top3": [],
+      "score_top3_letdraw_count": 2,
+      "actual_jc": "让负",
+      "frozen_jc": "让平",
+      "frozen_jc_hit": false,
+      "historical_chat_only_no_probability_matrix": true
+    },
+    {
+      "match_id": "008",
+      "score_top3_mapping": [
+        {
+          "score": "2:0",
+          "goal_bucket": "2",
+          "jc": "让胜"
+        },
+        {
+          "score": "2:1",
+          "goal_bucket": "3",
+          "jc": "让平"
+        },
+        {
+          "score": "3:1",
+          "goal_bucket": "4",
+          "jc": "让胜"
+        }
+      ],
+      "goal_top3_absent_from_score_top3": [],
+      "score_top3_letdraw_count": 1,
+      "actual_jc": "让平",
+      "frozen_jc": "让胜",
+      "frozen_jc_hit": false,
+      "historical_chat_only_no_probability_matrix": true
+    }
+  ],
+  "auto_updated_or_refitted": false
+}

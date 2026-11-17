@@ -1,0 +1,79 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.4_20261104",
+  "date": "2026-11-04",
+  "production": "M79.3.6_FROZEN_UNCHANGED",
+  "inherits": "M79.3.6_SHADOW_R6.3.3_20261104",
+  "research_only": true,
+  "weights_refitted": false,
+  "automatic_direction_change": false,
+  "automatic_core_or_single_grant": false,
+  "probability_modification": false,
+  "modules": {
+    "MSI_v0.1": {
+      "purpose": "Objective match stakes; win necessity is not win probability",
+      "allow_must_win_only_official_mathematics_or_regulations": true,
+      "stale_or_unknown_evidence": "UNKNOWN_NOT_NEGATIVE",
+      "motivation_cannot_automatically_flip_or_promote": true,
+      "prematch_source_id_timestamp_required": true,
+      "double_count_with_rotation_and_schedule": false
+    },
+    "ESR_v0.1": {
+      "purpose": "Actual available on-field squad quality from player ratings and expected minutes, compared with baseline and opposing side",
+      "player_rating_scale": "shared independently fitted 0-100 pre-cutoff strength ratings",
+      "reference_minutes_per_team": 990,
+      "projected_minutes_per_team": 990,
+      "goalkeeper_minutes_per_team": 90,
+      "role_replacement_and_bench_quality_separate_from_absence_count": true,
+      "relative_shift_warning_rating_points": 2.0,
+      "numeric_probability_adjustment": false,
+      "confirmed_lineup_does_not_confirm_future_minutes": true
+    },
+    "selection_overlay": {
+      "unique_raw_direction_always": true,
+      "base_recovery_top1_range": "[0.42,0.50)",
+      "base_recovery_gap_min": 0.12,
+      "core_structural_top1_min": 0.65,
+      "core_structural_gap_min": 0.25,
+      "pre_match_conflicting_capacity_and_stakes": "AUDIT_AND_HOLD_EVIDENCE_REVIEW",
+      "formal_grant": null,
+      "frozen_protection_unchanged": true
+    },
+    "data_leakage": {
+      "precutoff_only": true,
+      "in_match_events_as_features_forbidden": true,
+      "missing_stakes_or_squad_is_unknown": true,
+      "correlated_roster_and_schedule_risks_are_not_independent_votes": true,
+      "no_actual_score_in_prematch": true
+    }
+  },
+  "development_archive": {
+    "dates": ["2026-10-17", "2026-10-19", "2026-10-20"],
+    "historical_wdl_rows": 41,
+    "ordinary_sale_rows": 37,
+    "base_proxy_selected": 25,
+    "base_proxy_hit": 13,
+    "r633_probability_potential_selected": 29,
+    "r633_probability_potential_hit": 16,
+    "new_context_squad_data_available": 0,
+    "new_context_motivation_data_available": 0,
+    "new_context_verified_recoveries": 0,
+    "new_context_verified_cores": 0,
+    "r634_independent_win_rate_change": null,
+    "formal_grade": false
+  },
+  "validation": {
+    "base_tests": 200,
+    "parent_selection_tests": 23,
+    "new_motivation_squad_tests": 28,
+    "combined_tests_passed": 251,
+    "production_archive_sha256_key_files_same": 6,
+    "externally_deployed_production_verified": false,
+    "independent_forward_holdout_n": 0,
+    "automatic_promotion": false
+  },
+  "next": {
+    "minimum_independent_forward_matches": 50,
+    "recommended_independent_forward_matches": 100,
+    "report": ["WDL accuracy and coverage jointly", "recoveries by home/draw/away", "wrongly killed correct Top1", "new wrong singles", "ESR squad substitutions", "MSI objective stakes", "missingness and source freshness", "Brier and Log Loss for fitted probability models only", "new Core false positives"]
+  }
+}

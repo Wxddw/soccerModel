@@ -1,0 +1,39 @@
+{
+  "version": "Shadow_R6.3.4_20261104",
+  "verified_base": "R6.4 integration archive from 2026-10-31",
+  "total": 6,
+  "all_matches": true,
+  "production_weights_externally_verified": false,
+  "checks": [
+    {
+      "path": "football_workflow/policy.json",
+      "sha256": "2274344e3b6d7dbd8222a8be502bf6065404869050ca4ceb8c07baa2646a38ff",
+      "matches_expected": true
+    },
+    {
+      "path": "football_workflow/vendor/legacy/calculate.py",
+      "sha256": "c4837c45f3929be0da4ea18d382a623536e0c4c7e44efd0f1f625889fdc2f927",
+      "matches_expected": true
+    },
+    {
+      "path": "football_workflow/vendor/legacy/models/gs/m79_gs_v1/m79_gs.py",
+      "sha256": "a98441da4fc5f0fd186347c7b750aa011116d5838a0f79fc32f256a0fa09fa68",
+      "matches_expected": true
+    },
+    {
+      "path": "football_workflow/vendor/legacy/models/policy/output_adapter.py",
+      "sha256": "e26be52ea662d8fbcfb48b0654baf0e54623a91e5c0ebdeaaf29a78f9b38521e",
+      "matches_expected": true
+    },
+    {
+      "path": "football_workflow/vendor/legacy/models/policy/output_policy.json",
+      "sha256": "7be6c5b11af80743a064a5f161c083d0df092b9ee62e46d5b6699472a6dc1892",
+      "matches_expected": true
+    },
+    {
+      "path": "football_workflow/workflow.py",
+      "sha256": "23d91e762a7639eb5672a3cb8c82578f5613030ed51505ee741fcd085dcbb646",
+      "matches_expected": true
+    }
+  ]
+}

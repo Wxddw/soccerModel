@@ -1,0 +1,10 @@
+M79.3.6 Production frozen. Shadow R6.3.6 local regression run:
+- R6.3.3 selection tests: 23 passed
+- R6.3.4 motivation/squad tests: 28 passed
+- R6.3.5 inherited tests: 21 passed
+- R6.3.6 new tests: 23 passed
+- Combined executed: 95 passed, 0 failed
+- R6.4 base200 historical suite: not re-executed in this run
+- 14-match recap arithmetic: single 9/14; protection 10/14; handicap 7/14; goals Top3 9/14; score Top3 4/14; HTFT Top2 5/14; correct raw Top1 in avoidance groups 3/3
+- Recap data is prior-conversation-only, not officially frozen, not holdout, not used for training or threshold fitting
+- No WDL weights or probabilities fitted; no formal single/core/protection/handicap grants; no Production files changed.

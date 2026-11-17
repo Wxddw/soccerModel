@@ -1,0 +1,15 @@
+{
+  "kind": "CONVERSATION_ONLY_DEV_DIAGNOSTICS_NOT_MODEL_PROBABILITIES",
+  "fixture_date_beijing": "2026-11-16",
+  "note": "Published 8-match chat selections and subsequently reported results; no frozen full joint-score probability grids available. Do NOT feed this file to prematch.inspect(), model fitting or independent forward validation.",
+  "matches": [
+    {"id":"001","home":"法罗群岛","away":"摩尔多瓦","official_jc_home_line":-1,"published_frozen_jc":"让负","published_goal_top3":["2","1","3"],"published_score_top3":["1:1","1:0","2:1"],"actual_score":"1:0"},
+    {"id":"002","home":"哈萨克斯坦","away":"斯洛伐克","official_jc_home_line":1,"published_frozen_jc":"让胜","published_goal_top3":["2","1","3"],"published_score_top3":["1:1","0:1","1:2"],"actual_score":"2:2"},
+    {"id":"003","home":"爱沙尼亚","away":"保加利亚","official_jc_home_line":-1,"published_frozen_jc":"让负","published_goal_top3":["1","2","3"],"published_score_top3":["1:0","1:1","2:0"],"actual_score":"2:1"},
+    {"id":"004","home":"冰岛","away":"卢森堡","official_jc_home_line":-1,"published_frozen_jc":"让胜","published_goal_top3":["2","3","4"],"published_score_top3":["2:0","3:0","2:1"],"actual_score":"3:0"},
+    {"id":"005","home":"瑞士","away":"苏格兰","official_jc_home_line":-1,"published_frozen_jc":"让负","published_goal_top3":["2","3","1"],"published_score_top3":["1:1","2:1","1:0"],"actual_score":"4:0"},
+    {"id":"006","home":"德国","away":"荷兰","official_jc_home_line":-1,"published_frozen_jc":"让负","published_goal_top3":["3","4","5"],"published_score_top3":["2:1","2:2","3:1"],"actual_score":"5:0"},
+    {"id":"007","home":"北马其顿","away":"斯洛文尼亚","official_jc_home_line":1,"published_frozen_jc":"让平","published_goal_top3":["1","2","3"],"published_score_top3":["0:1","0:2","1:2"],"actual_score":"0:3"},
+    {"id":"008","home":"希腊","away":"塞尔维亚","official_jc_home_line":-1,"published_frozen_jc":"让胜","published_goal_top3":["2","3","4"],"published_score_top3":["2:0","2:1","3:1"],"actual_score":"1:0"}
+  ]
+}

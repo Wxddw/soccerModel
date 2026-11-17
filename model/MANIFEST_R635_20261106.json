@@ -1,0 +1,118 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.5_20261106",
+  "production": "M79.3.6_FROZEN_UNCHANGED",
+  "research_only": true,
+  "tests": {
+    "executed": 72,
+    "passed": 72,
+    "failed": 0,
+    "r64_base200_reexecuted": false
+  },
+  "recap_data_status": "PRIOR_CONVERSATION_RECAP_ONLY_NOT_VERIFIED_NOT_HOLDOUT",
+  "files": {
+    "AUDIT_DEV41_R634_20261104.json": {
+      "bytes": 16563,
+      "sha256": "4a1edb952edc93044f68b1627b5f04388118e80b05d53f99921f06a6cd30df63"
+    },
+    "CHANGELOG_R635_20261106.md": {
+      "bytes": 908,
+      "sha256": "f6b6ff829c07223bbaa793cecec4a7eced6343406ddbdd5a1f0eea04ed50fa3f"
+    },
+    "FROZEN_FILES_RECHECK_R634.json": {
+      "bytes": 1376,
+      "sha256": "eef3028266d5910a1fa84e909ee1eb87dbdc6654c54e67c821fb7a2293a8ec98"
+    },
+    "FROZEN_PRODUCTION_HASH_AUDIT.json": {
+      "bytes": 1816,
+      "sha256": "82520f43f2ec640d1a506a0d56a75c234f7c1435ad9c50f3c51c384e3ee848f0"
+    },
+    "README_SHADOW_R635_20261106.md": {
+      "bytes": 6680,
+      "sha256": "f9befbac6ddb127dda8a2446413922cfcc178a09f636df221148434dfa66702b"
+    },
+    "RECAP_13_DYNAMIC_PROTECTION_AUDIT.json": {
+      "bytes": 4334,
+      "sha256": "c63d5276500685f6e455edb9ce309a199b5d3840939ee66976a5e2a7b98501e9"
+    },
+    "RECAP_13_INPUT_CONVERSATION_ONLY.json": {
+      "bytes": 1368,
+      "sha256": "263da5e0a9c4a761d9ada87dd81e83549a23cded3c59b124d9427f1a9e96ba78"
+    },
+    "SYNTHETIC_EXAMPLE_OUTPUT_NOT_REAL.json": {
+      "bytes": 4868,
+      "sha256": "d61c154039d479883236dd362d2546349bf9618371de03fecb9a2d5c201eb40b"
+    },
+    "SYNTHETIC_EXAMPLE_PREMATCH_NOT_REAL.json": {
+      "bytes": 7717,
+      "sha256": "ce7937e8870e6babf83bc14c9f9c58809ea9fc0399fc5917c4e46e10d9554681"
+    },
+    "TEST_LOCAL_51.txt": {
+      "bytes": 99,
+      "sha256": "299d2c95f346ce8def8e5c381f81068a248276465dc20c200182eb0d6c2d8b62"
+    },
+    "TEST_RESULTS_251_R634.txt": {
+      "bytes": 340,
+      "sha256": "179015fc44ef3a24038ba518e328f4a8d6bf314ee29762f1dfb24eba48c48451"
+    },
+    "TEST_RESULTS_R635_20261106.txt": {
+      "bytes": 436,
+      "sha256": "58f452be44e2a78bb8ef4b5445f46c0bf11f0ee32f2d2365efa8461b95e051c9"
+    },
+    "base200_test_results.txt": {
+      "bytes": 260,
+      "sha256": "799902d5d64688b378ec515e350818db4f081afcbd1ed2df2d249b707f19df08"
+    },
+    "build_development_archive.py": {
+      "bytes": 6132,
+      "sha256": "574538c6addee0e29807a7c0dc71a8fbaba55ee415a61f3ba3930260226acfc2"
+    },
+    "motivation_squad_r634.py": {
+      "bytes": 19274,
+      "sha256": "07db19a57eaa28b3f1697ebad573cb67bf6c4013fd43cf71556e02b73c59b9f6"
+    },
+    "paired_input_DEV_ONLY_41.json": {
+      "bytes": 17861,
+      "sha256": "f77ca89799da2ef08eb82efa00e3c8e81f9a5248d9a16441c746018652613bd3"
+    },
+    "policy_shadow_r634_20261104.json": {
+      "bytes": 3360,
+      "sha256": "4b4410a7d6e1305b9443080f3aae24a9ac12ca610da6e083eea05e997b376816"
+    },
+    "policy_shadow_r635_20261106.json": {
+      "bytes": 4031,
+      "sha256": "aec0cd7e6ec5b61128a4a46f84882cdab2f702e21716fa99674aa5fde9c0c32d"
+    },
+    "policy_shadow_selection_r633_20261104.json": {
+      "bytes": 3279,
+      "sha256": "ea99309d2e1e3bb59f08577d94fa00e3f7aed38062d84765f76acf37a2b09264"
+    },
+    "run_r634.py": {
+      "bytes": 742,
+      "sha256": "e0be720788c77ad59d1c73b15a3e3ca453d6823284155c793cf4a16e6a9102c1"
+    },
+    "run_r635.py": {
+      "bytes": 740,
+      "sha256": "bedfa5a5029c29cebf717607d7ea26f32876dc95979da9309c7d9a91762c7456"
+    },
+    "selection_efficiency_r633.py": {
+      "bytes": 13891,
+      "sha256": "ed6016281cddbd77950ff0ae0e04eadc7c98aa77b965d2f8706e343b489833cf"
+    },
+    "shadow_r635.py": {
+      "bytes": 21145,
+      "sha256": "175e7b0cdd85479fb0b78eae2904681d0372c47ffa5392375313704d61ce718c"
+    },
+    "test_motivation_squad_r634.py": {
+      "bytes": 11447,
+      "sha256": "403c9f4494e620a67bacf951dcd38c7545a2385f83f8ce0a087f5178675c5654"
+    },
+    "test_selection_efficiency_r633.py": {
+      "bytes": 6151,
+      "sha256": "b835433818ce14b2eb696cb5e30293a784889afc7c2d51465e9311d0a99997d7"
+    },
+    "test_shadow_r635.py": {
+      "bytes": 10985,
+      "sha256": "69b68c030167c95f388cfb871db461601475899c26511dfb20ea7e85ffa1061e"
+    }
+  }
+}

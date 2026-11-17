@@ -1,0 +1,72 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.3_20261104",
+  "date": "2026-11-04",
+  "parent": "M79.3.6_SHADOW_R6.3.2_20261104",
+  "production": "M79.3.6_FROZEN_UNCHANGED",
+  "research_only": true,
+  "trained_new_weights": false,
+  "automatic_deployment": false,
+  "formal_single_grants": false,
+  "formal_core_grants": false,
+  "features": {
+    "direction": "Always retain a unique raw WDL Top1 with explicit probability and protection pair proposal; no odds-based posthoc flips.",
+    "reference_observation_proxy": "ordinary sale confirmed AND Top1 >= 0.50 AND gap to second >= 0.05. This is NOT actual Production authority.",
+    "recovery_probability_only": "ordinary sale confirmed AND 0.42 <= Top1 < 0.50 AND Top1-Top2 >= 0.12 AND no two independent adverse prematch evidence families; potential review ONLY.",
+    "recovery_evidence_verified": "Above and at least two independent precutoff evidence groups, at least one favorable group, none adverse. Never formal grant.",
+    "core_structural": "ordinary sale confirmed AND Top1 >= 0.65 AND Top1-Top2 >= 0.25.",
+    "core_evidence_review": "core_structural AND two independent favorable source groups and zero adverse groups; actual CORE must wait for probability calibration and forward proof.",
+    "frozen_protection_hardlock": "Do not replace a supplied frozen pair; mismatch raises and blocks.",
+    "direction_conflict": "When frozen single disagrees with matrix Top1: hold, never auto-flip.",
+    "evidence_groups": {
+      "market": [
+        "market_price",
+        "market_funds"
+      ],
+      "roster": [
+        "team_news",
+        "official_lineup"
+      ],
+      "schedule": [
+        "schedule"
+      ],
+      "tactics": [
+        "tactics"
+      ]
+    },
+    "timestamp_contract": "Only observed_at <= cutoff < kickoff, explicit timezone. Actual scores strictly post-decision scoring input.",
+    "probability_layer": "NO_CHANGE_WDL, NO_CHANGE_HANDICAP, NO_CHANGE_GOAL, NO_CHANGE_SCORE"
+  },
+  "development_replay": {
+    "periods": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-20"
+    ],
+    "pre_match_rows": 41,
+    "ordinary_sale_rows": 37,
+    "oct17_probability_precision": "1-decimal percent in frozen markdown",
+    "oct19_oct20_probability_origin": "market/IPF reference only, incomplete full M79 engine",
+    "formal_performance_eligible": false,
+    "reference_proxy_selected": 25,
+    "reference_proxy_hits": 13,
+    "shadow_potential_selected": 29,
+    "shadow_potential_hits": 16,
+    "restored": 4,
+    "restored_correct": 3,
+    "restored_wrong": 1,
+    "restored_evidence_verified": 0,
+    "independent_improvement": null
+  },
+  "forward_promotion_requirements": {
+    "minimum_independent_forward_matches": 50,
+    "recommended_independent_forward_matches": 100,
+    "same_input_cutoff_and_source_hash": true,
+    "report_conditional_accuracy_and_coverage_jointly": true,
+    "report_correct_direction_kills_and_new_wrong_single_grants": true,
+    "report_pairwise_confidence_interval_clustered_by_match_day": true,
+    "report_all_match_multiclass_brier_and_logloss": true,
+    "do_not_auto_promote": true,
+    "probability_calibration_required_for_core": true,
+    "report_recovery_by_direction": "Report home win / draw / away win strata; historical recoveries all away."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "n": 14,
+  "metrics": {
+    "wdl_hit": {
+      "hits": 8,
+      "n": 14
+    },
+    "score_top1_hit": {
+      "hits": 0,
+      "n": 14
+    },
+    "score_top3_hit": {
+      "hits": 5,
+      "n": 14
+    },
+    "goal_top3_hit": {
+      "hits": 8,
+      "n": 14
+    }
+  },
+  "source_grade": "CONVERSATION_ONLY_DEV_NEVER_FORWARD",
+  "eligible_for_training": false,
+  "eligible_for_independent_validation": false,
+  "production_predictions_replayed": false,
+  "thresholds_fit_from_outcomes": false
+}

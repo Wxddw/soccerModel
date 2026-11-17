@@ -1,0 +1,128 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.7_20261109",
+  "date": "2026-11-09",
+  "production": "M79.3.6_FROZEN_UNCHANGED",
+  "inherits": [
+    "M79.3.6_SHADOW_R6.3.3_20261104",
+    "M79.3.6_SHADOW_R6.3.4_20261104",
+    "M79.3.6_SHADOW_R6.3.5_20261106",
+    "M79.3.6_SHADOW_R6.3.6_20261108"
+  ],
+  "research_only": true,
+  "weights_refitted": false,
+  "wdl_probability_adjustment": false,
+  "automatic_direction_flip": false,
+  "formal_single_grant": null,
+  "formal_core_grant": null,
+  "formal_protection_grant": null,
+  "formal_handicap_grant": null,
+  "modules": {
+    "DVRG_v0.1": {
+      "scope": "home_or_away_raw_top1_when_top1_gte_40pct_and_not_draw",
+      "evidence_families": ["roster", "schedule", "tactical", "opponent_strength", "market"],
+      "legacy_home_relative_evidence_inverted_for_away_direction": true,
+      "independent_family_deduplication": true,
+      "critical_roster_or_two_adverse_families": "HIGH_RISK_CORE_HOLD",
+      "one_adverse_family": "WATCH_CORE",
+      "fewer_than_two_families": "UNKNOWN_CORE_HOLD_ONLY",
+      "two_or_more_families_and_no_adverse": "REVIEWED_NO_ADVERSE_FAMILY",
+      "unknown_or_high_risk_deletes_raw_top1": false,
+      "probability_adjustment": false,
+      "automatic_direction_flip": false
+    },
+    "ESR_Functionality_v0.1": {
+      "role_groups": ["goalkeeper", "defensive_spine_center_back_plus_defensive_midfielder", "attacking_unit_attacking_midfielder_plus_winger_plus_striker"],
+      "role_groups_count_as_independent_families": false,
+      "uses_effective_minutes_and_shared_prior_rating_scale": true,
+      "critical_keeper_or_defensive_spine_drop_review": true,
+      "probability_adjustment": false
+    },
+    "MSI": {
+      "unchanged": true,
+      "stakes_are_win_probability_boost": false,
+      "opponent_high_stakes_is_independent_risk_family": false,
+      "intent_capacity_conflict_review": true
+    },
+    "Selection_Efficiency_v0.5": {
+      "raw_unique_direction_always_retained": true,
+      "single_direction_and_core_readiness_separated": true,
+      "core_requires": ["structural_probability", "DVRG_clear_review", "both_sides_confirmed_ESR", "verified_MSI", "R634_context_gate"],
+      "unknown_risk_evidence_effect": "HOLD_CORE_ONLY_NOT_SINGLE_DIRECTION",
+      "avoidance_recovery_top1_min": 0.35,
+      "avoidance_recovery_top1_second_gap_max": 0.08,
+      "automatic_restore": false,
+      "formal_grant": null
+    },
+    "GS1.5": {
+      "original_score_top3_unchanged": true,
+      "result_family_top2": ["home_win", "draw", "away_win"],
+      "total_goal_bucket_best_score": true,
+      "draw_multi_goal_runner_up_watch": true,
+      "high_tail_score_watch": ["5", "6", "7+"],
+      "ranking_changed": false,
+      "probability_adjustment": false
+    },
+    "S4_v1.7": {
+      "requires_official_jc_integer_handicap_line": true,
+      "requires_timestamped_official_source": true,
+      "requires_frozen_unique_pick": true,
+      "asian_handicap_substitution_forbidden": true,
+      "same_joint_score_matrix": true,
+      "missing_input": "UNKNOWN_NO_ACCURACY_SCORE",
+      "formal_grant": null
+    },
+    "RC2.5": {
+      "unchanged": true,
+      "exact_buckets": ["0", "5", "7+"],
+      "independent_precutoff_families_required": 2,
+      "max_tail_slots": 1,
+      "central_peak_protected": true
+    },
+    "HT_State_v0.3": {
+      "unchanged": true,
+      "requires_complete_9_state_joint_distribution": true,
+      "missing_joint_distribution": "NO_TOP2_RELEASE"
+    }
+  },
+  "development_recap": {
+    "n": 25,
+    "source_status": "PUBLISHED_CONVERSATION_RECAP_ONLY_NOT_OFFICIAL_FROZEN_NOT_HOLDOUT",
+    "hits": {
+      "single": 16,
+      "protection": 22,
+      "goals_top3": 20,
+      "score_top3": 17,
+      "half_full_top2": 16
+    },
+    "rates": {
+      "single": 0.64,
+      "protection": 0.88,
+      "goals_top3": 0.80,
+      "score_top3": 0.68,
+      "half_full_top2": 0.64
+    },
+    "handicap_accuracy": null,
+    "half_full_previous_narrative_correction": "16/25_not_17/25",
+    "used_for_training": false,
+    "used_for_threshold_fit": false,
+    "independent_validation": false,
+    "proper_probability_scores": null
+  },
+  "tests": {
+    "r633": 23,
+    "r634": 28,
+    "r635": 21,
+    "r636": 23,
+    "r637": 17,
+    "combined_executed": 112,
+    "combined_passed": 112,
+    "combined_failed": 0,
+    "r64_base200_reexecuted": false
+  },
+  "promotion_gate": {
+    "minimum_independent_forward_matches": 50,
+    "recommended_independent_forward_matches": 100,
+    "same_pre_match_cutoff_pairing": true,
+    "automatic_promotion": false
+  }
+}

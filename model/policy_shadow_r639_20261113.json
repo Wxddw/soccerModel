@@ -1,0 +1,20 @@
+{
+  "version":"M79.3.6_SHADOW_R6.3.9_20261113",
+  "inherits":"M79.3.6_SHADOW_R6.3.8_20261112",
+  "production":"M79.3.6_FROZEN_UNCHANGED",
+  "research_only":true,
+  "wdl_probabilities_changed":false,
+  "goal_probabilities_changed":false,
+  "score_top3_reordered":false,
+  "actual_frozen_picks_modified":false,
+  "formal_grants_all_null":true,
+  "auto_reverse_outcome_direction":false,
+  "modules":{
+    "S4_v1.9":{"required":"official JC integer line with source timestamp AND coherent score joint matrix AND frozen pick","let_draw_margin":"home_goals-away_goals == -jc_line","score_top1_aggregate_disagreement":"flag_only_not_mathematical_error","let_draw_gap_watch_pp":5.0,"watch_threshold_fitted":false,"force_let_draw":false},
+    "Protection_v0.3":{"three_way_range_review_pp":5.0,"draw_exclusion_near_runner_pp":3.0,"thresholds_fitted":false,"keep_raw_top1":true,"do_not_auto_insert_draw":true,"never_release_formal_protection":true},
+    "ESR_v0.2":{"movement_events":"source-backed timestamped squad return/callup/projected_starter/confirmed_starter/confirmed_unavailable","confirmed_starter_requires_verified_official_xi":true,"roster_family_new_independent_votes":0,"automatic_team_rating_gain_from_callup":false},
+    "GS1.6":{"score_top1_mass":true,"score_top3_mass":true,"outcome_and_goal_bucket_counts":true,"modal_disagreement_is_not_marginal_inconsistency":true,"rerank_score_top3":false}
+  },
+  "recap":{"date":"2026-11-12","n":6,"source":"chat_recap_not_officially_frozen","used_for_weight_fit":false,"not_independent_holdout":true},
+  "verification":{"old_tests":126,"new_tests":24,"passed":150,"failed":0,"real_forward_validated":false,"promotion_min_forward_n":50,"recommended_forward_n":100}
+}

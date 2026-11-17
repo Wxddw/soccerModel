@@ -1,0 +1,534 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.9_20261113",
+  "id": "010",
+  "cutoff": "2026-11-04T12:00:00+08:00",
+  "raw_single": "胜",
+  "raw_top1": 0.46,
+  "gap": 0.19,
+  "frozen_single_unchanged": null,
+  "frozen_protection_unchanged": null,
+  "research_proposed_protection": [
+    "胜",
+    "平"
+  ],
+  "direction_conflict": false,
+  "ordinary_sale": true,
+  "reference_proxy_eligible": false,
+  "shadow_potential_eligible": true,
+  "shadow_recovery_potential": true,
+  "shadow_recovery_evidence_verified": true,
+  "shadow_core_structural_potential": false,
+  "shadow_core_evidence_review_pass": false,
+  "outcome_probabilities_unchanged": [
+    0.46,
+    0.27,
+    0.27
+  ],
+  "evidence_audit": {
+    "families": {
+      "roster": "favorable",
+      "market": "neutral"
+    },
+    "favorable_families": 1,
+    "adverse_families": 0,
+    "independent_families_n": 2,
+    "evidence_complete": true,
+    "source_audit_failures": []
+  },
+  "status": "SHADOW_POTENTIAL_RECOVERY_REVIEW",
+  "formal_single_grant": null,
+  "formal_core_grant": null,
+  "production_changed": false,
+  "effective_squad_ESR": {
+    "status": "CONFIRMED_BOTH",
+    "sides": {
+      "home": {
+        "status": "confirmed",
+        "baseline_quality": 70.9090909090909,
+        "effective_quality": 68.18181818181819,
+        "quality_change": -2.727272727272727,
+        "role_contributions": {
+          "goalkeeper": -2.7273,
+          "center_back": 0.0,
+          "fullback": 0.0,
+          "defensive_midfielder": 0.0,
+          "central_midfielder": 0.0,
+          "attacking_midfielder": 0.0,
+          "winger": 0.0,
+          "striker": 0.0
+        },
+        "player_count": 12,
+        "minutes_source_id": "s-home-XI",
+        "rating_model_source_id": "s-home-rating",
+        "rating_scale_id": "calibrated_shared_pool"
+      },
+      "away": {
+        "status": "confirmed",
+        "baseline_quality": 70.9090909090909,
+        "effective_quality": 70.9090909090909,
+        "quality_change": 0.0,
+        "role_contributions": {
+          "goalkeeper": 0.0,
+          "center_back": 0.0,
+          "fullback": 0.0,
+          "defensive_midfielder": 0.0,
+          "central_midfielder": 0.0,
+          "attacking_midfielder": 0.0,
+          "winger": 0.0,
+          "striker": 0.0
+        },
+        "player_count": 11,
+        "minutes_source_id": "s-away-XI",
+        "rating_model_source_id": "s-away-rating",
+        "rating_scale_id": "calibrated_shared_pool"
+      }
+    },
+    "relative_shift": -2.727272727272727,
+    "effective_quality_home_minus_away": -2.7272727272727195,
+    "reference_quality_home_minus_away": 0.0,
+    "direction_signal": "AWAY_RELATIVE_STRENGTH_UP",
+    "numeric_probability_change": false,
+    "interpretation": "Deviation from separately estimated historical reference XI, NOT absolute strength or a fitted WDL probability"
+  },
+  "objective_stakes_MSI": {
+    "status": "VERIFIED_BOTH",
+    "shared_source_between_teams": false,
+    "teams": {
+      "home": {
+        "competition_context": "league",
+        "stakes_type": "relegation",
+        "urgency": "high",
+        "win_mathematically_necessary": true,
+        "source_id": "s-home-league",
+        "objective_basis": true,
+        "next_fixture_days": 4,
+        "risk_comment": "Must-win increases incentives, not inferred match outcome probability"
+      },
+      "away": {
+        "competition_context": "league",
+        "stakes_type": "routine",
+        "urgency": "low",
+        "win_mathematically_necessary": false,
+        "source_id": "s-away-league",
+        "objective_basis": true,
+        "next_fixture_days": 4,
+        "risk_comment": null
+      }
+    },
+    "asymmetry": "HOME_HIGH_ONLY",
+    "win_necessity_not_win_probability": true,
+    "numeric_probability_change": false
+  },
+  "raw_direction_capacity_alignment": "ADVERSE_TO_RAW_DIRECTION",
+  "raw_direction_stakes_context": "RAW_DIRECTION_HIGH_STAKES",
+  "intent_capacity_conflict": true,
+  "research_recovery_context_review_pass": false,
+  "research_core_context_review_pass": false,
+  "audit_flags": [
+    "HOME_GOALKEEPER_REPLACEMENT_QUALITY_DROP_REVIEW",
+    "ACTUAL_SQUAD_QUALITY_CONTRADICTS_RAW_DIRECTION",
+    "HIGH_INTENT_BUT_LOWER_EFFECTIVE_CAPACITY"
+  ],
+  "unmodified_probabilities": [
+    0.46,
+    0.27,
+    0.27
+  ],
+  "probability_adjustment_applied": false,
+  "notes": [
+    "Urgency is not a win probability or a stand-alone favorable evidence family.",
+    "Player minutes and role/position replacement are one correlated roster family, not independent votes.",
+    "Rest/fixture congestion and a rotation-triggered lineup change are causally correlated; do not double count.",
+    "AIC, ESR and motivation require independent precutoff attribution and out-of-time calibration before affecting outcome or grant.",
+    "No automatic reversal, protection changes, or Production CORE grants."
+  ],
+  "HFRG_home_favorite_risk_gate": {
+    "status": "NOT_APPLICABLE_NOT_HOME_FAVORITE",
+    "home_favorite": false,
+    "independent_families": {},
+    "adverse_family_count": 0,
+    "critical_spine_severe": false,
+    "probability_adjustment": false
+  },
+  "dynamic_protection_audit": {
+    "rule": "RAW_TOP1_PLUS_HIGHEST_REMAINING_WDL_PROBABILITY; KEEP_VALID_PRIOR_PAIR_ON_ROUNDED_TIE",
+    "research_proposed_protection": [
+      "胜",
+      "平"
+    ],
+    "previous_research_protection": null,
+    "changed_vs_previous": false,
+    "second_vs_third_probability_gap": 0.0,
+    "second_slot_tie_or_rounding_ambiguity": true,
+    "tie_status": "MANUAL_REVIEW_KEEP_FROZEN_PAIR",
+    "frozen_protection_unchanged": null,
+    "formal_protection_grant": null
+  },
+  "RC2_4_tail_router": {
+    "status": "UNKNOWN_NO_INTEGER_GOAL_DISTRIBUTION",
+    "base_top3": null,
+    "shadow_top3": null,
+    "probability_adjustment": false
+  },
+  "GS1_3_joint_score_audit": {
+    "status": "UNKNOWN_NO_JOINT_SCORE_MATRIX",
+    "score_top3": null,
+    "probability_adjustment": false
+  },
+  "HT_State_v0_2": {
+    "status": "UNKNOWN_NO_HALF_FULL_DISTRIBUTION",
+    "top2": null,
+    "probability_adjustment": false
+  },
+  "r635_core_review_pass": false,
+  "r635_single_authorization_status": "INHERIT_R634_RESEARCH_STATUS",
+  "audit_flags_r635": [
+    "PROTECTION_SECOND_SLOT_TIE_REVIEW",
+    "GS_JOINT_MATRIX_MISSING"
+  ],
+  "automatic_direction_flip": false,
+  "notes_r635": [
+    "HFRG only flags pre-match home-favorite risk; it never flips the unique direction or changes WDL probabilities.",
+    "Protection is top1 plus the highest-probability remaining outcome; rounded ties require manual review.",
+    "RC2.4 reserves at most one tail slot and preserves the central peak; two independent pre-cutoff evidence families are required.",
+    "GS1.3 and HT-State must marginally reconcile to the same WDL/goal joint system.",
+    "Unknown evidence is not low risk. No weights are fitted from the 13-match recap."
+  ],
+  "Protection_v0_2": {
+    "version": "Protection_v0.2",
+    "rule": "RAW_TOP1_PLUS_HIGHEST_REMAINING_WDL_PROBABILITY",
+    "raw_top1": "胜",
+    "research_candidate_pair": [
+      "胜",
+      "平"
+    ],
+    "research_proposed_protection": null,
+    "candidate_pair_for_manual_review": [
+      "胜",
+      "平"
+    ],
+    "previous_research_protection": null,
+    "second_vs_third_probability_gap": 0.0,
+    "tie_or_rounding_ambiguity": true,
+    "cross_layer_flags": [],
+    "status": "MANUAL_REVIEW_NO_PRIOR_PAIR",
+    "formal_protection_grant": null,
+    "probability_adjustment": false,
+    "automatic_pair_change": false
+  },
+  "RC2_5_exact_bucket_router": {
+    "version": "RC2.5",
+    "status": "UNKNOWN_NO_GOAL_DISTRIBUTION",
+    "shadow_top3": null,
+    "tail_slots_used": 0,
+    "probability_adjustment": false
+  },
+  "GS1_4_score_family_audit": {
+    "version": "GS1.4",
+    "status": "UNKNOWN_NO_COHERENT_SCORE_MATRIX",
+    "score_top3": null,
+    "family_watch_candidates": null,
+    "probability_adjustment": false
+  },
+  "S4_v1_6_joint_handicap_audit": {
+    "version": "S4_v1.6",
+    "status": "UNKNOWN_NO_SCORE_MATRIX_OR_HANDICAP_LINE",
+    "handicap_probabilities": null,
+    "formal_handicap_grant": null
+  },
+  "Selection_Efficiency_v0_4": {
+    "version": "Selection_Efficiency_v0.4",
+    "raw_direction": "胜",
+    "top1_probability": 0.46,
+    "top1_minus_second_gap": 0.19,
+    "direction_state": "NARROW_EDGE_DIRECTION_ONLY",
+    "research_selection_level": null,
+    "avoidance_recovery_review": "NO_AVOIDANCE_RECOVERY_TRIGGER",
+    "protection_manual_review": true,
+    "formal_single_grant": null,
+    "probability_adjustment": false,
+    "automatic_direction_flip": false
+  },
+  "HT_State_v0_3": {
+    "version": "HT_State_v0.3",
+    "status": "UNKNOWN_NO_HALF_FULL_DISTRIBUTION",
+    "top2": null,
+    "probability_adjustment": false,
+    "formal_top2_grant": null,
+    "top2_release_status": "NO_TOP2_RELEASE_MISSING_JOINT_MATRIX",
+    "fallback_from_score_top3_forbidden": true
+  },
+  "audit_flags_r636": [
+    "PROTECTION_SECOND_SLOT_TIE_REVIEW",
+    "GS_JOINT_MATRIX_MISSING",
+    "PROTECTION_V02_MANUAL_REVIEW_NO_AUTO_PAIR"
+  ],
+  "formal_protection_grant": null,
+  "formal_handicap_grant": null,
+  "notes_r636": [
+    "Production M79.3.6 remains frozen; R6.3.6 is Shadow only.",
+    "A <=1pp second/third WDL tie is manual review; without a prior valid pair no protection pair is released.",
+    "Exact 0/5/7+ goal buckets require two independent precutoff evidence families and can use at most one tail slot.",
+    "Score family watch candidates supplement but never replace probability-ranked Score Top3.",
+    "Integer handicap probabilities are aggregated from the same joint score matrix; close outcomes are held for review.",
+    "Half/full Top2 is released only when the complete joint distribution reconciles to WDL.",
+    "No actual result, in-play event or post-cutoff feature is permitted in prematch inspect()."
+  ],
+  "ESR_Functionality_v0_1": {
+    "version": "ESR_Functionality_v0.1",
+    "status": "CONFIRMED_BOTH",
+    "raw_direction": "胜",
+    "role_shift_home_minus_away": {
+      "goalkeeper": -2.7273,
+      "defensive_spine": 0.0,
+      "attacking_unit": 0.0
+    },
+    "direction_adjusted_role_shift": {
+      "goalkeeper": -2.7273,
+      "defensive_spine": 0.0,
+      "attacking_unit": 0.0
+    },
+    "effective_quality_gap_aligned_to_direction": -2.7273,
+    "lineup_relative_shift_aligned_to_direction": -2.7273,
+    "alignment": "DUAL_ADVERSE_TO_RAW_DIRECTION",
+    "flags": [
+      "RAW_DIRECTION_GOALKEEPER_REPLACEMENT_QUALITY_DROP"
+    ],
+    "roster_is_one_independent_family": true,
+    "probability_adjustment": false
+  },
+  "DVRG_v0_1": {
+    "version": "DVRG_v0.1",
+    "status": "HIGH_RISK_CRITICAL_ROSTER_TO_RAW_DIRECTION",
+    "raw_direction": "胜",
+    "direction_side": "home",
+    "top1_probability": 0.46,
+    "independent_families": {
+      "roster": {
+        "source_id": "s-home-XI",
+        "observed_at": "2026-11-04T09:00:00+08:00",
+        "state": "adverse_to_favorite",
+        "critical_spine_severe": true,
+        "origin": "derived_from_ESR_one_roster_family"
+      }
+    },
+    "family_count": 1,
+    "adverse_family_count": 1,
+    "favorable_family_count": 0,
+    "critical_roster_risk": true,
+    "motivation_context_flags": [
+      "HIGH_INTENT_LOWER_EFFECTIVE_CAPACITY"
+    ],
+    "authorization_effect": "HOLD_CORE_HIGH_RISK",
+    "single_direction_retained": "胜",
+    "probability_adjustment": false,
+    "automatic_direction_flip": false,
+    "motivation_counted_as_risk_family": false
+  },
+  "Selection_Efficiency_v0_5": {
+    "version": "Selection_Efficiency_v0.5",
+    "raw_direction": "胜",
+    "top1_probability": 0.46,
+    "top1_minus_second_gap": 0.19,
+    "direction_state": "NARROW_EDGE_DIRECTION_ONLY",
+    "research_selection_level": null,
+    "direction_vulnerability_status": "HIGH_RISK_CRITICAL_ROSTER_TO_RAW_DIRECTION",
+    "core_candidate_review": "NOT_REQUESTED",
+    "avoidance_recovery_review": "NO_AVOIDANCE_RECOVERY_TRIGGER",
+    "single_direction_retained": "胜",
+    "formal_single_grant": null,
+    "formal_core_grant": null,
+    "probability_adjustment": false,
+    "automatic_direction_flip": false
+  },
+  "GS1_5_score_family_runner_up_audit": {
+    "version": "GS1.5",
+    "status": "UNKNOWN_NO_COHERENT_SCORE_MATRIX",
+    "score_top3": null,
+    "result_family_top2": null,
+    "total_bucket_best_scores": null,
+    "probability_adjustment": false
+  },
+  "S4_v1_7_official_handicap_contract": {
+    "version": "S4_v1.7",
+    "status": "UNKNOWN_MISSING_OFFICIAL_INTEGER_LINE_SOURCE_OR_FROZEN_PICK",
+    "official_handicap_line": null,
+    "frozen_handicap_pick": null,
+    "research_top1": null,
+    "accuracy_scored": false,
+    "asian_handicap_substitution_forbidden": true
+  },
+  "audit_flags_r637": [
+    "PROTECTION_SECOND_SLOT_TIE_REVIEW",
+    "GS_JOINT_MATRIX_MISSING",
+    "PROTECTION_V02_MANUAL_REVIEW_NO_AUTO_PAIR",
+    "DVRG_DIRECTIONAL_HIGH_RISK_CORE_HOLD",
+    "RAW_DIRECTION_GOALKEEPER_REPLACEMENT_QUALITY_DROP",
+    "S4_V17_OFFICIAL_JC_HANDICAP_INPUT_MISSING"
+  ],
+  "notes_r637": [
+    "M79.3.6 Production remains frozen; R6.3.7 is Shadow only.",
+    "DVRG reviews home and away raw directions symmetrically; unknown evidence holds core review only, not the unique raw direction.",
+    "ESR goalkeeper, defensive-spine and attacking-unit shifts are components of one roster family, never three independent votes.",
+    "MSI pressure is context, not a win-probability boost or an independent risk-family vote.",
+    "GS1.5 adds result-family runner-ups and goal-bucket score candidates; original Score Top3 and probabilities remain unchanged.",
+    "S4 v1.7 requires a timestamped official Chinese lottery integer handicap and a frozen unique pick; Asian handicap is not accepted.",
+    "RC2.5 and HT-State v0.3 are inherited unchanged; no thresholds are fitted to the 25-match conversation recap.",
+    "Post-match scores, cards and in-play events are prohibited in prematch inspect()."
+  ],
+  "LCRG_v0_1_lineup_rotation_review": {
+    "version": "LCRG_v0.1",
+    "status": "UNKNOWN_NO_TIMESTAMPED_LINEUP_SNAPSHOTS",
+    "side_audits": {},
+    "selected_side": "home",
+    "selected_side_review": "UNKNOWN",
+    "extra_core_hold": false,
+    "independent_risk_families_added": 0,
+    "probability_adjustment": false
+  },
+  "S4_v1_8_exact_margin_exposure": {
+    "version": "S4_v1.8",
+    "status": "UNKNOWN_OFFICIAL_LINE_OR_COHERENT_MATRIX_MISSING",
+    "p_exact_margin_let_draw": null,
+    "margin_score_candidates": [],
+    "probability_adjustment": false,
+    "formal_handicap_grant": null
+  },
+  "RC2_6_low_high_tail_integrity": {
+    "version": "RC2.6",
+    "status": "UNKNOWN_NO_GOAL_BUCKET_DISTRIBUTION",
+    "exact_goal_top3_recomputed": null,
+    "probability_adjustment": false
+  },
+  "Selection_Efficiency_v0_6": {
+    "version": "Selection_Efficiency_v0.6",
+    "raw_direction": "胜",
+    "top1_probability": 0.46,
+    "top1_minus_second_gap": 0.19,
+    "direction_state": "NARROW_EDGE_DIRECTION_ONLY",
+    "research_selection_level": null,
+    "direction_vulnerability_status": "HIGH_RISK_CRITICAL_ROSTER_TO_RAW_DIRECTION",
+    "core_candidate_review": "NOT_REQUESTED",
+    "avoidance_recovery_review": "NO_AVOIDANCE_RECOVERY_TRIGGER",
+    "single_direction_retained": "胜",
+    "formal_single_grant": null,
+    "formal_core_grant": null,
+    "probability_adjustment": false,
+    "automatic_direction_flip": false,
+    "inherited_core_review": "NOT_REQUESTED",
+    "lineup_change_review": "UNKNOWN",
+    "core_not_auto_granted": true
+  },
+  "audit_flags_r638": [
+    "PROTECTION_SECOND_SLOT_TIE_REVIEW",
+    "GS_JOINT_MATRIX_MISSING",
+    "PROTECTION_V02_MANUAL_REVIEW_NO_AUTO_PAIR",
+    "DVRG_DIRECTIONAL_HIGH_RISK_CORE_HOLD",
+    "RAW_DIRECTION_GOALKEEPER_REPLACEMENT_QUALITY_DROP",
+    "S4_V17_OFFICIAL_JC_HANDICAP_INPUT_MISSING"
+  ],
+  "notes_r638": [
+    "11 Nov six-match recap is development diagnosis only: no frozen 6-match predictions or independent validation claimed.",
+    "Strong-favorite starting-XI rotation and projected-vs-official surprise are different, timestamp-guarded roster diagnostics.",
+    "Starting-XI change counts are not player-quality ratings; they cannot flip WDL or count as a new independent family.",
+    "JC let-draw probability is exactly the signed margin family, derived from the existing joint-score matrix.",
+    "7+ aggregate total-goals bucket is not a specific integer and must not be misrepresented as one.",
+    "In-play cards, goals and final results are segregated from prematch inspect.",
+    "No parameters or weights were fitted to the six observed matches."
+  ],
+  "Protection_v0_3_ambiguity_review": {
+    "version": "Protection_v0.3",
+    "status": "MANUAL_REVIEW_PROTECTION_AMBIGUITY",
+    "raw_direction_unchanged": "胜",
+    "wdl_probabilities_unchanged": [
+      0.46,
+      0.27,
+      0.27
+    ],
+    "research_candidate_pair_unchanged": [
+      "胜",
+      "平"
+    ],
+    "protected_draw_not_auto_inserted": true,
+    "candidate_release_for_research": false,
+    "manual_review_candidate_pair": [
+      "胜",
+      "平"
+    ],
+    "top1_minus_third_gap": 0.19,
+    "draw_minus_runner_up_gap": 0.0,
+    "three_way_cluster": false,
+    "draw_excluded_near_runner_up": false,
+    "thresholds": {
+      "three_way_range_pp": 5.0,
+      "excluded_draw_to_runner_pp": 3.0
+    },
+    "flags": [
+      "INHERITED_PROTECTION_MANUAL_REVIEW"
+    ],
+    "formal_protection_grant": null,
+    "automatic_pair_replacement": false,
+    "probability_adjustment": false
+  },
+  "S4_v1_9_margin_score_decision_review": {
+    "version": "S4_v1.9",
+    "status": "UNKNOWN_OFFICIAL_JC_OR_JOINT_MATRIX_MISSING",
+    "review_required": null,
+    "score_mode": null,
+    "official_line": null,
+    "formal_handicap_grant": null,
+    "probability_adjustment": false
+  },
+  "ESR_v0_2_squad_return_verification": {
+    "version": "ESR_v0.2",
+    "status": "UNKNOWN_NO_SQUAD_MOVEMENT_SOURCES",
+    "events": [],
+    "source_event_count": 0,
+    "new_risk_family_votes": 0,
+    "effective_squad_rating_adjustment": false,
+    "probability_adjustment": false
+  },
+  "GS1_6_score_concentration_review": {
+    "version": "GS1.6",
+    "status": "UNKNOWN_NO_COHERENT_MATRIX",
+    "score_top3_mass": null,
+    "probability_adjustment": false
+  },
+  "Selection_Efficiency_v0_7": {
+    "version": "Selection_Efficiency_v0.7",
+    "raw_direction": "胜",
+    "top1_probability": 0.46,
+    "top1_minus_second_gap": 0.19,
+    "direction_state": "NARROW_EDGE_DIRECTION_ONLY",
+    "research_selection_level": null,
+    "direction_vulnerability_status": "HIGH_RISK_CRITICAL_ROSTER_TO_RAW_DIRECTION",
+    "core_candidate_review": "NOT_REQUESTED",
+    "avoidance_recovery_review": "NO_AVOIDANCE_RECOVERY_TRIGGER",
+    "single_direction_retained": "胜",
+    "formal_single_grant": null,
+    "formal_core_grant": null,
+    "probability_adjustment": false,
+    "automatic_direction_flip": false,
+    "inherited_core_review": "NOT_REQUESTED",
+    "lineup_change_review": "UNKNOWN",
+    "core_not_auto_granted": true,
+    "protection_ambiguity_review": "MANUAL_REVIEW_PROTECTION_AMBIGUITY",
+    "direction_unchanged_due_to_protection_audit": true
+  },
+  "audit_flags_r639": [
+    "PROTECTION_SECOND_SLOT_TIE_REVIEW",
+    "GS_JOINT_MATRIX_MISSING",
+    "PROTECTION_V02_MANUAL_REVIEW_NO_AUTO_PAIR",
+    "DVRG_DIRECTIONAL_HIGH_RISK_CORE_HOLD",
+    "RAW_DIRECTION_GOALKEEPER_REPLACEMENT_QUALITY_DROP",
+    "S4_V17_OFFICIAL_JC_HANDICAP_INPUT_MISSING",
+    "INHERITED_PROTECTION_MANUAL_REVIEW"
+  ],
+  "notes_r639": [
+    "12 Nov 6-match conversation recap is descriptive development only, not official prematch data or independent validation.",
+    "No static let-draw probability boosts or posthoc net-margin changes.",
+    "Top1 scoreline can map to a different JC category than the integrated margin mode without a mathematical error.",
+    "All R6.3.8 and earlier modules are left intact; any manual-review flag cannot grant a formal pick.",
+    "No result, halftime result or red-card event passed into prematch inspect()."
+  ]
+}

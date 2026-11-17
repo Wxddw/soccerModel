@@ -1,0 +1,26 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.9_20261113",
+  "date": "2026-11-13",
+  "production_modified": false,
+  "research_only": true,
+  "inherited_files_unchanged": 59,
+  "new_files": [
+    "AUDIT_RECAP_20261112_CONVERSATION_ONLY.json",
+    "CHANGELOG_R639_20261113.md",
+    "INHERITED_R638_FILES_SHA256_UNCHANGED_R639.json",
+    "README_SHADOW_R639_20261113.md",
+    "RECAP_20261112_6_MATCHES_CONVERSATION_ONLY.json",
+    "SYNTHETIC_EXAMPLE_OUTPUT_R639_NOT_REAL.json",
+    "TEST_RESULTS_R639_20261113.txt",
+    "policy_shadow_r639_20261113.json",
+    "replay_conversation_r639.py",
+    "run_r639.py",
+    "shadow_r639.py",
+    "test_shadow_r639.py"
+  ],
+  "test_results": "150 passed, 0 failed; source quality is chat-recap only, not independently validated",
+  "new_module": "shadow_r639.py",
+  "prematch_runner": "run_r639.py",
+  "recap": "AUDIT_RECAP_20261112_CONVERSATION_ONLY.json",
+  "test_command": "python -m pytest -q test_selection_efficiency_r633.py test_motivation_squad_r634.py test_shadow_r635.py test_shadow_r636.py test_shadow_r637.py test_shadow_r638.py test_shadow_r639.py"
+}

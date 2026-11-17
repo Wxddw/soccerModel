@@ -1,0 +1,863 @@
+[
+  {
+    "prematch": {
+      "id": "007",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T19:30:00+08:00",
+      "probabilities": [
+        0.301,
+        0.264,
+        0.434
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      0,
+      2
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "008",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T19:30:00+08:00",
+      "probabilities": [
+        0.575,
+        0.24600000000000002,
+        0.179
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      2,
+      2
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "009",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T20:00:00+08:00",
+      "probabilities": [
+        0.177,
+        0.22,
+        0.603
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      0,
+      1
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "010",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T20:00:00+08:00",
+      "probabilities": [
+        0.098,
+        0.14300000000000002,
+        0.759
+      ],
+      "ordinary_sale": false,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      0,
+      2
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "011",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T21:00:00+08:00",
+      "probabilities": [
+        0.184,
+        0.225,
+        0.59
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      1,
+      0
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "012",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T21:00:00+08:00",
+      "probabilities": [
+        0.682,
+        0.172,
+        0.145
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      4,
+      0
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "013",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T21:30:00+08:00",
+      "probabilities": [
+        0.382,
+        0.249,
+        0.369
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      4,
+      3
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "014",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T21:30:00+08:00",
+      "probabilities": [
+        0.578,
+        0.213,
+        0.20800000000000002
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      2,
+      2
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "015",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T21:30:00+08:00",
+      "probabilities": [
+        0.3,
+        0.257,
+        0.44299999999999995
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      0,
+      1
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "016",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T21:30:00+08:00",
+      "probabilities": [
+        0.22399999999999998,
+        0.21100000000000002,
+        0.565
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      1,
+      0
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "017",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T21:30:00+08:00",
+      "probabilities": [
+        0.171,
+        0.19699999999999998,
+        0.632
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      0,
+      0
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "018",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T22:00:00+08:00",
+      "probabilities": [
+        0.405,
+        0.257,
+        0.33799999999999997
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      1,
+      2
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "019",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T22:00:00+08:00",
+      "probabilities": [
+        0.797,
+        0.126,
+        0.077
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      3,
+      2
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "020",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T22:00:00+08:00",
+      "probabilities": [
+        0.606,
+        0.233,
+        0.161
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      1,
+      0
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "021",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T22:15:00+08:00",
+      "probabilities": [
+        0.6970000000000001,
+        0.174,
+        0.129
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      0,
+      0
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "022",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-17T23:15:00+08:00",
+      "probabilities": [
+        0.131,
+        0.161,
+        0.708
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      1,
+      3
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "023",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-18T00:00:00+08:00",
+      "probabilities": [
+        0.15,
+        0.213,
+        0.637
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      1,
+      3
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "024",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-18T00:30:00+08:00",
+      "probabilities": [
+        0.41200000000000003,
+        0.268,
+        0.32
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      0,
+      1
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "025",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-18T00:30:00+08:00",
+      "probabilities": [
+        0.7909999999999999,
+        0.11900000000000001,
+        0.09
+      ],
+      "ordinary_sale": false,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      6,
+      1
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "026",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-18T00:30:00+08:00",
+      "probabilities": [
+        0.145,
+        0.158,
+        0.6970000000000001
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      2,
+      5
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "027",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-18T02:00:00+08:00",
+      "probabilities": [
+        0.10400000000000001,
+        0.158,
+        0.738
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      3,
+      4
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "028",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-18T02:45:00+08:00",
+      "probabilities": [
+        0.6409999999999999,
+        0.21600000000000003,
+        0.14300000000000002
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      2,
+      0
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "029",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-18T03:00:00+08:00",
+      "probabilities": [
+        0.268,
+        0.295,
+        0.436
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      0,
+      0
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "030",
+      "date": "10-17",
+      "cutoff": "2026-10-17T18:21:48+08:00",
+      "kickoff": "2026-10-18T07:30:00+08:00",
+      "probabilities": [
+        0.414,
+        0.251,
+        0.335
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      1,
+      0
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "001",
+      "date": "10-19",
+      "cutoff": "2026-10-19T12:36:05.811706+00:00",
+      "kickoff": "2026-10-20T00:30:00+08:00",
+      "probabilities": [
+        0.39354215537500536,
+        0.28563543535186975,
+        0.320822409273125
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      4,
+      0
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "002",
+      "date": "10-19",
+      "cutoff": "2026-10-19T12:36:05.811706+00:00",
+      "kickoff": "2026-10-20T01:00:00+08:00",
+      "probabilities": [
+        0.3162939297128549,
+        0.28115015974355356,
+        0.4025559105435915
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      1,
+      2
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "003",
+      "date": "10-19",
+      "cutoff": "2026-10-19T12:36:05.811706+00:00",
+      "kickoff": "2026-10-20T02:45:00+08:00",
+      "probabilities": [
+        0.26903298632925926,
+        0.3094820017549858,
+        0.4214850119157549
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      0,
+      3
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "004",
+      "date": "10-19",
+      "cutoff": "2026-10-19T12:36:05.811706+00:00",
+      "kickoff": "2026-10-20T02:45:00+08:00",
+      "probabilities": [
+        0.2913722267874187,
+        0.25899753492139355,
+        0.44963023829118764
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      0,
+      3
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "005",
+      "date": "10-19",
+      "cutoff": "2026-10-19T12:36:05.811706+00:00",
+      "kickoff": "2026-10-20T03:00:00+08:00",
+      "probabilities": [
+        0.6658869081233042,
+        0.19464386545081258,
+        0.13946922642588336
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      3,
+      1
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "006",
+      "date": "10-19",
+      "cutoff": "2026-10-19T12:36:05.811706+00:00",
+      "kickoff": "2026-10-20T03:00:00+08:00",
+      "probabilities": [
+        0.29028422206196325,
+        0.3541467509143735,
+        0.3555690270236632
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      1,
+      1
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "007",
+      "date": "10-19",
+      "cutoff": "2026-10-19T12:36:05.811706+00:00",
+      "kickoff": "2026-10-20T03:15:00+08:00",
+      "probabilities": [
+        0.6511758643311154,
+        0.22139979387164924,
+        0.12742434179723522
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      1,
+      2
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "008",
+      "date": "10-19",
+      "cutoff": "2026-10-19T12:36:05.811706+00:00",
+      "kickoff": "2026-10-20T07:00:00+08:00",
+      "probabilities": [
+        0.6109979633406476,
+        0.23625254582412342,
+        0.15274949083522887
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      1,
+      1
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "001",
+      "date": "10-20",
+      "cutoff": "2026-10-20T10:49:47.115404+00:00",
+      "kickoff": "2026-10-21T00:45:00+08:00",
+      "probabilities": [
+        0.6374697152240971,
+        0.19690731203538975,
+        0.1656229727405132
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      2,
+      2
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "002",
+      "date": "10-20",
+      "cutoff": "2026-10-20T10:49:47.115404+00:00",
+      "kickoff": "2026-10-21T00:45:00+08:00",
+      "probabilities": [
+        0.09315869885989007,
+        0.1439036811664565,
+        0.7629376199736534
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      1,
+      2
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "003",
+      "date": "10-20",
+      "cutoff": "2026-10-20T10:49:47.115404+00:00",
+      "kickoff": "2026-10-21T02:45:00+08:00",
+      "probabilities": [
+        0.6324626865668636,
+        0.21082089552280509,
+        0.15671641791033128
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      1,
+      1
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "004",
+      "date": "10-20",
+      "cutoff": "2026-10-20T10:49:47.115404+00:00",
+      "kickoff": "2026-10-21T03:00:00+08:00",
+      "probabilities": [
+        0.5433318688922117,
+        0.2160075478755526,
+        0.2406605832322358
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      4,
+      3
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "005",
+      "date": "10-20",
+      "cutoff": "2026-10-20T10:49:47.115404+00:00",
+      "kickoff": "2026-10-21T03:00:00+08:00",
+      "probabilities": [
+        0.853024128672123,
+        0.09925123509670525,
+        0.0477246362311718
+      ],
+      "ordinary_sale": false,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      4,
+      0
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "007",
+      "date": "10-20",
+      "cutoff": "2026-10-20T10:49:47.115404+00:00",
+      "kickoff": "2026-10-21T03:00:00+08:00",
+      "probabilities": [
+        0.6658097984047635,
+        0.1925058764946389,
+        0.1416843251005975
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      4,
+      3
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "008",
+      "date": "10-20",
+      "cutoff": "2026-10-20T10:49:47.115404+00:00",
+      "kickoff": "2026-10-21T03:00:00+08:00",
+      "probabilities": [
+        0.8493703516696516,
+        0.10013629409093104,
+        0.05049335423941745
+      ],
+      "ordinary_sale": false,
+      "evidence": [],
+      "archived_observation_proxy": false
+    },
+    "actual_score": [
+      5,
+      1
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "009",
+      "date": "10-20",
+      "cutoff": "2026-10-20T10:49:47.115404+00:00",
+      "kickoff": "2026-10-21T03:00:00+08:00",
+      "probabilities": [
+        0.2581529059521707,
+        0.22704217113166972,
+        0.5148049229161594
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      1,
+      1
+    ],
+    "split": "development"
+  },
+  {
+    "prematch": {
+      "id": "010",
+      "date": "10-20",
+      "cutoff": "2026-10-20T10:49:47.115404+00:00",
+      "kickoff": "2026-10-21T03:00:00+08:00",
+      "probabilities": [
+        0.6612837530246172,
+        0.1846083810531664,
+        0.15410786592221629
+      ],
+      "ordinary_sale": true,
+      "evidence": [],
+      "archived_observation_proxy": true
+    },
+    "actual_score": [
+      0,
+      1
+    ],
+    "split": "development"
+  }
+]

@@ -1,0 +1,5 @@
+M79.3.6 Shadow R6.3.7 test execution
+Command: python -m pytest -q test_selection_efficiency_r633.py test_motivation_squad_r634.py test_shadow_r635.py test_shadow_r636.py test_shadow_r637.py
+Result: 112 passed, 0 failed
+Breakdown: R6.3.3 23; R6.3.4 28; R6.3.5 21; R6.3.6 23; R6.3.7 17; total 112
+Note: R6.4 base200 regression suite is not included in this run and is not claimed as re-executed.

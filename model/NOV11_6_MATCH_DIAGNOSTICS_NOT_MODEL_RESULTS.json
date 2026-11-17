@@ -1,0 +1,15 @@
+{
+  "date_beijing": "2026-11-11",
+  "nature": "prior-conversation postmatch diagnostic, not independently frozen prematch outputs",
+  "trainable": false,
+  "holdout": false,
+  "recomputed_model_hit_rate": null,
+  "fixtures": [
+    {"id": "001", "ft": "2:3", "review": ["in-play red-card isolation", "+1 let-draw one-goal margin"]},
+    {"id": "002", "ft": "0:1", "review": ["confirmed XI vs projected attacking starters", "1-goal low tail", "Top1 below 40% market reference is not core"]},
+    {"id": "003", "ft": "1:2", "review": ["+1 let-draw one-goal margin", "late goals are in-play only"]},
+    {"id": "004", "ft": "2:0", "review": ["-1 requires 2+ goal win to return let-win", "late second goal is in-play only"]},
+    {"id": "005", "ft": "0:4", "review": ["cup lineup rotation", "effective lineup quality and motive audit", "risk gate should suspend core review, not flip WDL"]},
+    {"id": "006", "ft": "5:2", "review": ["7+ aggregate high tail", "do not fit high-tail boost on a single result"]}
+  ]
+}

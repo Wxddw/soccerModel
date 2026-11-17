@@ -1,0 +1,25 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.10_20261114",
+  "production_version": "M79.3.6_PRODUCTION_FROZEN",
+  "research_only": true,
+  "probability_fit_allowed": false,
+  "new_thresholds_fitted_from_20261113_results": false,
+  "outcome_probability_changes": false,
+  "automatic_direction_flip": false,
+  "top3_score_changes": false,
+  "top3_goal_changes": false,
+  "formal_grant_authorized": false,
+  "jc_handicap_contract": {
+    "official_integer_line_required": true,
+    "official_precutoff_timestamp_required": true,
+    "signed_let_draw_margin": "home_goals_minus_away_goals == -official_jc_integer_line",
+    "asian_handicap_is_not_jc_integer": true,
+    "review_only_top_two_gap_pp": 5.0,
+    "review_only_let_draw_gap_pp": 5.0
+  },
+  "tails": {"goal_buckets": ["0", "1", "2", "3", "4", "5", "6", "7+"], "seven_plus_not_exact_integer": true},
+  "context": {"requires_source_id_and_pre_cutoff_observed_at": true, "unknown_is_not_clear": true},
+  "development_recap": "PRIOR_CHAT_REFERENCE_NO_OFFICIAL_PREMATCH_FREEZE_NOT_HOLDOUT",
+  "minimum_new_forward_matches_before_promotion": 50,
+  "preferred_new_forward_matches": 100
+}
