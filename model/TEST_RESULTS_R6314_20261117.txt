@@ -1,0 +1,4 @@
+Date: 2026-11-17
+Full regression: python -m pytest -q test_selection_efficiency_r633.py test_motivation_squad_r634.py test_shadow_r635.py test_shadow_r636.py test_shadow_r637.py test_shadow_r638.py test_shadow_r639.py test_shadow_r6310.py test_shadow_r6311.py test_shadow_r6312.py test_shadow_r6313.py test_calibration_r6314.py
+Result: 367 passed in 1.31s (332 inherited + 35 new)
+External EPL experiment is separate: 380 match development and 380 held-out chronological matches, NOT full frozen M79 Production predictions or timestamped bookmaker replay.

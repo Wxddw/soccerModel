@@ -1,0 +1,223 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.5_20261106",
+  "dataset": "PRIOR_CONVERSATION_RECAP_ONLY_NOT_VERIFIED_NOT_HOLDOUT",
+  "n": 13,
+  "old_protection_hits": 8,
+  "dynamic_protection_hits": 9,
+  "old_protection_rate": 0.6153846153846154,
+  "dynamic_protection_rate": 0.6923076923076923,
+  "changed_pairs": 1,
+  "ambiguous_second_slot_ties": 2,
+  "training_or_threshold_fit": false,
+  "independent_validation": false,
+  "rows": [
+    {
+      "id": "周四001",
+      "old_protection": [
+        "胜",
+        "平"
+      ],
+      "dynamic_protection": [
+        "胜",
+        "平"
+      ],
+      "actual": "胜",
+      "old_hit": true,
+      "dynamic_hit": true,
+      "second_slot_gap": 0.1,
+      "tie_review": false
+    },
+    {
+      "id": "周四002",
+      "old_protection": [
+        "胜",
+        "平"
+      ],
+      "dynamic_protection": [
+        "胜",
+        "平"
+      ],
+      "actual": "平",
+      "old_hit": true,
+      "dynamic_hit": true,
+      "second_slot_gap": 0.03,
+      "tie_review": false
+    },
+    {
+      "id": "周四003",
+      "old_protection": [
+        "平",
+        "负"
+      ],
+      "dynamic_protection": [
+        "负",
+        "平"
+      ],
+      "actual": "负",
+      "old_hit": true,
+      "dynamic_hit": true,
+      "second_slot_gap": 0.04,
+      "tie_review": false
+    },
+    {
+      "id": "周四004",
+      "old_protection": [
+        "胜",
+        "平"
+      ],
+      "dynamic_protection": [
+        "胜",
+        "平"
+      ],
+      "actual": "胜",
+      "old_hit": true,
+      "dynamic_hit": true,
+      "second_slot_gap": 0.04,
+      "tie_review": false
+    },
+    {
+      "id": "周四005",
+      "old_protection": [
+        "胜",
+        "平"
+      ],
+      "dynamic_protection": [
+        "胜",
+        "平"
+      ],
+      "actual": "平",
+      "old_hit": true,
+      "dynamic_hit": true,
+      "second_slot_gap": 0.06,
+      "tie_review": false
+    },
+    {
+      "id": "周四006",
+      "old_protection": [
+        "胜",
+        "平"
+      ],
+      "dynamic_protection": [
+        "胜",
+        "平"
+      ],
+      "actual": "负",
+      "old_hit": false,
+      "dynamic_hit": false,
+      "second_slot_gap": 0.08,
+      "tie_review": false
+    },
+    {
+      "id": "周四007",
+      "old_protection": [
+        "胜",
+        "平"
+      ],
+      "dynamic_protection": [
+        "胜",
+        "负"
+      ],
+      "actual": "负",
+      "old_hit": false,
+      "dynamic_hit": true,
+      "second_slot_gap": 0.05,
+      "tie_review": false
+    },
+    {
+      "id": "周四008",
+      "old_protection": [
+        "胜",
+        "平"
+      ],
+      "dynamic_protection": [
+        "胜",
+        "平"
+      ],
+      "actual": "负",
+      "old_hit": false,
+      "dynamic_hit": false,
+      "second_slot_gap": 0.09,
+      "tie_review": false
+    },
+    {
+      "id": "周四009",
+      "old_protection": [
+        "胜",
+        "平"
+      ],
+      "dynamic_protection": [
+        "胜",
+        "平"
+      ],
+      "actual": "负",
+      "old_hit": false,
+      "dynamic_hit": false,
+      "second_slot_gap": 0.0,
+      "tie_review": true
+    },
+    {
+      "id": "周四010",
+      "old_protection": [
+        "胜",
+        "平"
+      ],
+      "dynamic_protection": [
+        "胜",
+        "平"
+      ],
+      "actual": "胜",
+      "old_hit": true,
+      "dynamic_hit": true,
+      "second_slot_gap": 0.08,
+      "tie_review": false
+    },
+    {
+      "id": "周四011",
+      "old_protection": [
+        "平",
+        "负"
+      ],
+      "dynamic_protection": [
+        "平",
+        "负"
+      ],
+      "actual": "负",
+      "old_hit": true,
+      "dynamic_hit": true,
+      "second_slot_gap": 0.0,
+      "tie_review": true
+    },
+    {
+      "id": "周四012",
+      "old_protection": [
+        "胜",
+        "平"
+      ],
+      "dynamic_protection": [
+        "胜",
+        "平"
+      ],
+      "actual": "负",
+      "old_hit": false,
+      "dynamic_hit": false,
+      "second_slot_gap": 0.09,
+      "tie_review": false
+    },
+    {
+      "id": "周四013",
+      "old_protection": [
+        "胜",
+        "平"
+      ],
+      "dynamic_protection": [
+        "胜",
+        "平"
+      ],
+      "actual": "胜",
+      "old_hit": true,
+      "dynamic_hit": true,
+      "second_slot_gap": 0.1,
+      "tie_review": false
+    }
+  ]
+}

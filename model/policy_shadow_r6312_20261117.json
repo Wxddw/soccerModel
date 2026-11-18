@@ -1,0 +1,23 @@
+{
+  "schema": "M79_SHADOW_R6312_POLICY",
+  "version": "R6.3.12",
+  "date": "2026-11-17",
+  "production_model": "M79.3.6 (FROZEN)",
+  "parent_shadow": "R6.3.11",
+  "new_layer": "S4-GS-RC-OneJointGrid-CrossLayerLock",
+  "sources": ["full_precutoff_score_matrix", "optional_official_jc_integer_line"],
+  "goal_buckets": ["0", "1", "2", "3", "4", "5", "6", "7+"],
+  "signed_jc_line_allowed": [-3, -2, -1, 0, 1, 2, 3],
+  "read_only": true,
+  "freeze_production_probabilities": true,
+  "jc_near_tie_5pp_is_manual_review_not_learned_threshold": true,
+  "goal_score_family_challenger": "read_only_non_auto_and_lower_or_equal_mass",
+  "matrix_conservation_required": true,
+  "matrix_vs_previous_output_tolerance": 1e-6,
+  "score_grid_mass_tolerance": 1e-8,
+  "postmatch_data_disallowed_in_prematch": true,
+  "forward_promotion_minimum_new_frozen_matches": 50,
+  "forward_recommended_new_frozen_matches": 100,
+  "all_formal_grants": null,
+  "no_backfit_to_2026_11_16_matches": true
+}

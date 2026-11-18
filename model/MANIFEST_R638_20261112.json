@@ -1,0 +1,23 @@
+{
+  "new_version": "M79.3.6_SHADOW_R6.3.8_20261112",
+  "base_archive_name": "M79_Shadow_R6_3_7_20261109_对称风险门阵容功能与比分让球联合校验.zip",
+  "base_archive_sha256": "3081975e81e89ce25dd809d30b1176ab9ff70e7e2161a9db61a72603572909ae",
+  "old_file_count_checked_byte_identical": 50,
+  "old_file_differences": [],
+  "production_code_modified": false,
+  "independent_forward_validation": false,
+  "new_files": {
+    "CHANGELOG_R638_20261112.md": "21eba0ca25de683ab34380c3b2e2dc15f412d9c9f09642957dc22c21a2830d28",
+    "NOV11_6_MATCH_DIAGNOSTICS_NOT_MODEL_RESULTS.json": "5a1efa9ccaeabef6f3fed91ce91bac19dcc544cc7d4424580e9d44090966a9ef",
+    "README_SHADOW_R638_20261112.md": "f49f8e7ba6765e8a60e10c2365bf72fcab9afebf27094f0523b5f2db61e49483",
+    "SYNTHETIC_EXAMPLE_OUTPUT_R638_NOT_REAL.json": "60d0943a858953b6f2357882b23211b68ae0554562e851ec8f2ec7eb7f74e71b",
+    "policy_shadow_r638_20261112.json": "1cd6edbf0f0d1a5be03ced7fd40ffa6e34270b3f8cf944115770afe75b444fc0",
+    "run_r638.py": "2b2cae4974d6a5c315a5f0ca4639a46dbc4de85c018c25cdd634405fb38a07dc",
+    "shadow_r638.py": "cab352c5ea4fff892deb65972df352ea9f1d0f1af13ecf8412b5da3e72c417a2",
+    "test_shadow_r638.py": "a5b0924e31b43120baa37662587857f3583f8b33418d7f6e1e5f3b7f2f8ed9e5"
+  },
+  "tests": {
+    "regression_passed": 126,
+    "regression_failed": 0
+  }
+}

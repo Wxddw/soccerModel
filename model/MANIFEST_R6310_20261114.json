@@ -1,0 +1,24 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.10_20261114",
+  "base_version": "M79.3.6_SHADOW_R6.3.9_20261113",
+  "production_unchanged": true,
+  "inherited_file_count": 72,
+  "unchanged_inherited_files": true,
+  "unit_tests_passed": 185,
+  "unit_tests_failed": 0,
+  "independent_forward_matches_verified": 0,
+  "new_files": [
+    "AUDIT_20261113_11_MATCHES_RECAP_R6310.json",
+    "CHANGELOG_R6310_20261114.md",
+    "INHERITED_R639_FILES_SHA256_UNCHANGED_R6310.json",
+    "README_SHADOW_R6310_20261114.md",
+    "RECAP_20261113_11_MATCHES_CONVERSATION_ONLY.json",
+    "SYNTHETIC_EXAMPLE_OUTPUT_R6310_NOT_REAL.json",
+    "TEST_RESULTS_R6310_20261114.txt",
+    "policy_shadow_r6310_20261114.json",
+    "replay_conversation_r6310.py",
+    "run_r6310.py",
+    "shadow_r6310.py",
+    "test_shadow_r6310.py"
+  ]
+}

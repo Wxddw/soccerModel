@@ -1,0 +1,21 @@
+{
+  "version":"M79.3.6_SHADOW_R6.3.11_20261115",
+  "production":"M79.3.6_FROZEN",
+  "research_only":true,
+  "change_production_weights":false,
+  "fit_weights_from_20261114_recap":false,
+  "postmatch_fields_allowed_in_prematch":false,
+  "score_top3_auto_replace":false,
+  "score_challengers":["wdl_family_diversity_candidate","btts_diversity_candidate","jc_margin_family_diversity_candidate"],
+  "score_challengers_may_reduce_joint_mass":true,
+  "football_only_provenance_independently_verified":false,
+  "risk_family_evidence_dedupe":true,
+  "opponent_adjusted_form_review":true,
+  "requires_verified_prerelease_snapshot":true,
+  "snapshot_hash_is_not_trusted_timestamp":true,
+  "forward_minimum_new_independent_matches":50,
+  "forward_preferred_new_matches":100,
+  "formal_direction_grants":false,
+  "formal_score_grants":false,
+  "nov14_conversation_recap_grade":"DEVELOPMENT_ONLY_NOT_HOLDOUT"
+}

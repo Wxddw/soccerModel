@@ -1,0 +1,90 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.6_20261108",
+  "date": "2026-11-08",
+  "production": "M79.3.6_FROZEN_UNCHANGED",
+  "inherits": ["M79.3.6_SHADOW_R6.3.3_20261104", "M79.3.6_SHADOW_R6.3.4_20261104", "M79.3.6_SHADOW_R6.3.5_20261106"],
+  "research_only": true,
+  "weights_refitted": false,
+  "wdl_probability_adjustment": false,
+  "automatic_direction_flip": false,
+  "formal_single_grant": null,
+  "formal_core_grant": null,
+  "formal_protection_grant": null,
+  "formal_handicap_grant": null,
+  "modules": {
+    "Protection_v0.2": {
+      "rule": "raw_top1_plus_highest_remaining_probability",
+      "second_third_gap_manual_review_pp": 1.0,
+      "tie_with_prior_valid_pair": "keep_prior_pair_for_manual_review",
+      "tie_without_prior_pair": "no_pair_release_manual_review",
+      "draw_score_family_conflict": "manual_review_only_no_auto_draw_insert",
+      "formal_grant": null
+    },
+    "RC2.5": {
+      "exact_buckets": ["0", "5", "7+"],
+      "independent_precutoff_families_required": 2,
+      "max_tail_slots": 1,
+      "central_peak_protected": true,
+      "same_family_cross_router_double_count": false,
+      "multiple_exact_bucket_conflict": "keep_base_top3",
+      "broad_vs_exact_tail_conflict": "keep_base_top3",
+      "probability_adjustment": false
+    },
+    "GS1.4": {
+      "probability_ranked_top3_unchanged": true,
+      "additive_family_watch_candidates": ["home_win", "draw", "away_win"],
+      "flags_single_result_or_goal_bucket_concentration": true,
+      "replace_top3": false,
+      "probability_adjustment": false
+    },
+    "S4_v1.6": {
+      "source": "single_joint_score_matrix",
+      "home_handicap_sign": "negative_is_home_giving_goals_positive_is_home_receiving_goals",
+      "outputs": ["let_win", "let_draw", "let_loss", "home_margin_1", "home_margin_2plus", "draw", "away_margin_1", "away_margin_2plus"],
+      "top1_top2_gap_manual_review_pp": 1.0,
+      "missing_matrix_or_line": "UNKNOWN_NO_IMPUTATION",
+      "probability_adjustment": false
+    },
+    "Selection_Efficiency_v0.4": {
+      "raw_unique_direction_always_retained": true,
+      "avoidance_review_top1_min": 0.35,
+      "avoidance_review_top1_second_gap_max": 0.08,
+      "high_risk_hfrg_overrides_recovery_prompt": true,
+      "automatic_restore": false,
+      "formal_grant": null
+    },
+    "HT_State_v0.3": {
+      "require_complete_9_state_joint_distribution": true,
+      "full_time_marginal_tolerance_pp": 1.5,
+      "missing_joint_distribution": "NO_TOP2_RELEASE",
+      "fallback_from_score_top3": false
+    }
+  },
+  "development_recap": {
+    "n": 14,
+    "source_status": "PRIOR_CONVERSATION_RECAP_ONLY_NOT_OFFICIALLY_FROZEN_NOT_HOLDOUT",
+    "hits": {"single": 9, "protection": 10, "handicap": 7, "goals_top3": 9, "score_top3": 4, "half_full_top2": 5},
+    "correct_top1_in_avoidance_groups": 3,
+    "avoidance_group_n": 3,
+    "used_for_training": false,
+    "used_for_threshold_fit": false,
+    "independent_validation": false,
+    "proper_probability_scores": null
+  },
+  "tests": {
+    "r633": 23,
+    "r634": 28,
+    "r635": 21,
+    "r636": 23,
+    "combined_executed": 95,
+    "combined_passed": 95,
+    "combined_failed": 0,
+    "r64_base200_reexecuted": false
+  },
+  "promotion_gate": {
+    "minimum_independent_forward_matches": 50,
+    "recommended_independent_forward_matches": 100,
+    "same_pre_match_cutoff_pairing": true,
+    "automatic_promotion": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.11_20261115",
+  "production": "M79.3.6_FROZEN",
+  "parent_unchanged_file_count": 85,
+  "new_files": [
+    "CHANGELOG_R6311_20261115.md",
+    "INHERITED_R6310_FILES_SHA256_UNCHANGED_R6311.json",
+    "README_SHADOW_R6311_20261115.md",
+    "RECAP_14_AUDIT_OUTPUT_R6311_DEV.json",
+    "RECAP_20261114_14_MATCHES_CONVERSATION_ONLY_DEV.json",
+    "SYNTHETIC_EXAMPLE_OUTPUT_R6311_NOT_REAL.json",
+    "TEST_RESULTS_R6311_20261115.txt",
+    "forward_validation_r6311.py",
+    "policy_shadow_r6311_20261115.json",
+    "replay_conversation_r6311.py",
+    "run_r6311.py",
+    "shadow_r6311.py",
+    "test_shadow_r6311.py"
+  ],
+  "test_count": 215,
+  "recap_only_dev_metrics": {
+    "wdl_hit": {
+      "hits": 8,
+      "n": 14
+    },
+    "score_top1_hit": {
+      "hits": 0,
+      "n": 14
+    },
+    "score_top3_hit": {
+      "hits": 5,
+      "n": 14
+    },
+    "goal_top3_hit": {
+      "hits": 8,
+      "n": 14
+    }
+  },
+  "code_tests_are_not_match_accuracy": true,
+  "forecast_weights_refitted": false,
+  "promotion_authorized": false
+}

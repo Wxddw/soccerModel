@@ -1,0 +1,7 @@
+M79.3.6 Production frozen. Shadow R6.3.5 local regression run:
+- R6.3.3 selection tests: 23 passed
+- R6.3.4 motivation/squad tests: 28 passed
+- R6.3.5 new tests: 21 passed
+- Combined executed in this package: 72 passed, 0 failed
+- R6.4 base200 historical record: not re-executed in this run (test sources not included in this package)
+- No WDL weights or probabilities fitted; no formal single/core grants; no Production files changed.

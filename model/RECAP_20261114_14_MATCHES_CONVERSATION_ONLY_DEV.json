@@ -1,0 +1,203 @@
+{
+  "grade": "CONVERSATION_ONLY_DEV_NEVER_FORWARD",
+  "period": "2026-11-14",
+  "note": "Copied from conversation last odds-free prematch scenario + subsequent recap; no source-verified Production matrix",
+  "matches": [
+    {
+      "id": "003",
+      "pred_score_top3": [
+        "1:2",
+        "1:1",
+        "2:2"
+      ],
+      "pred_goal_top3": [
+        3,
+        2,
+        4
+      ],
+      "actual_score": "3:2"
+    },
+    {
+      "id": "004",
+      "pred_score_top3": [
+        "1:0",
+        "2:0",
+        "1:1"
+      ],
+      "pred_goal_top3": [
+        1,
+        2,
+        3
+      ],
+      "actual_score": "2:0"
+    },
+    {
+      "id": "005",
+      "pred_score_top3": [
+        "2:0",
+        "1:0",
+        "2:1"
+      ],
+      "pred_goal_top3": [
+        2,
+        1,
+        3
+      ],
+      "actual_score": "4:2"
+    },
+    {
+      "id": "006",
+      "pred_score_top3": [
+        "0:1",
+        "1:1",
+        "0:2"
+      ],
+      "pred_goal_top3": [
+        1,
+        2,
+        3
+      ],
+      "actual_score": "0:2"
+    },
+    {
+      "id": "007",
+      "pred_score_top3": [
+        "2:1",
+        "3:1",
+        "2:0"
+      ],
+      "pred_goal_top3": [
+        3,
+        4,
+        2
+      ],
+      "actual_score": "3:1"
+    },
+    {
+      "id": "008",
+      "pred_score_top3": [
+        "2:1",
+        "1:1",
+        "1:2"
+      ],
+      "pred_goal_top3": [
+        3,
+        2,
+        4
+      ],
+      "actual_score": "3:1"
+    },
+    {
+      "id": "009",
+      "pred_score_top3": [
+        "1:2",
+        "1:1",
+        "2:2"
+      ],
+      "pred_goal_top3": [
+        3,
+        2,
+        4
+      ],
+      "actual_score": "4:0"
+    },
+    {
+      "id": "010",
+      "pred_score_top3": [
+        "3:1",
+        "2:1",
+        "2:0"
+      ],
+      "pred_goal_top3": [
+        4,
+        3,
+        2
+      ],
+      "actual_score": "6:1"
+    },
+    {
+      "id": "011",
+      "pred_score_top3": [
+        "1:1",
+        "2:1",
+        "1:0"
+      ],
+      "pred_goal_top3": [
+        2,
+        3,
+        1
+      ],
+      "actual_score": "1:0"
+    },
+    {
+      "id": "012",
+      "pred_score_top3": [
+        "2:1",
+        "1:1",
+        "2:0"
+      ],
+      "pred_goal_top3": [
+        3,
+        2,
+        4
+      ],
+      "actual_score": "3:2"
+    },
+    {
+      "id": "013",
+      "pred_score_top3": [
+        "1:2",
+        "0:2",
+        "1:1"
+      ],
+      "pred_goal_top3": [
+        3,
+        2,
+        4
+      ],
+      "actual_score": "2:1"
+    },
+    {
+      "id": "014",
+      "pred_score_top3": [
+        "2:1",
+        "1:1",
+        "2:0"
+      ],
+      "pred_goal_top3": [
+        3,
+        2,
+        4
+      ],
+      "actual_score": "1:4"
+    },
+    {
+      "id": "015",
+      "pred_score_top3": [
+        "1:0",
+        "1:1",
+        "2:0"
+      ],
+      "pred_goal_top3": [
+        1,
+        2,
+        3
+      ],
+      "actual_score": "0:0"
+    },
+    {
+      "id": "016",
+      "pred_score_top3": [
+        "0:1",
+        "1:1",
+        "0:2"
+      ],
+      "pred_goal_top3": [
+        1,
+        2,
+        3
+      ],
+      "actual_score": "0:2"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "experiment": "R6.3.14 chronological English Premier League benchmark",
+  "source": "Football-Data.co.uk E0 season CSV via Firecrawl isolated browser; only summary metrics preserved; no source match-level dataset redistributed",
+  "source_urls": [
+    "https://www.football-data.co.uk/data.php",
+    "https://www.football-data.co.uk/notes.txt"
+  ],
+  "seasons": {"2023-24_baseline_history": 380, "2024-25_parameter_development": 380, "2025-26_untouched_holdout": 380},
+  "frozen_primary_M79_3_6_predictions_used": false,
+  "pre_match_lambda_method": "use only earlier fixtures for smoothed rolling team-specific home/away scoring and conceded rates, 8-match prior strength, last 18 applicable matches; no post-match features",
+  "selection": "choose score model parameter and small calibration shrink values on 2024-25 development; report only untouched 2025-26 outcomes",
+  "models": {
+    "poisson": {"dev_selected_parameter": 0, "score_logloss": 2.925622060391339, "score_top3_hit": 110, "goal_top3_hit": 248},
+    "dixon_coles": {"dev_selected_parameter": 0, "score_logloss": 2.925622060391339, "score_top3_hit": 110, "goal_top3_hit": 248},
+    "negative_binomial": {"dev_selected_parameter": 1000, "score_logloss": 2.9257388949864627, "score_top3_hit": 110, "goal_top3_hit": 248},
+    "bivariate_poisson": {"dev_selected_parameter": 0, "score_logloss": 2.925622060391339, "score_top3_hit": 110, "goal_top3_hit": 248}
+  },
+  "S4_signed_margin_seven_bin": {
+    "baseline_logloss": 1.7768052523593745, "candidate_logloss": 1.7832813486379342,
+    "baseline_brier": 0.812142959221098, "candidate_brier": 0.8132301564733592,
+    "baseline_rps": 0.13878823672959267, "candidate_rps": 0.1392918414882851,
+    "fitted_shrink_strength": 5,
+    "hypothetical_plus_minus_one_line_warning_events_raw": 24,
+    "hypothetical_plus_minus_one_line_warning_events_candidate": 22,
+    "official_chinese_lottery_lines_available": false,
+    "status": "DO_NOT_PROMOTE_CANDIDATE_WORSE"
+  },
+  "RC_0_to_6_and_7_plus": {
+    "baseline_logloss": 1.8588612986459356, "candidate_logloss": 1.857240634984302,
+    "baseline_brier": 0.8237222923087381, "candidate_brier": 0.8248026728407349,
+    "baseline_rps": 0.12610340465068048, "candidate_rps": 0.12515975682639296,
+    "fitted_shrink_strength": 5,
+    "status": "TINY_MIXED_IMPROVEMENT_RESEARCH_ONLY"
+  },
+  "HTFT_nine_class": {
+    "baseline_half_fractions": [0.5, 0.5],
+    "fitted_half_fractions": [0.44, 0.4],
+    "baseline_logloss": 1.9276419578221844, "candidate_logloss": 1.9257077101092615,
+    "baseline_top3_hits": 243, "candidate_top3_hits": 246,
+    "status": "TINY_IMPROVEMENT_UNCERTAIN"
+  },
+  "Outcome_three_way": {
+    "independent_goal_model": {"n": 380, "logloss": 1.0390790773590672, "brier": 0.6245061939118155, "rps": 0.2126630354319608},
+    "preclosing_market_multiplicative": {"n": 380, "logloss": 1.015252382967251, "brier": 0.6100247363528879, "rps": 0.2052795261209408},
+    "preclosing_market_power": {"n": 380, "logloss": 1.016723901941676, "brier": 0.6114091416497194, "rps": 0.20572935004059792},
+    "closing_market_multiplicative": {"n": 380, "logloss": 1.0117668726695335, "brier": 0.6077370146246495, "rps": 0.20449146861486855},
+    "closing_market_power": {"n": 380, "logloss": 1.0127801626088697, "brier": 0.608819594381658, "rps": 0.20483028524113614}
+  },
+  "limitations": [
+    "External EPL standalone rolling-xG baseline, NOT a test of all unpublished M79.3.6 Production parameters",
+    "Football-Data preclosing and closing odds have no per-quote original timestamp; synchronized-cutoff odds certification NOT available",
+    "Official Chinese lottery integer handicap lines not in this dataset; S4 -1/+1 are hypothetical risk diagnostics only",
+    "No original prematch training timestamps of historical match snapshots, so this is chronological retrospective holdout not immutably recorded forward certification",
+    "No statistical significance or league-generalization claim based on one 380-game holdout",
+    "Football-Data website presently restricts automated AI/data training use; do not redistribute raw match-level data or programmatically ingest it further without authorization; offline tools only accept lawfully supplied datasets",
+    "No changes to frozen M79.3.6; no model weights automatically promoted"
+  ]
+}

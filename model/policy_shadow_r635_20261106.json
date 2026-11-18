@@ -1,0 +1,95 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.5_20261106",
+  "date": "2026-11-06",
+  "production": "M79.3.6_FROZEN_UNCHANGED",
+  "inherits": ["M79.3.6_SHADOW_R6.3.3_20261104", "M79.3.6_SHADOW_R6.3.4_20261104"],
+  "research_only": true,
+  "weights_refitted": false,
+  "wdl_probability_adjustment": false,
+  "automatic_direction_change": false,
+  "automatic_protection_change": false,
+  "automatic_core_or_single_grant": false,
+  "modules": {
+    "HFRG_v0.1": {
+      "purpose": "Home-favorite risk audit for raw home-win Top1 with P(home)>=0.50",
+      "independent_families": {
+        "roster": ["injury", "official_lineup", "goalkeeper", "defensive_spine", "bench_quality"],
+        "schedule": ["short_turnaround", "rotation", "fixture_congestion"],
+        "tactical": ["opponent_transition", "pressing_matchup", "set_piece_matchup", "coach_transition"],
+        "market": ["odds", "kelly", "exchange_price", "exchange_volume"]
+      },
+      "high_risk_if": ["one severe critical-spine downgrade", "two independent adverse evidence families"],
+      "one_adverse_family": "WATCH",
+      "fewer_than_two_families": "UNKNOWN_NOT_SAFE",
+      "effect": "hold core review / require second review only",
+      "can_flip_direction": false,
+      "can_change_probability": false
+    },
+    "ESR_v0.2": {
+      "inherits": "R6.3.4_ESR_v0.1",
+      "role_diagnostics": ["goalkeeper", "center_back_plus_defensive_midfielder", "attacking_midfielder_plus_winger_plus_striker"],
+      "expected_minutes_per_team": 990,
+      "reference_minutes_per_team": 990,
+      "goalkeeper_minutes_per_team": 90,
+      "numeric_probability_adjustment": false,
+      "correlated_roster_signals_count_once": true
+    },
+    "dynamic_protection_v0.1": {
+      "rule": "raw_top1_plus_highest_probability_remaining_outcome",
+      "rounded_second_slot_tie_tolerance": 0.01,
+      "on_tie": "keep_prior_valid_pair_and_flag_manual_review",
+      "frozen_protection_unchanged": true,
+      "formal_grant": null
+    },
+    "RC2.4": {
+      "goal_buckets": ["0", "1", "2", "3", "4", "5", "6", "7+"],
+      "central_peak_protected": true,
+      "high_tail_buckets": ["4", "5", "6", "7+"],
+      "low_tail_buckets": ["0", "1"],
+      "minimum_independent_families": 2,
+      "maximum_tail_slots": 1,
+      "both_tail_conflict": "keep_base_top3",
+      "probability_adjustment": false
+    },
+    "GS1.3": {
+      "source": "single_joint_score_matrix",
+      "must_reconcile_wdl_marginal": true,
+      "must_reconcile_goal_marginal": true,
+      "marginal_tolerance_percentage_points": 1.5,
+      "score_families": ["0-1_low_event", "2-3_central", "4+_high_event", "home_margin_1", "home_margin_2plus", "draw", "away_margin_1", "away_margin_2plus"],
+      "missing_matrix": "UNKNOWN_NO_IMPUTATION"
+    },
+    "HT_State_v0.2": {
+      "states": ["胜胜", "胜平", "胜负", "平胜", "平平", "平负", "负胜", "负平", "负负"],
+      "must_reconcile_full_time_marginal_to_wdl": true,
+      "marginal_tolerance_percentage_points": 1.5,
+      "missing_matrix": "UNKNOWN_NO_IMPUTATION"
+    }
+  },
+  "development_recap": {
+    "matches": 13,
+    "source_status": "PRIOR_CONVERSATION_RECAP_ONLY_NOT_VERIFIED_NOT_HOLDOUT",
+    "old_protection_hits": 8,
+    "dynamic_protection_hits": 9,
+    "changed_pairs": 1,
+    "ambiguous_second_slot_ties": 2,
+    "used_for_training": false,
+    "used_for_threshold_fit": false,
+    "independent_validation": false
+  },
+  "tests": {
+    "r633_local": 23,
+    "r634_local": 28,
+    "r635_new": 21,
+    "combined_executed": 72,
+    "combined_passed": 72,
+    "r64_base200_reexecuted": false
+  },
+  "promotion_gate": {
+    "minimum_independent_forward_matches": 50,
+    "recommended_independent_forward_matches": 100,
+    "same_pre_match_cutoff_pairing": true,
+    "metrics": ["single_accuracy", "selection_coverage", "correct_top1_killed", "new_wrong_singles", "protection_coverage", "Brier", "LogLoss", "tail_bucket_calibration", "score_top3_coverage", "HTFT_top2_coverage", "core_false_grants"],
+    "automatic_promotion": false
+  }
+}

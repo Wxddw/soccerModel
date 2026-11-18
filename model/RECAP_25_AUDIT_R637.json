@@ -1,0 +1,440 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.7_20261109",
+  "dataset": "PUBLISHED_CONVERSATION_RECAP_ONLY_NOT_OFFICIAL_FROZEN_NOT_HOLDOUT",
+  "n": 25,
+  "metrics": {
+    "single": {
+      "hits": 16,
+      "n": 25,
+      "rate": 0.64,
+      "misses": [
+        "006",
+        "009",
+        "011",
+        "018",
+        "020",
+        "021",
+        "025",
+        "028",
+        "029"
+      ]
+    },
+    "protection": {
+      "hits": 22,
+      "n": 25,
+      "rate": 0.88,
+      "misses": [
+        "011",
+        "018",
+        "029"
+      ]
+    },
+    "goals_top3": {
+      "hits": 20,
+      "n": 25,
+      "rate": 0.8,
+      "misses": [
+        "018",
+        "019",
+        "021",
+        "025",
+        "028"
+      ]
+    },
+    "score_top3": {
+      "hits": 17,
+      "n": 25,
+      "rate": 0.68,
+      "misses": [
+        "007",
+        "011",
+        "018",
+        "019",
+        "021",
+        "023",
+        "025",
+        "028"
+      ]
+    },
+    "half_full_top2": {
+      "hits": 16,
+      "n": 25,
+      "rate": 0.64,
+      "misses": [
+        "006",
+        "009",
+        "011",
+        "015",
+        "018",
+        "020",
+        "023",
+        "025",
+        "029"
+      ]
+    }
+  },
+  "handicap_metric": null,
+  "handicap_reason": "No complete frozen official integer handicap line plus unique pick was published for all 25 matches.",
+  "training_or_threshold_fit": false,
+  "independent_validation": false,
+  "probability_scores": null,
+  "correction_note": "Half/full Top2 was recomputed as 16/25, correcting the prior narrative's 17/25 arithmetic.",
+  "per_match": [
+    {
+      "id": "006",
+      "actual_score": "1:1",
+      "actual_wdl": "平",
+      "actual_htft": "负平",
+      "actual_total_bucket": "2",
+      "hits": {
+        "single": false,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": false
+      }
+    },
+    {
+      "id": "007",
+      "actual_score": "0:2",
+      "actual_wdl": "负",
+      "actual_htft": "平负",
+      "actual_total_bucket": "2",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": false,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "008",
+      "actual_score": "0:2",
+      "actual_wdl": "负",
+      "actual_htft": "负负",
+      "actual_total_bucket": "2",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "009",
+      "actual_score": "2:2",
+      "actual_wdl": "平",
+      "actual_htft": "负平",
+      "actual_total_bucket": "4",
+      "hits": {
+        "single": false,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": false
+      }
+    },
+    {
+      "id": "010",
+      "actual_score": "0:2",
+      "actual_wdl": "负",
+      "actual_htft": "负负",
+      "actual_total_bucket": "2",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "011",
+      "actual_score": "1:0",
+      "actual_wdl": "胜",
+      "actual_htft": "胜胜",
+      "actual_total_bucket": "1",
+      "hits": {
+        "single": false,
+        "protection": false,
+        "goals_top3": true,
+        "score_top3": false,
+        "half_full_top2": false
+      }
+    },
+    {
+      "id": "012",
+      "actual_score": "1:2",
+      "actual_wdl": "负",
+      "actual_htft": "负负",
+      "actual_total_bucket": "3",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "013",
+      "actual_score": "1:3",
+      "actual_wdl": "负",
+      "actual_htft": "负负",
+      "actual_total_bucket": "4",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "014",
+      "actual_score": "0:1",
+      "actual_wdl": "负",
+      "actual_htft": "平负",
+      "actual_total_bucket": "1",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "015",
+      "actual_score": "1:2",
+      "actual_wdl": "负",
+      "actual_htft": "负负",
+      "actual_total_bucket": "3",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": false
+      }
+    },
+    {
+      "id": "016",
+      "actual_score": "1:2",
+      "actual_wdl": "负",
+      "actual_htft": "负负",
+      "actual_total_bucket": "3",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "017",
+      "actual_score": "1:0",
+      "actual_wdl": "胜",
+      "actual_htft": "平胜",
+      "actual_total_bucket": "1",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "018",
+      "actual_score": "3:2",
+      "actual_wdl": "胜",
+      "actual_htft": "胜胜",
+      "actual_total_bucket": "5",
+      "hits": {
+        "single": false,
+        "protection": false,
+        "goals_top3": false,
+        "score_top3": false,
+        "half_full_top2": false
+      }
+    },
+    {
+      "id": "019",
+      "actual_score": "4:3",
+      "actual_wdl": "胜",
+      "actual_htft": "平胜",
+      "actual_total_bucket": "7+",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": false,
+        "score_top3": false,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "020",
+      "actual_score": "1:1",
+      "actual_wdl": "平",
+      "actual_htft": "负平",
+      "actual_total_bucket": "2",
+      "hits": {
+        "single": false,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": false
+      }
+    },
+    {
+      "id": "021",
+      "actual_score": "4:4",
+      "actual_wdl": "平",
+      "actual_htft": "平平",
+      "actual_total_bucket": "7+",
+      "hits": {
+        "single": false,
+        "protection": true,
+        "goals_top3": false,
+        "score_top3": false,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "022",
+      "actual_score": "2:0",
+      "actual_wdl": "胜",
+      "actual_htft": "平胜",
+      "actual_total_bucket": "2",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "023",
+      "actual_score": "2:0",
+      "actual_wdl": "胜",
+      "actual_htft": "胜胜",
+      "actual_total_bucket": "2",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": false,
+        "half_full_top2": false
+      }
+    },
+    {
+      "id": "024",
+      "actual_score": "2:0",
+      "actual_wdl": "胜",
+      "actual_htft": "平胜",
+      "actual_total_bucket": "2",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "025",
+      "actual_score": "0:0",
+      "actual_wdl": "平",
+      "actual_htft": "平平",
+      "actual_total_bucket": "0",
+      "hits": {
+        "single": false,
+        "protection": true,
+        "goals_top3": false,
+        "score_top3": false,
+        "half_full_top2": false
+      }
+    },
+    {
+      "id": "026",
+      "actual_score": "1:2",
+      "actual_wdl": "负",
+      "actual_htft": "负负",
+      "actual_total_bucket": "3",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "027",
+      "actual_score": "2:1",
+      "actual_wdl": "胜",
+      "actual_htft": "胜胜",
+      "actual_total_bucket": "3",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "028",
+      "actual_score": "2:2",
+      "actual_wdl": "平",
+      "actual_htft": "平平",
+      "actual_total_bucket": "4",
+      "hits": {
+        "single": false,
+        "protection": true,
+        "goals_top3": false,
+        "score_top3": false,
+        "half_full_top2": true
+      }
+    },
+    {
+      "id": "029",
+      "actual_score": "1:2",
+      "actual_wdl": "负",
+      "actual_htft": "平负",
+      "actual_total_bucket": "3",
+      "hits": {
+        "single": false,
+        "protection": false,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": false
+      }
+    },
+    {
+      "id": "030",
+      "actual_score": "1:2",
+      "actual_wdl": "负",
+      "actual_htft": "平负",
+      "actual_total_bucket": "3",
+      "hits": {
+        "single": true,
+        "protection": true,
+        "goals_top3": true,
+        "score_top3": true,
+        "half_full_top2": true
+      }
+    }
+  ],
+  "notes": [
+    "Descriptive arithmetic only; input is reconstructed from the published conversation, not an official prematch freeze archive.",
+    "Do not fit thresholds or claim independent performance from this batch.",
+    "The 018/019/021 tail misses are not grounds to increase all high-tail probabilities.",
+    "Handicap performance is not scored without a frozen official JC integer line and pick."
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "provenance": "PRIOR_CHAT_REFERENCE_NO_OFFICIAL_PREMATCH_FREEZE",
+  "matches": [
+    {
+      "id": "001",
+      "actual_score": "1:4",
+      "actual_halftime": "1:2",
+      "jc_line_as_reported_in_chat": 3,
+      "single": "负",
+      "protection": [
+        "平",
+        "负"
+      ],
+      "jc_pick": "让胜",
+      "goal_top3": [
+        4,
+        3,
+        5
+      ],
+      "score_top3": [
+        "0:3",
+        "0:4",
+        "0:2"
+      ],
+      "htft_top2": [
+        "负负",
+        "平负"
+      ],
+      "snapshot_origin": "AFTERNOON_PRIOR_TO_KICKOFF"
+    },
+    {
+      "id": "002",
+      "actual_score": "2:1",
+      "actual_halftime": "1:0",
+      "jc_line_as_reported_in_chat": -1,
+      "single": "胜",
+      "protection": [
+        "胜",
+        "平"
+      ],
+      "jc_pick": "让负",
+      "goal_top3": [
+        2,
+        3,
+        1
+      ],
+      "score_top3": [
+        "1:1",
+        "1:0",
+        "0:0"
+      ],
+      "htft_top2": [
+        "平平",
+        "平胜"
+      ],
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF"
+    },
+    {
+      "id": "003",
+      "actual_score": "0:5",
+      "actual_halftime": "0:2",
+      "jc_line_as_reported_in_chat": 1,
+      "single": "负",
+      "protection": [
+        "平",
+        "负"
+      ],
+      "jc_pick": "让胜",
+      "goal_top3": [
+        2,
+        3,
+        1
+      ],
+      "score_top3": [
+        "0:1",
+        "1:2",
+        "1:1"
+      ],
+      "htft_top2": [
+        "负负",
+        "平负"
+      ],
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF"
+    },
+    {
+      "id": "004",
+      "actual_score": "2:1",
+      "actual_halftime": "0:0",
+      "jc_line_as_reported_in_chat": -2,
+      "single": "胜",
+      "protection": [
+        "胜",
+        "平"
+      ],
+      "jc_pick": "让胜",
+      "goal_top3": [
+        3,
+        2,
+        4
+      ],
+      "score_top3": [
+        "2:0",
+        "3:0",
+        "1:0"
+      ],
+      "htft_top2": [
+        "胜胜",
+        "平胜"
+      ],
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF"
+    },
+    {
+      "id": "005",
+      "actual_score": "1:3",
+      "actual_halftime": "0:2",
+      "jc_line_as_reported_in_chat": 2,
+      "single": "负",
+      "protection": [
+        "平",
+        "负"
+      ],
+      "jc_pick": "让胜",
+      "goal_top3": [
+        3,
+        4,
+        2
+      ],
+      "score_top3": [
+        "0:2",
+        "1:2",
+        "1:3"
+      ],
+      "htft_top2": [
+        "负负",
+        "平负"
+      ],
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF"
+    },
+    {
+      "id": "006",
+      "actual_score": "0:1",
+      "actual_halftime": "0:1",
+      "jc_line_as_reported_in_chat": -1,
+      "single": "胜",
+      "protection": [
+        "胜",
+        "平"
+      ],
+      "jc_pick": "让负",
+      "goal_top3": [
+        2,
+        1,
+        3
+      ],
+      "score_top3": [
+        "1:1",
+        "1:0",
+        "0:0"
+      ],
+      "htft_top2": [
+        "平平",
+        "平胜"
+      ],
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF"
+    },
+    {
+      "id": "007",
+      "actual_score": "2:2",
+      "actual_halftime": "1:1",
+      "jc_line_as_reported_in_chat": -1,
+      "single": "胜",
+      "protection": [
+        "胜",
+        "平"
+      ],
+      "jc_pick": "让胜",
+      "goal_top3": [
+        3,
+        2,
+        1
+      ],
+      "score_top3": [
+        "2:0",
+        "1:0",
+        "2:1"
+      ],
+      "htft_top2": [
+        "胜胜",
+        "平胜"
+      ],
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF"
+    },
+    {
+      "id": "008",
+      "actual_score": "0:0",
+      "actual_halftime": "0:0",
+      "jc_line_as_reported_in_chat": 1,
+      "single": "负",
+      "protection": [
+        "平",
+        "负"
+      ],
+      "jc_pick": "让胜",
+      "goal_top3": [
+        2,
+        1,
+        3
+      ],
+      "score_top3": [
+        "0:1",
+        "0:2",
+        "1:1"
+      ],
+      "htft_top2": [
+        "负负",
+        "平负"
+      ],
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF"
+    },
+    {
+      "id": "009",
+      "actual_score": "7:0",
+      "actual_halftime": "5:0",
+      "jc_line_as_reported_in_chat": -1,
+      "single": "胜",
+      "protection": [
+        "胜",
+        "平"
+      ],
+      "jc_pick": "让胜",
+      "goal_top3": [
+        3,
+        2,
+        4
+      ],
+      "score_top3": [
+        "2:1",
+        "2:0",
+        "1:1"
+      ],
+      "htft_top2": [
+        "胜胜",
+        "平胜"
+      ],
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF"
+    },
+    {
+      "id": "010",
+      "actual_score": "1:2",
+      "actual_halftime": "0:0",
+      "jc_line_as_reported_in_chat": -1,
+      "single": "胜",
+      "protection": [
+        "胜",
+        "平"
+      ],
+      "jc_pick": "让胜",
+      "goal_top3": [
+        2,
+        3,
+        1
+      ],
+      "score_top3": [
+        "1:0",
+        "2:0",
+        "2:1"
+      ],
+      "htft_top2": [
+        "平胜",
+        "胜胜"
+      ],
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF"
+    },
+    {
+      "id": "011",
+      "actual_score": "1:0",
+      "actual_halftime": "1:0",
+      "jc_line_as_reported_in_chat": -1,
+      "single": "胜",
+      "protection": [
+        "胜",
+        "平"
+      ],
+      "jc_pick": "让胜",
+      "goal_top3": [
+        2,
+        3,
+        1
+      ],
+      "score_top3": [
+        "2:0",
+        "1:0",
+        "2:1"
+      ],
+      "htft_top2": [
+        "胜胜",
+        "平胜"
+      ],
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF"
+    }
+  ]
+}

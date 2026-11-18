@@ -1,0 +1,25 @@
+{
+  "experiment_date": "2026-11-17",
+  "project": "M79 Shadow R6.3.15 context audit - research only",
+  "source": "https://github.com/openfootball/football.json",
+  "source_files": "2024-25,2025-26,2026-27 / en.1,de.1,es.1,it.1,fr.1",
+  "total_completed_results": 3733,
+  "development": {"from":"2025-01-01","to":"2025-12-31","n":1716},
+  "test":{"from":"2026-01-01","last_recorded":"2026-09-20","requested_max":"2026-11-16","n":1199,"missing_tail_note":"The public source stops before the requested end; cannot claim complete coverage"},
+  "model_type":"independent smoothed goal-rate Poisson; NOT M79 Production or Shadow frozen forecasts",
+  "metric":"lower WDL log loss/brier is better",
+  "train_selected_coefficients":{"form":-0.08,"rest":-0.08,"congestion":0.0,"homeadv":0.2},
+  "baseline":{"wdl_logloss":1.043773,"wdl_brier":0.626813,"wdl_top1_hit":562,"wdl_top1_n":1199,"score_nll":3.016055},
+  "ablation":{
+    "form":{"wdl_logloss":1.043239,"wdl_brier":0.626395,"top1_hit":558,"iid_delta_ll_ci95":[-0.000791,0.001834]},
+    "rest":{"wdl_logloss":1.043284,"wdl_brier":0.626423,"top1_hit":568,"iid_delta_ll_ci95":[-0.001257,0.00225]},
+    "congestion":{"wdl_logloss":1.043773,"wdl_brier":0.626813,"top1_hit":562},
+    "homeadv":{"wdl_logloss":1.039367,"wdl_brier":0.623556,"top1_hit":573,"iid_delta_ll_ci95":[-0.000716,0.009586]},
+    "all":{"wdl_logloss":1.038186,"wdl_brier":0.622588,"top1_hit":570,"iid_delta_ll_ci95":[0.000002,0.011314]}
+  },
+  "homeadv_by_league_delta_ll":{"en.1":-0.004121,"de.1":0.007916,"es.1":0.017945,"it.1":0.003423,"fr.1":-0.006031},
+  "explicitly_not_evaluated":["player quality", "availability", "tactical matchup", "coach skill", "motivation", "actual refereeing", "goalkeeper PSxG", "in-play coach changes", "crowd atmosphere", "weather", "randomness"],
+  "promoted_to_production":false,
+  "probability_weight_change":false,
+  "notes":["League-only rest misses national-team, cup and European fixtures", "Bootstrap IID interval is not clustered by date or league", "Data is incomplete after September 2026", "No licensed or time-stamped pregame lineups, injuries, weather or referee calls were available"]
+}

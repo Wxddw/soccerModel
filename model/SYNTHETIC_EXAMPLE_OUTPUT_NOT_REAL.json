@@ -1,0 +1,145 @@
+{
+  "version": "M79.3.6_SHADOW_R6.3.4_20261104",
+  "id": "010",
+  "cutoff": "2026-11-04T12:00:00+08:00",
+  "raw_single": "胜",
+  "raw_top1": 0.46,
+  "gap": 0.19,
+  "frozen_single_unchanged": null,
+  "frozen_protection_unchanged": null,
+  "research_proposed_protection": [
+    "胜",
+    "平"
+  ],
+  "direction_conflict": false,
+  "ordinary_sale": true,
+  "reference_proxy_eligible": false,
+  "shadow_potential_eligible": true,
+  "shadow_recovery_potential": true,
+  "shadow_recovery_evidence_verified": true,
+  "shadow_core_structural_potential": false,
+  "shadow_core_evidence_review_pass": false,
+  "outcome_probabilities_unchanged": [
+    0.46,
+    0.27,
+    0.27
+  ],
+  "evidence_audit": {
+    "families": {
+      "roster": "favorable",
+      "market": "neutral"
+    },
+    "favorable_families": 1,
+    "adverse_families": 0,
+    "independent_families_n": 2,
+    "evidence_complete": true,
+    "source_audit_failures": []
+  },
+  "status": "SHADOW_POTENTIAL_RECOVERY_REVIEW",
+  "formal_single_grant": null,
+  "formal_core_grant": null,
+  "production_changed": false,
+  "effective_squad_ESR": {
+    "status": "CONFIRMED_BOTH",
+    "sides": {
+      "home": {
+        "status": "confirmed",
+        "baseline_quality": 70.9090909090909,
+        "effective_quality": 68.18181818181819,
+        "quality_change": -2.727272727272727,
+        "role_contributions": {
+          "goalkeeper": -2.7273,
+          "center_back": 0.0,
+          "fullback": 0.0,
+          "defensive_midfielder": 0.0,
+          "central_midfielder": 0.0,
+          "attacking_midfielder": 0.0,
+          "winger": 0.0,
+          "striker": 0.0
+        },
+        "player_count": 12,
+        "minutes_source_id": "s-home-XI",
+        "rating_model_source_id": "s-home-rating",
+        "rating_scale_id": "calibrated_shared_pool"
+      },
+      "away": {
+        "status": "confirmed",
+        "baseline_quality": 70.9090909090909,
+        "effective_quality": 70.9090909090909,
+        "quality_change": 0.0,
+        "role_contributions": {
+          "goalkeeper": 0.0,
+          "center_back": 0.0,
+          "fullback": 0.0,
+          "defensive_midfielder": 0.0,
+          "central_midfielder": 0.0,
+          "attacking_midfielder": 0.0,
+          "winger": 0.0,
+          "striker": 0.0
+        },
+        "player_count": 11,
+        "minutes_source_id": "s-away-XI",
+        "rating_model_source_id": "s-away-rating",
+        "rating_scale_id": "calibrated_shared_pool"
+      }
+    },
+    "relative_shift": -2.727272727272727,
+    "effective_quality_home_minus_away": -2.7272727272727195,
+    "reference_quality_home_minus_away": 0.0,
+    "direction_signal": "AWAY_RELATIVE_STRENGTH_UP",
+    "numeric_probability_change": false,
+    "interpretation": "Deviation from separately estimated historical reference XI, NOT absolute strength or a fitted WDL probability"
+  },
+  "objective_stakes_MSI": {
+    "status": "VERIFIED_BOTH",
+    "shared_source_between_teams": false,
+    "teams": {
+      "home": {
+        "competition_context": "league",
+        "stakes_type": "relegation",
+        "urgency": "high",
+        "win_mathematically_necessary": true,
+        "source_id": "s-home-league",
+        "objective_basis": true,
+        "next_fixture_days": 4,
+        "risk_comment": "Must-win increases incentives, not inferred match outcome probability"
+      },
+      "away": {
+        "competition_context": "league",
+        "stakes_type": "routine",
+        "urgency": "low",
+        "win_mathematically_necessary": false,
+        "source_id": "s-away-league",
+        "objective_basis": true,
+        "next_fixture_days": 4,
+        "risk_comment": null
+      }
+    },
+    "asymmetry": "HOME_HIGH_ONLY",
+    "win_necessity_not_win_probability": true,
+    "numeric_probability_change": false
+  },
+  "raw_direction_capacity_alignment": "ADVERSE_TO_RAW_DIRECTION",
+  "raw_direction_stakes_context": "RAW_DIRECTION_HIGH_STAKES",
+  "intent_capacity_conflict": true,
+  "research_recovery_context_review_pass": false,
+  "research_core_context_review_pass": false,
+  "audit_flags": [
+    "HOME_GOALKEEPER_REPLACEMENT_QUALITY_DROP_REVIEW",
+    "ACTUAL_SQUAD_QUALITY_CONTRADICTS_RAW_DIRECTION",
+    "HIGH_INTENT_BUT_LOWER_EFFECTIVE_CAPACITY"
+  ],
+  "unmodified_probabilities": [
+    0.46,
+    0.27,
+    0.27
+  ],
+  "probability_adjustment_applied": false,
+  "notes": [
+    "Urgency is not a win probability or a stand-alone favorable evidence family.",
+    "Player minutes and role/position replacement are one correlated roster family, not independent votes.",
+    "Rest/fixture congestion and a rotation-triggered lineup change are causally correlated; do not double count.",
+    "AIC, ESR and motivation require independent precutoff attribution and out-of-time calibration before affecting outcome or grant.",
+    "No automatic reversal, protection changes, or Production CORE grants."
+  ]
+}

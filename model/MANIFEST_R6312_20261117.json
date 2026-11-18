@@ -1,0 +1,30 @@
+{
+  "version": "R6.3.12",
+  "created_utc": "2026-11-17",
+  "parent": "R6.3.11",
+  "inherited_unchanged_files": 99,
+  "new_files": 15,
+  "total_files_including_this_manifest": 115,
+  "unit_tests_passed": 272,
+  "inherited_tests": 215,
+  "new_tests": 57,
+  "production_changed": false,
+  "historical_dev16_only_not_independent_test": true,
+  "new_sha256": {
+    "RECAP_DEV16_AUDIT_R6312.json": "1a8f78e4442c3920b082ccdb0808e0f250066846f45406af66b6cf14b7980743",
+    "RECAP_DEV_20261116_CONVERSATION_ONLY_NOT_FORWARD_R6312.json": "0ed4abdcd17a25e284878e32331c98c23c0feca813653dcb3820d9dffb6be14c",
+    "README_SHADOW_R6312_20261117.md": "edd0fc79121b8b5283e2722f9bb8210cf9de35e3bbcb86331c529e69de4de2e7",
+    "test_shadow_r6312.py": "57358cdef2652e0c4357ce5f4ff2fd46b83614ccaeafc7632015e422ec22562d",
+    "CHANGELOG_R6312_20261117.md": "97377779dadecb2b9d18caad65234de63359c35d715df96c3bee551b883f5b9d",
+    "shadow_r6312.py": "6c632b513b2764fbe9d76826f9a9f27267e7c6580e9528a738d0340b4f3e6574",
+    "replay_dev16_r6312.py": "293872781e5c3781fe96f221334009ac1325b9dcc032bf8cf9dc3d798d652c85",
+    "policy_shadow_r6312_20261117.json": "f4556c9572afbf8ec80face82da95f668093e3dd7ae08109bb179f206e6da181",
+    "SYNTHETIC_EXAMPLE_PREMATCH_R6312_NOT_REAL.json": "9718f690973478546b8e1a49b8381f611199e11be85616635e81f95f432556bc",
+    "run_r6312.py": "865ea9c469da2ff8f6bb53031888187fed8e25ae639bb4e502e52b18110dd536",
+    "forward_validation_r6312.py": "1710bf7d4c16243e1466871045b26a643c10abddb813dbeccf85830d2de65bea",
+    "joint_bridge_r6312.py": "dd7105c93dcf8d80cecdedfc6b613a6a059a140e7fb96ba0b6fd89c53a7ed9d0",
+    "INHERITED_R6311_FILES_SHA256_UNCHANGED_R6312.json": "befba9828e7b3361967b357b0e4135511787965a6018051ded122ec85aa36d88",
+    "SYNTHETIC_EXAMPLE_OUTPUT_R6312_NOT_REAL.json": "b6c391b00854cb56dfb72012fcc2fbb0a139f65e0b9201902d5156276d7fc9d0",
+    "TEST_RESULTS_R6312_20261117.txt": "ebc8cf9050c4534174027ae407d2b5269892be3743bf9f1a6339efe3c794663e"
+  }
+}

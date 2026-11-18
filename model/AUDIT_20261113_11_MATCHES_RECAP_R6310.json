@@ -1,0 +1,240 @@
+{
+  "status": "PRIOR_CHAT_REFERENCE_NOT_OFFICIALLY_FROZEN_NOT_HOLDOUT",
+  "date_of_sales": "2026-11-13",
+  "production_score_eligible": false,
+  "independent_validation": false,
+  "training_or_calibration_performed": false,
+  "metrics": {
+    "single_hit": {
+      "hits": 7,
+      "n": 11
+    },
+    "protection_hit": {
+      "hits": 9,
+      "n": 11
+    },
+    "jc_hit": {
+      "hits": 3,
+      "n": 11
+    },
+    "goal_top3_hit": {
+      "hits": 7,
+      "n": 11
+    },
+    "score_top3_hit": {
+      "hits": 2,
+      "n": 11
+    },
+    "score_top1_hit": {
+      "hits": 0,
+      "n": 11
+    },
+    "htft_top2_hit": {
+      "hits": 6,
+      "n": 11
+    }
+  },
+  "actual_let_draw_matches": [
+    "001",
+    "002",
+    "005",
+    "011"
+  ],
+  "let_draw_predicted_count": 0,
+  "different_snapshot_origin_001": true,
+  "line_is_independently_official_verified": false,
+  "rows": [
+    {
+      "id": "001",
+      "actual_score": "1:4",
+      "actual_wdl": "负",
+      "actual_jc": "让平",
+      "actual_goal": 5,
+      "actual_htft": "负负",
+      "snapshot_origin": "AFTERNOON_PRIOR_TO_KICKOFF",
+      "single_hit": true,
+      "protection_hit": true,
+      "jc_hit": false,
+      "goal_top3_hit": true,
+      "score_top3_hit": false,
+      "score_top1_hit": false,
+      "htft_top2_hit": true,
+      "let_draw_in_frozen_choice": false
+    },
+    {
+      "id": "002",
+      "actual_score": "2:1",
+      "actual_wdl": "胜",
+      "actual_jc": "让平",
+      "actual_goal": 3,
+      "actual_htft": "胜胜",
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF",
+      "single_hit": true,
+      "protection_hit": true,
+      "jc_hit": false,
+      "goal_top3_hit": true,
+      "score_top3_hit": false,
+      "score_top1_hit": false,
+      "htft_top2_hit": false,
+      "let_draw_in_frozen_choice": false
+    },
+    {
+      "id": "003",
+      "actual_score": "0:5",
+      "actual_wdl": "负",
+      "actual_jc": "让负",
+      "actual_goal": 5,
+      "actual_htft": "负负",
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF",
+      "single_hit": true,
+      "protection_hit": true,
+      "jc_hit": false,
+      "goal_top3_hit": false,
+      "score_top3_hit": false,
+      "score_top1_hit": false,
+      "htft_top2_hit": true,
+      "let_draw_in_frozen_choice": false
+    },
+    {
+      "id": "004",
+      "actual_score": "2:1",
+      "actual_wdl": "胜",
+      "actual_jc": "让负",
+      "actual_goal": 3,
+      "actual_htft": "平胜",
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF",
+      "single_hit": true,
+      "protection_hit": true,
+      "jc_hit": false,
+      "goal_top3_hit": true,
+      "score_top3_hit": false,
+      "score_top1_hit": false,
+      "htft_top2_hit": true,
+      "let_draw_in_frozen_choice": false
+    },
+    {
+      "id": "005",
+      "actual_score": "1:3",
+      "actual_wdl": "负",
+      "actual_jc": "让平",
+      "actual_goal": 4,
+      "actual_htft": "负负",
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF",
+      "single_hit": true,
+      "protection_hit": true,
+      "jc_hit": false,
+      "goal_top3_hit": true,
+      "score_top3_hit": true,
+      "score_top1_hit": false,
+      "htft_top2_hit": true,
+      "let_draw_in_frozen_choice": false
+    },
+    {
+      "id": "006",
+      "actual_score": "0:1",
+      "actual_wdl": "负",
+      "actual_jc": "让负",
+      "actual_goal": 1,
+      "actual_htft": "负负",
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF",
+      "single_hit": false,
+      "protection_hit": false,
+      "jc_hit": true,
+      "goal_top3_hit": true,
+      "score_top3_hit": false,
+      "score_top1_hit": false,
+      "htft_top2_hit": false,
+      "let_draw_in_frozen_choice": false
+    },
+    {
+      "id": "007",
+      "actual_score": "2:2",
+      "actual_wdl": "平",
+      "actual_jc": "让负",
+      "actual_goal": 4,
+      "actual_htft": "平平",
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF",
+      "single_hit": false,
+      "protection_hit": true,
+      "jc_hit": false,
+      "goal_top3_hit": false,
+      "score_top3_hit": false,
+      "score_top1_hit": false,
+      "htft_top2_hit": false,
+      "let_draw_in_frozen_choice": false
+    },
+    {
+      "id": "008",
+      "actual_score": "0:0",
+      "actual_wdl": "平",
+      "actual_jc": "让胜",
+      "actual_goal": 0,
+      "actual_htft": "平平",
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF",
+      "single_hit": false,
+      "protection_hit": true,
+      "jc_hit": true,
+      "goal_top3_hit": false,
+      "score_top3_hit": false,
+      "score_top1_hit": false,
+      "htft_top2_hit": false,
+      "let_draw_in_frozen_choice": false
+    },
+    {
+      "id": "009",
+      "actual_score": "7:0",
+      "actual_wdl": "胜",
+      "actual_jc": "让胜",
+      "actual_goal": 7,
+      "actual_htft": "胜胜",
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF",
+      "single_hit": true,
+      "protection_hit": true,
+      "jc_hit": true,
+      "goal_top3_hit": false,
+      "score_top3_hit": false,
+      "score_top1_hit": false,
+      "htft_top2_hit": true,
+      "let_draw_in_frozen_choice": false
+    },
+    {
+      "id": "010",
+      "actual_score": "1:2",
+      "actual_wdl": "负",
+      "actual_jc": "让负",
+      "actual_goal": 3,
+      "actual_htft": "平负",
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF",
+      "single_hit": false,
+      "protection_hit": false,
+      "jc_hit": false,
+      "goal_top3_hit": true,
+      "score_top3_hit": false,
+      "score_top1_hit": false,
+      "htft_top2_hit": false,
+      "let_draw_in_frozen_choice": false
+    },
+    {
+      "id": "011",
+      "actual_score": "1:0",
+      "actual_wdl": "胜",
+      "actual_jc": "让平",
+      "actual_goal": 1,
+      "actual_htft": "胜胜",
+      "snapshot_origin": "LATE_NIGHT_PRIOR_TO_KICKOFF",
+      "single_hit": true,
+      "protection_hit": true,
+      "jc_hit": false,
+      "goal_top3_hit": true,
+      "score_top3_hit": true,
+      "score_top1_hit": false,
+      "htft_top2_hit": true,
+      "let_draw_in_frozen_choice": false
+    }
+  ],
+  "notes": [
+    "001 afternoon pregame chat snapshot; 002-011 late night pregame chat snapshot.",
+    "The 11 results/lines are transcribed from the conversation recap and have not been separately sourced as a frozen official dataset.",
+    "The recap is forbidden as input for training, tuning thresholds or prematch inspect."
+  ]
+}
