@@ -1,0 +1,61 @@
+# R6.3.6 — 2026-11-18 postmatch repair research (Shadow only)
+
+**Created 2026-11-19.** Research *track name* R6.3.6-postmatch; do not confuse with pre-existing `shadow_r636.py` (dated 2026-11-08). Based on `import/r6.3.12-unified-score-matrix-20261117`, which already contains R6.3.14 research materials. It is **not** a downgrade to older R6.3.6 logic.
+
+## Hard freeze
+- M79.3.6 Production: no edits to weights, decision rights, WDL Top1, protection, JC, Goal, Score or CORE.
+- All challenger outputs are Shadow; no automatic selection or release.
+- Never use match results to reconstruct missing prematch `Q(h,a)`, line, odds, availability, substitutions, or injury reports.
+- Source independence: odds, Asian lines, exchange prices derived from the same market are one evidence family unless independence can be demonstrated.
+- Prematch timestamps must precede the actual kickoff. Postmatch evidence is reserved for scoring, not features.
+- Do not merge research candidates into Production until blinded chronological holdout meets pre-registered gates.
+
+## Priority 1 — Score × exact margin joint matrix (first)
+Use a **single complete normalized prematch Q(h,a)**, all cells >=0 and sum=1 (tolerance 1e-8). Reject incomplete/Top3-only/renormalized-tail input.
+Derive all WDL, exact margin buckets, official JC handicap triad, goals 0..6/7+ and Score Top3 from Q *only*, preserving one source of truth. For signed official line L, adjusted difference `h+L-a`; equal zero => **让平**, positive => 让胜, negative => 让负. Do NOT use an Asian line as JC line.
+Required checks:
+1. Mass conservation across WDL, JC, goal bins and margin groups, independent of Score Top3.
+2. Goal Top3 to Score Top3 coverage report with missing-bucket candidate, but no forced overwrite of original Score Top3.
+3. Exact margin = 1/2/3+ for -1/-2/-3 official JC lines; monitor away big-win tails separately.
+4. Near-tie (< = 5 percentage points) and 1-goal-margin risk are *review flags only*, not automatic grants.
+5. Score family top candidate may differ from aggregated WDL/JC top candidate without creating mathematical inconsistency.
+Existing basis: `joint_bridge_r6312.py`, `calibration_r6314.py`, associated tests. Implement additive audit rather than duplicate probability engines.
+
+## Priority 2 — RC dual tail and integer goal buckets (second)
+Compute `P(T=t)` from the same Q for t=0..6, plus 7+; preserve central peak (normally 2/3). Study 0/1 low tail AND 5/6/7+ high tail as separate buckets, including 4-goal edge.
+- One tail slot maximum under the existing two-independent-evidence-family rule; contradictory high/low evidence => flag conflict and keep baseline ranking.
+- Never mechanically add 0, 4 or 5+ following a known match outcome; only compare candidates by chronological holdout metrics.
+- Report exact-bucket multiclass Brier, log loss, Top3, zero-goal recall, 4-goal recall, 5/6/7+ recall, false-tail activation and central-peak preservation.
+
+## Priority 3 — AIC replacement roles + match tempo (third)
+Prematch features only: key position, expected minutes, substitution quality, role fit, lineup uncertainty, depth, rotation, schedule rest, opponent tactical matchup.
+Separate **pre-match predicted state transition** (ahead/level/behind, 0–30/31–60/61–90 minute bands) from **in-match observed events**. Never leak eventual goals, red cards, substitutions or injuries into prematch AIC.
+Three rival models: absence-only baseline, role/quality replacement correction, and replacement+tempo state-transition model. Test incremental gain; if none, keep baseline.
+Prevent role duplication and family double counting; report both favorable and adverse counterexamples.
+
+## Priority 4 — Outcome market reversal constraint (fourth)
+Retain frozen original outcome and track each subsequent recommendation as an explicit candidate with timestamp and source provenance.
+- Market-only swings cannot flip WDL selection.
+- Require at least two independent adverse evidence families plus a directional margin threshold that was registered before the holdout.
+- HRI/WFC may demote CORE, not reverse direction by themselves.
+- Audit reversal-benefit and reversal-harm separately: original-correct-but-flipped-wrong, original-wrong-flipped-correct, both wrong, and no-flip.
+- Do not optimize using the 2026-11-18 four results.
+
+## Development-only casebook (NOT independent validation)
+2026-11-18 JC001 Coritiba 0–1 Santos: originally discussed away; last frozen discussion home; *latest* prediction misses WDL/protection, actual +1 JC draw.
+JC002 Flamengo 2–1 Athletico-PR: WDL win, official -2 => 让负 (not 让平); 2–1 score Top3 hit.
+JC003 Corinthians 4–0 Botafogo: WDL win, official -1 => 让胜; 4 goals and 4–0 outside frozen goal/score Top3.
+JC004 Gremio 0–0 Bahia: WDL draw, official -1 => 让负; 0 goals and 0–0 absent frozen Top3.
+Casebook may guide failure taxonomy, but cannot fit weights or claim efficacy.
+
+## Evaluation contract / exit gates
+0. Establish original frozen packets, provenance of real JC integer lines and 90-min outcomes. If absent, mark NOT_EVALUABLE; NEVER infer original `Q` from published picks.
+1. Run all inherited regression tests and add audit unit tests (normalization, incomplete grid refusal, JC -2 boundary 2–0/2–1/3–0, 0 and 7+ bins, no-leak AIC, two-family reversals).
+2. Development set and **chronologically later, untouched** holdout. Pair Production / existing R6.3.14 / new challenger with identical prematch cutoffs and identical match population. Use independently sourced licensed records.
+3. Compare WDL/JC/RC/Score/HTFT: multiclass log loss, Brier, ranked probability score where appropriate, Top1/Top3, calibration by bucket, paired confidence intervals, exclusions and coverage.
+4. Require non-degradation in upstream WDL and both log loss and Brier (not only hit rate) for claimed downstream improvements; no one-match hotfixes.
+5. Stage-gate in the exact order above. A failed priority does NOT authorize skipping it to promote later items. Document adverse evidence and remain Shadow.
+6. Keep initial 2026-11-18 four-match results in diagnostic-only file; they must never be included in independent test denominator.
+
+## Current status
+Branch created; this file registers the research sequence and acceptance criteria. **No new calibrated parameters, accuracy improvements, or real-case backtest certification have been established by this document.** No edits to Production.
