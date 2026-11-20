@@ -69,3 +69,15 @@ Nine-category HTFT conditional state transition has been implemented as a **rese
 - See \`README_HTFT_V2_R636_20261120.md\` for input/output contract and literature.
 
 This is **parallel research** requested by the user; it does not skip or re-order the four existing R6.3.6 gates, modify Production or claim new real-world predictive accuracy.
+
+
+## New optional HTFT TimeSeg v0.1 research channel — 2026-11-20
+
+The user requested an additional **prematch-predictive time-segment model**. This does not change the frozen 4-stage R6.3.6 priorities or the official M79.3.6 Production weights and grants.
+
+- \`htft_segment_hazard_r636.py\`: new six-period conditional Poisson hazard DP; transitions depend on leading/trailing team state **at period start** and on source-checked historical parameters. Reanchors all temporal paths to the **unchanged** prematch full score Q(H,A); emits period expected-goals and nine HTFT class probabilities.
+- \`benchmark_htft_segment_r636.py\`: authorized offline historical event train / chronological holdout, neutral-vs-state-dependent paired match comparison (HTFT Top1/Top2/Top3, Brier, Log Loss, bootstrap CI); timestamps must demonstrate that training results preceded every holdout prematch observation.
+- \`test_htft_segment_hazard_r636.py\` and \`test_benchmark_htft_segment_r636.py\`: **10 local synthetic/contract tests passed**. This number is not a real-match predictive validation.
+- \`README_HTFT_TIMESEG_R636_20261120.md\` documents strict input contracts, side/goal-timing, provenance and academic research.
+
+This model requires licensed historical **goal event times**, prematch frozen team xG and Q, and independent input provenance. It has **not** been run on a historical real-match test sample with verifiably frozen predictions; it is **SHADOW / not certified**. Do not use completed fixture events as features for a prediction of that same fixture.
