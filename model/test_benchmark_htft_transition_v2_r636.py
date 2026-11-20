@@ -9,7 +9,8 @@ def rec(i,period):
             'source_observed_at':f'2026-{"10" if period=="dev" else "11"}-{day:02d}T09:00:00+08:00',
             'cutoff':f'2026-{"10" if period=="dev" else "11"}-{day:02d}T10:00:00+08:00',
             'score_matrix':[{'score':'0:0','probability':.2},{'score':'1:0','probability':.4},{'score':'0:1','probability':.4}],
-            'full_time_score':'1:0','half_time_score':'0:0'}
+            'full_time_score':'1:0','half_time_score':'0:0',
+            'result_observed_at':f'2026-{"10" if period=="dev" else "11"}-{day:02d}T15:00:00+08:00'}
 
 def test_benchmark_is_only_research_and_paired():
     data={'authorized_for_analysis':True,'development':[rec(i,'dev') for i in range(8)],'holdout':[rec(i,'test') for i in range(4)]}
