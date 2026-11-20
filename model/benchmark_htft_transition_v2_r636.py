@@ -26,13 +26,15 @@ def _paired_ci(values, replicates=1500):
 
 
 def _validate(rec):
-    keys={'match_id','kickoff','cutoff','source_observed_at','score_matrix','full_time_score','half_time_score'}
+    keys={'match_id','kickoff','cutoff','source_observed_at','result_observed_at','score_matrix','full_time_score','half_time_score'}
     if not isinstance(rec,dict) or set(rec)!=keys:
         raise ValueError('fixture requires identity, source and frozen cutoff, complete score grid, final and half scores')
     if not isinstance(rec['match_id'],str) or not rec['match_id']:
         raise ValueError('match_id required')
     if not _dt(rec['source_observed_at'])<=_dt(rec['cutoff'])<_dt(rec['kickoff']):
         raise ValueError('source and prediction cutoff must precede kickoff')
+    if not _dt(rec['kickoff']) < _dt(rec['result_observed_at']):
+        raise ValueError('result observation must postdate kickoff')
     _grid(rec['score_matrix'])
     h,a = _score(rec['full_time_score']); hh,ha=_score(rec['half_time_score'])
     if hh>h or ha>a:raise ValueError('infeasible half/full score')
@@ -48,7 +50,7 @@ def run(dataset):
     for r in dev+test:
         _validate(r);ids.append(r['match_id'])
     if len(set(ids))!=len(ids):raise ValueError('duplicate across development and holdout')
-    last_dev=max(_dt(x['kickoff']) for x in dev)
+    last_dev=max(_dt(x['result_observed_at']) for x in dev)
     first_test=min(_dt(x['source_observed_at']) for x in test)
     if not last_dev < first_test:
         raise ValueError('training matches must precede all holdout observations')
@@ -58,7 +60,7 @@ def run(dataset):
     fa_f = sum(_score(r['full_time_score'])[1] for r in dev)
     fh = (fh_h+45.)/(fh_f+100.)
     fa = (fa_h+45.)/(fa_f+100.)
-    history=[{k:r[k] for k in ('match_id','kickoff','full_time_score','half_time_score')} for r in dev]
+    history=[{k:r[k] for k in ('match_id','kickoff','result_observed_at','full_time_score','half_time_score')} for r in dev]
     calibrated=fit_logits(history,fraction_home=fh,fraction_away=fa,asof_cutoff=first_test.isoformat())
     paired=[];classes=Counter()
     for r in test:
@@ -67,7 +69,8 @@ def run(dataset):
         original=predict(r['score_matrix'],**params)
         challenger=predict(r['score_matrix'],**params,
             transition_logits=calibrated['transition_logits'],
-            latest_training_kickoff=calibrated['latest_training_kickoff'])
+            latest_training_kickoff=calibrated['latest_training_kickoff'],
+            latest_training_result_observed_at=calibrated['latest_training_result_observed_at'])
         if original['full_time_wdl']!=challenger['full_time_wdl']:
             raise AssertionError('prematch fulltime probabilities changed')
         b=evaluate(original,full_time_score=r['full_time_score'],half_time_score=r['half_time_score'])
