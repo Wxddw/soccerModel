@@ -16,7 +16,8 @@ def test_sum_and_fulltime_frozen_and_immutability():
     baseline=run(grid)
     logits={k:0. for k in PATHS};logits['平胜']=1.5;logits['平负']=-1
     modified=run(grid,transition_logits=logits,
-                 latest_training_kickoff='2026-11-18T23:00:00+08:00')
+                 latest_training_kickoff='2026-11-18T20:00:00+08:00',
+                 latest_training_result_observed_at='2026-11-18T23:00:00+08:00')
     assert original==grid
     assert abs(sum(modified['probabilities'].values())-1)<1e-12
     assert sum(modified['half_time_wdl'].values())==pytest.approx(1.)
@@ -44,18 +45,21 @@ def test_invalid_matrix_and_timing_fail_closed():
         run([{'score':'1:0','probability':1}],transition_logits={k:0 for k in PATHS})
     with pytest.raises(ValueError):
         run([{'score':'1:0','probability':1}],transition_logits={k:0 for k in PATHS},
-            latest_training_kickoff=K)
+            latest_training_kickoff=K,latest_training_result_observed_at=K)
     with pytest.raises(ValueError):
         run([{'score':'1:0','probability':1}],transition_logits={k:0 for k in PATHS if k!='胜负'},
-            latest_training_kickoff='2026-11-18T12:00:00+08:00')
+            latest_training_kickoff='2026-11-18T10:00:00+08:00',
+            latest_training_result_observed_at='2026-11-18T12:00:00+08:00')
 
 def test_train_development_only_and_scoring():
     h=[{'match_id':str(i),'kickoff':f'2026-11-{i+1:02d}T12:00:00+08:00',
-       'full_time_score':'1:0','half_time_score':'0:0'} for i in range(6)]
+       'full_time_score':'1:0','half_time_score':'0:0',
+       'result_observed_at':f'2026-11-{i+1:02d}T15:00:00+08:00'} for i in range(6)]
     fitted=fit_logits(h,fraction_home=.44,fraction_away=.40,asof_cutoff=O)
     assert fitted['transition_logits']['平胜']>fitted['transition_logits']['胜胜']
     p=run([{'score':'1:0','probability':1}],transition_logits=fitted['transition_logits'],
-          latest_training_kickoff=fitted['latest_training_kickoff'])
+          latest_training_kickoff=fitted['latest_training_kickoff'],
+          latest_training_result_observed_at=fitted['latest_training_result_observed_at'])
     s=evaluate(p,full_time_score='1:0',half_time_score='0:0')
     assert s['actual']=='平胜' and s['top3_hit']
     h[0]['kickoff']=K
