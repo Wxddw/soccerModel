@@ -59,3 +59,13 @@ Casebook may guide failure taxonomy, but cannot fit weights or claim efficacy.
 
 ## Current status
 Branch created; this file registers the research sequence and acceptance criteria. **No new calibrated parameters, accuracy improvements, or real-case backtest certification have been established by this document.** No edits to Production.
+
+
+## Additional requested parallel research: HTFT v2 (2026-11-20)
+Nine-category HTFT conditional state transition has been implemented as a **research-only independent output**:
+- \`htft_transition_v2_r636.py\`: full Q(H,A) + historical home/away halftime goal fractions + regularized nine-path transition weights; each FT score cell is normalized separately, guaranteeing exact original FT marginals.
+- \`benchmark_htft_transition_v2_r636.py\`: authorized JSON development/holdout paired evaluation; multiclass Log Loss, Brier, Top1/2/3 and seeded bootstrap CI. Historical *result-observation* time must precede holdout source observation.
+- Unit tests \`test_htft_transition_v2_r636.py\` and \`test_benchmark_htft_transition_v2_r636.py\` (8/8 passed in standalone local test run; not a real predictive backtest).
+- See \`README_HTFT_V2_R636_20261120.md\` for input/output contract and literature.
+
+This is **parallel research** requested by the user; it does not skip or re-order the four existing R6.3.6 gates, modify Production or claim new real-world predictive accuracy.
