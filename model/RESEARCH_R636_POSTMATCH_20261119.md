@@ -81,3 +81,8 @@ The user requested an additional **prematch-predictive time-segment model**. Thi
 - \`README_HTFT_TIMESEG_R636_20261120.md\` documents strict input contracts, side/goal-timing, provenance and academic research.
 
 This model requires licensed historical **goal event times**, prematch frozen team xG and Q, and independent input provenance. It has **not** been run on a historical real-match test sample with verifiably frozen predictions; it is **SHADOW / not certified**. Do not use completed fixture events as features for a prediction of that same fixture.
+
+
+## Frozen-prematch historical eligibility / HTFT TimeSeg audit (2026-11-20)
+
+See \`model/VALIDATION_FROZEN_HTFT_TIMESEG_20261120.md\`, plus \`model/htft_segment_archive_bridge_r636.py\` and \`model/test_htft_segment_archive_bridge_r636.py\`. Three user-owned archive ZIPs (Oct17/19/20) expose **41 legitimate pre-kickoff complete 31x31 Q** from market/IPF reference models, not full Production M79. Under neutral 45% temporal split, all **41/41** archived nine-class distributions reproduced (max absolute discrepancy 2.7311e-14). A nine-match Oct20 score-aligned **retrospective sensitivity** yielded original LL 1.807413/Brier .781680 versus candidate 47.27%-first-half + 1.10 trailing-hazard LL 1.809331/Brier .784397 (**both worse**; confidence intervals span zero). The six-phase challenger was **not frozen before those historical kickoffs**, and matched historical goal-event minutes/eligible train-test records are unavailable: certified independent new-model n=**0**. Keep Shadow. Neither synthetic unit tests nor older R6.3.18 known-halftime live improvement proves prematch improvement.
