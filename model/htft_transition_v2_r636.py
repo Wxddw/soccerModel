@@ -89,15 +89,17 @@ def _logits(raw):
 
 
 def predict(matrix, *, fraction_home, fraction_away, source_id, observed_at,
-            cutoff, kickoff, transition_logits=None, latest_training_kickoff=None):
+            cutoff, kickoff, transition_logits=None, latest_training_kickoff=None,
+            latest_training_result_observed_at=None):
     """Pre-match HTFT nine-class probabilities with exact fulltime marginal lock."""
     if not isinstance(source_id, str) or not source_id.strip():
         raise ValueError('calibration source_id required')
     if not _dt(observed_at) <= _dt(cutoff) < _dt(kickoff):
         raise ValueError('source, cutoff and kickoff must be in prematch order')
     if transition_logits is not None:
-        if latest_training_kickoff is None or not _dt(latest_training_kickoff) < _dt(observed_at):
-            raise ValueError('trained logits require strictly earlier training kickoff')
+        if (latest_training_kickoff is None or latest_training_result_observed_at is None or
+            not _dt(latest_training_kickoff) < _dt(latest_training_result_observed_at) < _dt(observed_at)):
+            raise ValueError('trained logits require completed, observed historical results before snapshot')
     fh, fa = _frac(fraction_home), _frac(fraction_away)
     logits = _logits(transition_logits)
     rows = _grid(matrix)
@@ -123,6 +125,7 @@ def predict(matrix, *, fraction_home, fraction_away, source_id, observed_at,
             'full_time_wdl':ft, 'half_time_wdl':ht, 'probability_sum':math.fsum(paths.values()),
             'observed_at':observed_at, 'cutoff':cutoff, 'kickoff':kickoff,
             'latest_training_kickoff':latest_training_kickoff,
+            'latest_training_result_observed_at':latest_training_result_observed_at,
             'frozen_fulltime_marginal':True, 'autopromote':False}
 
 
@@ -141,15 +144,17 @@ def fit_logits(history, *, fraction_home, fraction_away, asof_cutoff,
         raise ValueError('positive ridge required')
     if type(iterations) is not int or not 1<=iterations<=3000:
         raise ValueError('bounded iteration count required')
-    cases=[]; seen=set(); latest=None
+    cases=[]; seen=set(); latest=None; latest_result=None
     for r in history:
-        if not isinstance(r,dict) or set(r)!={'match_id','kickoff','full_time_score','half_time_score'}:
-            raise ValueError('history requires match_id, kickoff, full_time_score, half_time_score')
+        if not isinstance(r,dict) or set(r)!={'match_id','kickoff','result_observed_at','full_time_score','half_time_score'}:
+            raise ValueError('history requires match_id, kickoff, result_observed_at, full_time_score, half_time_score')
         kickoff=_dt(r['kickoff'])
-        if kickoff >= cutoff: raise ValueError('future or same-cutoff historical fixture blocked')
+        result_time=_dt(r['result_observed_at'])
+        if not kickoff < result_time < cutoff: raise ValueError('future or unobserved historical match result blocked')
         mid = r['match_id']
         if not isinstance(mid,str) or not mid or mid in seen:raise ValueError('unique match_id required')
         seen.add(mid);latest = kickoff if latest is None or kickoff>latest else latest
+        latest_result=result_time if latest_result is None or result_time>latest_result else latest_result
         h,a=_score(r['full_time_score']);hi,ai=_score(r['half_time_score'])
         if hi>h or ai>a:raise ValueError('halftime cannot exceed final score')
         key = _wdl(hi,ai)+_wdl(h,a)
@@ -165,7 +170,8 @@ def fit_logits(history, *, fraction_home, fraction_away, asof_cutoff,
             for label,prob in zip(labels,probs):grad[label]-=prob
         theta = {k:max(-2.,min(2.,theta[k]+step*grad[k])) for k in PATHS}
     return {'transition_logits':theta, 'fraction_home':fh,'fraction_away':fa,
-            'latest_training_kickoff':latest.isoformat(),'development_n':len(cases),
+            'latest_training_kickoff':latest.isoformat(),
+            'latest_training_result_observed_at':latest_result.isoformat(),'development_n':len(cases),
             'research_only':True,'formal_grant':None,'asof_cutoff':asof_cutoff,
             'method':'conditional_multinomial_ridge_fit'}
 
