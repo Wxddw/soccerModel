@@ -197,6 +197,14 @@ def review(packet):
         warnings.append("JC_TOP2_NARROW_GAP_REVIEW_ONLY")
     if proposal is not None and not eligible_reversal_review:
         warnings.append("REVERSAL_NOT_ELIGIBLE_FOR_MANUAL_REVIEW")
+    component_gates = {
+        "Outcome": "REVIEW_FROZEN_VS_Q" if frozen != max(WDL, key=lambda k:wdl[k]) else "SHADOW_CONSISTENT",
+        "Score": "BLOCK_TOP3_NOT_Q_DERIVED" if score_report != actual_score_top3 else "SHADOW_CONSISTENT",
+        "Goal": "BLOCK_TOP3_NOT_Q_DERIVED" if goal_report != actual_goals_top3 else "SHADOW_CONSISTENT",
+        "HTFT": ("BLOCK_NO_NINE_CLASS" if nine is None else
+                 "BLOCK_TOP2_NOT_Q_RANKED" if published_htft != _rank(nine)[:2] else "SHADOW_CONSISTENT"),
+        "JC": "BLOCK_OFFICIAL_LINE_MISSING" if line is None else "SHADOW_CONSISTENT",
+    }
     central_rank = {"2": actual_goals_top3.index("2") if "2" in actual_goals_top3 else None,
                     "3": actual_goals_top3.index("3") if "3" in actual_goals_top3 else None}
     return {"research_only": True, "formal_grant": None, "status":"SHADOW_PREMATCH_REVIEW",
@@ -211,6 +219,7 @@ def review(packet):
         "htft_status":ht_status, "htft_top2_from_nine":_rank(nine)[:2] if nine else None,
         "market_buy_share":share, "reversal_review_eligible":eligible_reversal_review,
         "independent_adverse_nonmarket_families":sorted(adverse_nonmarket),
+        "component_release_gates":component_gates,
         "warnings":warnings, "production_mutated":False}
 
 
