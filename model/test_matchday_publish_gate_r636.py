@@ -180,3 +180,16 @@ def test_development_casebook_replay_equal_prior_published_scoring():
         'ORDINARY_HOME_SINGLE_OVERCONCENTRATED',
         'HTFT_HOME_FINISH_OVERCONCENTRATED']
     assert r['formal_grant'] is None and not r['comparable_new_model_probabilities']
+
+
+def test_component_gates_block_only_affected_play_not_all_layers():
+    x=pkt()
+    x['published_score_top3']=['3:0','1:0','2:1']
+    x['published_goal_top3']=['1','2','3']
+    r=review(x)
+    assert r['component_release_gates']['Score']=='BLOCK_TOP3_NOT_Q_DERIVED'
+    assert r['component_release_gates']['Goal']=='BLOCK_TOP3_NOT_Q_DERIVED'
+    assert r['component_release_gates']['HTFT']=='BLOCK_NO_NINE_CLASS'
+    assert r['component_release_gates']['JC']=='SHADOW_CONSISTENT'
+    assert r['component_release_gates']['Outcome']=='SHADOW_CONSISTENT'
+    assert r['formal_grant'] is None
