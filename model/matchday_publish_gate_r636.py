@@ -268,3 +268,49 @@ def published_only_bias(records):
         "n":len(records), "ordinary_offered_n":sale,
         "formal_wdl_counts":formal,"htft_primary_counts":scenario,
         "warnings":warnings, "automatic_pick_changes":False}
+
+ROLES = {"GK", "CB", "FB", "DM", "CM", "AM", "W", "ST"}
+
+
+def audit_aic_availability(rows, *, cutoff, kickoff):
+    """Validate *expected* replacement/minutes; actual match events never enter AIC.
+
+    Missing player quality / replacement role generates an advisory, not a
+    numeric xG adjustment. Genuine late match injuries must be postmatch-only.
+    """
+    cut, kick = _dt(cutoff), _dt(kickoff)
+    if cut >= kick or not isinstance(rows, list):
+        raise ValueError("prematch cutoff and AIC rows required")
+    seen = set()
+    issues = []
+    for rec in rows:
+        required = {"player_id", "role", "availability_state", "expected_minutes",
+                    "replacement_id", "replacement_role", "source_id", "observed_at"}
+        if not isinstance(rec, dict) or set(rec) != required:
+            raise ValueError("AIC prediction schema excludes realized injuries/subs/minutes")
+        pid = rec["player_id"]
+        if not isinstance(pid, str) or not pid or pid in seen:
+            raise ValueError("duplicate or invalid AIC player")
+        seen.add(pid)
+        if rec["role"] not in ROLES or rec["availability_state"] not in ("out", "doubtful", "fit"):
+            raise ValueError("invalid prematch player role/status")
+        minutes = rec["expected_minutes"]
+        if type(minutes) not in (int, float) or not math.isfinite(minutes) or not 0 <= minutes <= 90:
+            raise ValueError("expected minutes must be 0..90")
+        if rec["availability_state"] == "out" and minutes != 0:
+            raise ValueError("out player must have 0 expected minutes")
+        repl = rec["replacement_id"]
+        repl_role = rec["replacement_role"]
+        if repl is not None and (not isinstance(repl, str) or not repl.strip() or repl == pid):
+            raise ValueError("replacement identifier invalid")
+        if repl_role is not None and repl_role not in ROLES:
+            raise ValueError("replacement role invalid")
+        if (repl is None) != (repl_role is None):
+            raise ValueError("replacement identity and role must both be specified")
+        _source_time({"source_id":rec["source_id"],"observed_at":rec["observed_at"]},cut,"AIC")
+        if repl is None and rec["availability_state"] != "fit":
+            issues.append({"player_id":pid,"flag":"REPLACEMENT_UNCONFIRMED_NO_NUMERIC_EFFECT"})
+        if repl is not None and rec["role"] != repl_role:
+            issues.append({"player_id":pid,"flag":"POSITION_ROLE_MISMATCH_REVIEW_ONLY"})
+    return {"research_only":True,"formal_grant":None,"n":len(rows),
+            "issues":issues,"prematch_only":True,"numeric_xg_delta":None}
