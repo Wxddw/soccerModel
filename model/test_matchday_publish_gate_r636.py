@@ -141,3 +141,42 @@ def test_two_families_one_same_news_source_not_independent():
     x['reversal_policy']={'source_id':'registered','registered_at':'2026-11-20T10:00:00+08:00','minimum_gap':.1}
     x['evidence']=[{'family':fam,'impact':'adverse','source_id':'same-post','observed_at':O} for fam in ('roster','tactics')]
     assert review(x)['reversal_review_eligible'] is False
+
+
+def test_aic_expected_role_and_replacement_uncertainty_no_adjust():
+    from matchday_publish_gate_r636 import audit_aic_availability
+    rec={"player_id":"keeper1","role":"GK","availability_state":"out","expected_minutes":0,
+         "replacement_id":"center-back1","replacement_role":"CB",
+         "source_id":"team-press","observed_at":O}
+    r=audit_aic_availability([rec],cutoff=C,kickoff=T)
+    assert r['numeric_xg_delta'] is None
+    assert r['issues'][0]['flag']=='POSITION_ROLE_MISMATCH_REVIEW_ONLY'
+    rec['observed_at']=T
+    with pytest.raises(ValueError,match='postcutoff'):
+        audit_aic_availability([rec],cutoff=C,kickoff=T)
+
+
+def test_aic_rejects_actual_subs_and_duplicate_same_player():
+    from matchday_publish_gate_r636 import audit_aic_availability
+    rec={"player_id":"striker","role":"ST","availability_state":"out","expected_minutes":0,
+         "replacement_id":None,"replacement_role":None,"source_id":"team-press","observed_at":O}
+    assert audit_aic_availability([rec],cutoff=C,kickoff=T)['issues'][0]['flag']=='REPLACEMENT_UNCONFIRMED_NO_NUMERIC_EFFECT'
+    with pytest.raises(ValueError,match='duplicate'):
+        audit_aic_availability([rec,rec],cutoff=C,kickoff=T)
+    with pytest.raises(ValueError,match='schema'):
+        audit_aic_availability([{**rec,'actual_substitution_minute':60}],cutoff=C,kickoff=T)
+
+
+def test_development_casebook_replay_equal_prior_published_scoring():
+    import json
+    from pathlib import Path
+    from replay_published_dev_20261121 import replay
+    d=json.loads(Path(__file__).with_name('DEV_ONLY_CASEBOOK_20261120_8.json').read_text(encoding='utf-8'))
+    r=replay(d)
+    assert r['stats']=={'ordinary_n':7,'wdl_single':3,'wdl_protection':4,
+                        'goal_top3':3,'goal_top2':3,'score_top3':0,
+                        'jc':3,'htft_main':1,'htft_top2':1}
+    assert r['concentration']['warnings']==[
+        'ORDINARY_HOME_SINGLE_OVERCONCENTRATED',
+        'HTFT_HOME_FINISH_OVERCONCENTRATED']
+    assert r['formal_grant'] is None and not r['comparable_new_model_probabilities']
