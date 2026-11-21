@@ -1,0 +1,133 @@
+{
+  "status": "POSTMATCH_DEVELOPMENT_ONLY",
+  "n": 8,
+  "stats": {
+    "ordinary_n": 7,
+    "wdl_single": 3,
+    "wdl_protection": 4,
+    "goal_top3": 3,
+    "goal_top2": 3,
+    "score_top3": 0,
+    "jc": 3,
+    "htft_main": 1,
+    "htft_top2": 1
+  },
+  "concentration": {
+    "research_only": true,
+    "formal_grant": null,
+    "no_joint_q_claim": true,
+    "n": 8,
+    "ordinary_offered_n": 7,
+    "formal_wdl_counts": {
+      "胜": 7,
+      "平": 0,
+      "负": 0
+    },
+    "htft_primary_counts": {
+      "胜胜": 2,
+      "胜平": 0,
+      "胜负": 0,
+      "平胜": 6,
+      "平平": 0,
+      "平负": 0,
+      "负胜": 0,
+      "负平": 0,
+      "负负": 0
+    },
+    "warnings": [
+      "ORDINARY_HOME_SINGLE_OVERCONCENTRATED",
+      "HTFT_HOME_FINISH_OVERCONCENTRATED"
+    ],
+    "automatic_pick_changes": false
+  },
+  "details": [
+    {
+      "id": "001",
+      "goal_top3": 0,
+      "goal_top2": 0,
+      "score_top3": 0,
+      "jc": 0,
+      "htft_main": 0,
+      "htft_top2": 0,
+      "wdl_single": 1,
+      "wdl_protection": 1
+    },
+    {
+      "id": "002",
+      "goal_top3": 0,
+      "goal_top2": 0,
+      "score_top3": 0,
+      "jc": 0,
+      "htft_main": 0,
+      "htft_top2": 0,
+      "wdl_single": 0,
+      "wdl_protection": 0
+    },
+    {
+      "id": "003",
+      "goal_top3": 1,
+      "goal_top2": 1,
+      "score_top3": 0,
+      "jc": 0,
+      "htft_main": 0,
+      "htft_top2": 0,
+      "wdl_single": 0,
+      "wdl_protection": 1
+    },
+    {
+      "id": "004",
+      "goal_top3": 1,
+      "goal_top2": 1,
+      "score_top3": 0,
+      "jc": 1,
+      "htft_main": 0,
+      "htft_top2": 0,
+      "wdl_single": 0,
+      "wdl_protection": 0
+    },
+    {
+      "id": "005",
+      "goal_top3": 0,
+      "goal_top2": 0,
+      "score_top3": 0,
+      "jc": 0,
+      "htft_main": 0,
+      "htft_top2": 0,
+      "wdl_single": 1,
+      "wdl_protection": 1
+    },
+    {
+      "id": "006",
+      "goal_top3": 0,
+      "goal_top2": 0,
+      "score_top3": 0,
+      "jc": 1,
+      "htft_main": 0,
+      "htft_top2": 0
+    },
+    {
+      "id": "007",
+      "goal_top3": 0,
+      "goal_top2": 0,
+      "score_top3": 0,
+      "jc": 0,
+      "htft_main": 1,
+      "htft_top2": 1,
+      "wdl_single": 1,
+      "wdl_protection": 1
+    },
+    {
+      "id": "008",
+      "goal_top3": 1,
+      "goal_top2": 1,
+      "score_top3": 0,
+      "jc": 1,
+      "htft_main": 0,
+      "htft_top2": 0,
+      "wdl_single": 0,
+      "wdl_protection": 0
+    }
+  ],
+  "comparable_new_model_probabilities": false,
+  "formal_grant": null
+}
