@@ -1,0 +1,122 @@
+{
+  "version": "R636_20261122_DEV_DIAGNOSTIC_SUMMARY_ONLY",
+  "prematch_snapshot_sha256": "2210a55fb8d1ccb54bd64ffd238e9d987af2a5ea70132b4213926912bf67cde6",
+  "source_grade": "user archived shadow market/IPF prematch research, provider quotes not independently timestamped",
+  "n": 18,
+  "original_Q_and_picks_not_modified": true,
+  "cross_layer_consistent_n_each": {
+    "Outcome": 18,
+    "JC": 18,
+    "Goal": 18,
+    "Score": 18,
+    "HTFT": 18
+  },
+  "prematch_expected_wdl_counts": {
+    "胜": 7.150653853464727,
+    "平": 3.8562737744222515,
+    "负": 6.993072372113019
+  },
+  "prematch_wdl_top1_picks": {
+    "胜": 8,
+    "平": 0,
+    "负": 10
+  },
+  "prematch_expected_JC_letdraw_count": 4.1633529677714884,
+  "prematch_JC_letdraw_top1_count": 0,
+  "prematch_goals_exposure": {
+    "0": {
+      "expected_matches": 1.0014789465827576,
+      "matches_with_that_bucket_in_top3": 0
+    },
+    "1": {
+      "expected_matches": 2.840418390756952,
+      "matches_with_that_bucket_in_top3": 8
+    },
+    "2": {
+      "expected_matches": 3.987047774636343,
+      "matches_with_that_bucket_in_top3": 18
+    },
+    "3": {
+      "expected_matches": 3.9315466467017357,
+      "matches_with_that_bucket_in_top3": 18
+    },
+    "4": {
+      "expected_matches": 2.8891223349908297,
+      "matches_with_that_bucket_in_top3": 10
+    },
+    "5": {
+      "expected_matches": 1.7782088914105247,
+      "matches_with_that_bucket_in_top3": 0
+    },
+    "6": {
+      "expected_matches": 0.9080651337920291,
+      "matches_with_that_bucket_in_top3": 0
+    },
+    "7+": {
+      "expected_matches": 0.664111881128828,
+      "matches_with_that_bucket_in_top3": 0
+    }
+  },
+  "prematch_htft_expected_counts": {
+    "胜胜": 4.459289620915731,
+    "胜平": 0.7817417356871653,
+    "胜负": 0.3911041019460276,
+    "平胜": 2.30506606389684,
+    "平平": 2.29279030304792,
+    "平负": 2.2447294556353787,
+    "负胜": 0.3862981686521023,
+    "负平": 0.7817417356871653,
+    "负负": 4.357238814531557
+  },
+  "prematch_htft_top2_inclusion_counts": {
+    "胜胜": 10,
+    "胜平": 0,
+    "胜负": 0,
+    "平胜": 7,
+    "平平": 1,
+    "平负": 7,
+    "负胜": 0,
+    "负平": 0,
+    "负负": 11
+  },
+  "prematch_only_review_flags": [
+    "NO_DRAW_TOP1_DESPITE_EXPECTED_DRAW_MASS_REVIEW_ONLY",
+    "NO_LETDRAW_TOP1_DESPITE_EXACT_MARGIN_MASS_REVIEW_ONLY",
+    "ZERO_GOAL_TOP3_COVERAGE_NONE_REVIEW_ONLY",
+    "ALL_HIGH_TAIL_TOP3_COVERAGE_NONE_REVIEW_ONLY"
+  ],
+  "actual_wdl_counts_postmatch": {
+    "平": 6,
+    "负": 7,
+    "胜": 5
+  },
+  "actual_goal_counts_postmatch": {
+    "2": 6,
+    "1": 4,
+    "6": 2,
+    "0": 2,
+    "5": 3,
+    "4": 1
+  },
+  "actual_htft_counts_postmatch": {
+    "负平": 3,
+    "负负": 3,
+    "胜胜": 4,
+    "平负": 4,
+    "平平": 3,
+    "平胜": 1
+  },
+  "frozen_model_baseline_results": {
+    "regular_hit": 10,
+    "protection_hit": 16,
+    "jc_hit": 8,
+    "goal_top3_hit": 9,
+    "goal_top2_hit": 5,
+    "score_top3_hit": 7,
+    "htft_top1_hit": 7,
+    "htft_top2_hit": 11
+  },
+  "not_an_independent_test_of_nov22_challenger": true,
+  "formal_grant": null,
+  "production_unchanged": true
+}
