@@ -1,0 +1,223 @@
+{
+  "type": "POSTMATCH_DEVELOPMENT_DIAGNOSTICS_NOT_TRAINING",
+  "formal_grant": null,
+  "production_changed": false,
+  "snapshot_sha256": "537a7861d6f8f6516b45b4c3118a5825b3e1c093e1837d6c223e2f464025fa38",
+  "eligibility": "uncalibrated-market-IPF-shadow; source odds per-price timestamps not verified",
+  "n": 16,
+  "score_top3_expected_hits": 4.513976269534778,
+  "score_top3_actual_hits": 1,
+  "htft_top2_expected_hits": 9.24728,
+  "htft_top2_actual_hits": 10,
+  "high5plus_expected_matches": 4.332984442676769,
+  "high5plus_actual_matches": 6,
+  "htft_expected_paths": {
+    "胜胜": 5.1985399999999995,
+    "胜平": 0.73602,
+    "胜负": 0.35157,
+    "平胜": 2.2342400000000002,
+    "平平": 1.7589100000000002,
+    "平负": 1.5584400000000003,
+    "负胜": 0.48201999999999995,
+    "负平": 0.73602,
+    "负负": 2.9442
+  },
+  "htft_actual_paths": {
+    "平胜": 3,
+    "平平": 1,
+    "负胜": 1,
+    "平负": 2,
+    "胜平": 1,
+    "负负": 2,
+    "胜胜": 4,
+    "负平": 1,
+    "胜负": 1
+  },
+  "goals_actual": {
+    "3": 2,
+    "4": 5,
+    "5": 3,
+    "6": 2,
+    "2": 3,
+    "7+": 1
+  },
+  "per_match": [
+    {
+      "match_id": "003",
+      "actual_score": "2:1",
+      "htft_actual": "平胜",
+      "score_top3_hit": false,
+      "htft_top2_hit": true,
+      "actual_high5_plus": false,
+      "prematch_score_top3_mass": 0.2507635657469227,
+      "prematch_goal_high5_plus_mass": 0.4721448769943395,
+      "prematch_htft_lost_lead_mass": 0.07221999999999999
+    },
+    {
+      "match_id": "004",
+      "actual_score": "4:0",
+      "htft_actual": "平胜",
+      "score_top3_hit": false,
+      "htft_top2_hit": true,
+      "actual_high5_plus": false,
+      "prematch_score_top3_mass": 0.3174575507526356,
+      "prematch_goal_high5_plus_mass": 0.20694550082350258,
+      "prematch_htft_lost_lead_mass": 0.11083000000000001
+    },
+    {
+      "match_id": "005",
+      "actual_score": "2:2",
+      "htft_actual": "平平",
+      "score_top3_hit": false,
+      "htft_top2_hit": false,
+      "actual_high5_plus": false,
+      "prematch_score_top3_mass": 0.3124799834621514,
+      "prematch_goal_high5_plus_mass": 0.18443139661206176,
+      "prematch_htft_lost_lead_mass": 0.16313
+    },
+    {
+      "match_id": "006",
+      "actual_score": "3:2",
+      "htft_actual": "负胜",
+      "score_top3_hit": false,
+      "htft_top2_hit": false,
+      "actual_high5_plus": true,
+      "prematch_score_top3_mass": 0.23037134389440816,
+      "prematch_goal_high5_plus_mass": 0.47644542625902486,
+      "prematch_htft_lost_lead_mass": 0.10805000000000001
+    },
+    {
+      "match_id": "007",
+      "actual_score": "1:5",
+      "htft_actual": "平负",
+      "score_top3_hit": false,
+      "htft_top2_hit": true,
+      "actual_high5_plus": true,
+      "prematch_score_top3_mass": 0.25812905764361727,
+      "prematch_goal_high5_plus_mass": 0.2986024800741228,
+      "prematch_htft_lost_lead_mass": 0.16048
+    },
+    {
+      "match_id": "008",
+      "actual_score": "1:1",
+      "htft_actual": "胜平",
+      "score_top3_hit": true,
+      "htft_top2_hit": false,
+      "actual_high5_plus": false,
+      "prematch_score_top3_mass": 0.34590747400661864,
+      "prematch_goal_high5_plus_mass": 0.15161327486361093,
+      "prematch_htft_lost_lead_mass": 0.13763
+    },
+    {
+      "match_id": "009",
+      "actual_score": "0:2",
+      "htft_actual": "负负",
+      "score_top3_hit": false,
+      "htft_top2_hit": true,
+      "actual_high5_plus": false,
+      "prematch_score_top3_mass": 0.3049963281333691,
+      "prematch_goal_high5_plus_mass": 0.16038644487322126,
+      "prematch_htft_lost_lead_mass": 0.16473
+    },
+    {
+      "match_id": "010",
+      "actual_score": "3:1",
+      "htft_actual": "胜胜",
+      "score_top3_hit": false,
+      "htft_top2_hit": true,
+      "actual_high5_plus": false,
+      "prematch_score_top3_mass": 0.26814738782767783,
+      "prematch_goal_high5_plus_mass": 0.27289103214311466,
+      "prematch_htft_lost_lead_mass": 0.17814
+    },
+    {
+      "match_id": "011",
+      "actual_score": "3:2",
+      "htft_actual": "胜胜",
+      "score_top3_hit": false,
+      "htft_top2_hit": true,
+      "actual_high5_plus": true,
+      "prematch_score_top3_mass": 0.26465933265746616,
+      "prematch_goal_high5_plus_mass": 0.3035722079025168,
+      "prematch_htft_lost_lead_mass": 0.17795
+    },
+    {
+      "match_id": "012",
+      "actual_score": "4:0",
+      "htft_actual": "胜胜",
+      "score_top3_hit": false,
+      "htft_top2_hit": true,
+      "actual_high5_plus": false,
+      "prematch_score_top3_mass": 0.26325062827773293,
+      "prematch_goal_high5_plus_mass": 0.2665359712897175,
+      "prematch_htft_lost_lead_mass": 0.15913
+    },
+    {
+      "match_id": "013",
+      "actual_score": "4:0",
+      "htft_actual": "平胜",
+      "score_top3_hit": false,
+      "htft_top2_hit": true,
+      "actual_high5_plus": false,
+      "prematch_score_top3_mass": 0.27412367916914127,
+      "prematch_goal_high5_plus_mass": 0.25235476111301536,
+      "prematch_htft_lost_lead_mass": 0.15231999999999998
+    },
+    {
+      "match_id": "014",
+      "actual_score": "5:1",
+      "htft_actual": "胜胜",
+      "score_top3_hit": false,
+      "htft_top2_hit": true,
+      "actual_high5_plus": true,
+      "prematch_score_top3_mass": 0.25347790407602094,
+      "prematch_goal_high5_plus_mass": 0.32023925143582893,
+      "prematch_htft_lost_lead_mass": 0.15569
+    },
+    {
+      "match_id": "015",
+      "actual_score": "0:2",
+      "htft_actual": "平负",
+      "score_top3_hit": false,
+      "htft_top2_hit": false,
+      "actual_high5_plus": false,
+      "prematch_score_top3_mass": 0.2584957629868633,
+      "prematch_goal_high5_plus_mass": 0.29407057957705884,
+      "prematch_htft_lost_lead_mass": 0.17944
+    },
+    {
+      "match_id": "016",
+      "actual_score": "4:4",
+      "htft_actual": "负平",
+      "score_top3_hit": false,
+      "htft_top2_hit": false,
+      "actual_high5_plus": true,
+      "prematch_score_top3_mass": 0.2591248865840773,
+      "prematch_goal_high5_plus_mass": 0.286605429243761,
+      "prematch_htft_lost_lead_mass": 0.1537
+    },
+    {
+      "match_id": "017",
+      "actual_score": "2:3",
+      "htft_actual": "胜负",
+      "score_top3_hit": false,
+      "htft_top2_hit": false,
+      "actual_high5_plus": true,
+      "prematch_score_top3_mass": 0.2880006896711036,
+      "prematch_goal_high5_plus_mass": 0.2413526258746283,
+      "prematch_htft_lost_lead_mass": 0.12090000000000001
+    },
+    {
+      "match_id": "018",
+      "actual_score": "0:3",
+      "htft_actual": "负负",
+      "score_top3_hit": false,
+      "htft_top2_hit": true,
+      "actual_high5_plus": false,
+      "prematch_score_top3_mass": 0.3645906946449716,
+      "prematch_goal_high5_plus_mass": 0.14479318359724383,
+      "prematch_htft_lost_lead_mass": 0.11129
+    }
+  ],
+  "warning": "Never change fitted parameters after this recap and claim unbiased backtest; no challenger existed before the 2026-11-22 fixtures."
+}
