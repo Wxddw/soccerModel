@@ -98,3 +98,12 @@ Following the 2026-11-22 16-match frozen market/IPF retrospective, new condition
 - See `README_R636_NOV23_JOINT_TAIL_HTFT.md` for detailed contracts and restrictions. Selected local test suite with the Nov21/22 audit modules passed **62/62**; this is functional regression only, not full-repository or historic predictive certification.
 
 **Freeze:** M79.3.6 Production unchanged; independent eligible holdout for new modules not yet performed; no formal grant.
+
+
+## 2026-11-23 Market trap / cold-price signals (Shadow)
+
+Added `market_trap_cold_watch_r636.py`, `market_trap_integration_r636.py`, their tests and `README_R636_MARKET_TRAP_COLD_20261123.md`.
+The read-only market layer distinguishes 1X2 price drift, underdog shortening, euro/Asian line divergence, shallow lines for high-probability favorites, and prematch crowd/price divergence. Bookmaker identity + timezone-aware observation times + frozen cutoff are compulsory; at least two companies with genuine pregame time-series quotes for any cross-book signal. Asian quarter lines MUST NOT be confused with official three-way JC integer handicaps, and bookmaker water formats must be converted explicitly.
+No bookmaker intention, fix, or manipulation inferred. Multiple market outlets and purchase shares constitute **one** correlated evidence family. Independent nonmarket evidence remains a prerequisite for a cold-direction escalation. **No automated reversal or core grant**.
+The 2026-11-22 16-game archived market/IPF snapshot lacks full timestamped opening/latest per-book odds, so `DEV_20261122_ODDS_16_FAIL_CLOSED.json` correctly returns insufficient evidence in all cases without inventing historical movement or explaining known upsets post hoc.
+**57/57** selected local combined Nov21/22 + new-market tests passed, functional only; independent predictive accuracy certification is **not yet available**. Production unchanged.
