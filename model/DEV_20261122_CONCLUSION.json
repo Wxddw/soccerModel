@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-23",
+  "mode": "development-only",
+  "source": "2026-11-22 13:52+08:00 frozen market/IPF 16-game 14x14 joint-Q snapshot, not full M79 Production",
+  "snapshot_sha256": "537a7861d6f8f6516b45b4c3118a5825b3e1c093e1837d6c223e2f464025fa38",
+  "n_games": 16,
+  "score_top3_expected_hits_from_Q": 4.513976269534778,
+  "score_top3_actual_hits": 1,
+  "htft_top2_expected_hits_from_Q": 9.24728,
+  "htft_top2_actual_hits": 10,
+  "goals_5plus_expected_games_from_Q": 4.332984442676769,
+  "goals_5plus_actual_games": 6,
+  "paired_candidate_vs_baseline_real_historical_test": null,
+  "eligible_prior_training_matches": "not independently established",
+  "applied_calibration_to_2026_11_22_Q": false,
+  "research_only": true,
+  "formal_grant": null,
+  "production_changed": false,
+  "notices": [
+    "No direct calibration weight fitted using these known Nov22 scores",
+    "Historical Q and per-odds source provenance still lack independent provider timestamp verification",
+    "Replay summary is development diagnostics, not a challenger performance evaluation",
+    "HTFT two-goal comeback model requires earlier minute-event data before fitting"
+  ]
+}
