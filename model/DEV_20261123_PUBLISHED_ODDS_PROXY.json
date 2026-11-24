@@ -1,0 +1,882 @@
+{
+  "scope": "2026-11-23 eight published text picks, development only",
+  "complete_frozen_q_available": false,
+  "per_quote_timestamp_verified": false,
+  "can_score_full_model_logloss": false,
+  "can_certify_market_signals": false,
+  "hits": {
+    "wdl_single": {
+      "hit": 2,
+      "n": 7
+    },
+    "wdl_pair": {
+      "hit": 4,
+      "n": 7
+    },
+    "jc_single": {
+      "hit": 5,
+      "n": 8
+    },
+    "jc_pair": {
+      "hit": 6,
+      "n": 8
+    },
+    "goal_top3": {
+      "hit": 5,
+      "n": 8
+    },
+    "goal_double": {
+      "hit": 4,
+      "n": 8
+    },
+    "score_top3": {
+      "hit": 3,
+      "n": 8
+    },
+    "htft_single": {
+      "hit": 3,
+      "n": 8
+    },
+    "htft_pair": {
+      "hit": 3,
+      "n": 8
+    }
+  },
+  "goals_actual": {
+    "5": 3,
+    "4": 2,
+    "3": 1,
+    "2": 2
+  },
+  "raw_odds_proxy_expected": {
+    "5plus": 1.4449465895741085,
+    "letdraw": 1.9788300799828114,
+    "draw_regular_open": 1.8910137673956713
+  },
+  "actual": {
+    "5plus": 3,
+    "letdraw": 2,
+    "draw_regular_open": 2
+  },
+  "rows": [
+    {
+      "match_id": "001",
+      "line": 1,
+      "regular_pair": "负平",
+      "jc_pair": "胜平",
+      "goals": [
+        3,
+        2,
+        4
+      ],
+      "scores": [
+        "1:2",
+        "1:1",
+        "0:1"
+      ],
+      "htft": [
+        "负负",
+        "平负"
+      ],
+      "ht": [
+        2,
+        1
+      ],
+      "ft": [
+        3,
+        2
+      ],
+      "actual_wdl": "胜",
+      "actual_jc": "胜",
+      "actual_htft": "胜胜",
+      "hits": {
+        "wdl_single": false,
+        "wdl_pair": false,
+        "jc_single": true,
+        "jc_pair": true,
+        "goal_top3": false,
+        "goal_double": false,
+        "score_top3": false,
+        "htft_single": false,
+        "htft_pair": false
+      },
+      "market_proxy_only": {
+        "jc_probabilities": [
+          0.4876957494407159,
+          0.2684563758389262,
+          0.24384787472035796
+        ],
+        "goals_probabilities": [
+          0.05696570872064109,
+          0.1386991168850392,
+          0.24539074525814628,
+          0.25726449099644366,
+          0.1533692157863414,
+          0.07975199220889755,
+          0.041974732741525016,
+          0.026583997402965846
+        ],
+        "goal_5plus": 0.1483107223533884,
+        "letdraw_prob": 0.2684563758389262,
+        "jc_top2_gap": 0.21923937360178974,
+        "draw_market_excess": 0.009204269985103763,
+        "jc_eu_favorite_diff": 0.06255552338248405,
+        "wdl_second_third_gap": 0.00898166526224145,
+        "high_best_vs_third_gap": 0.07361722357744387,
+        "wdl_probabilities": [
+          0.2418140647526548,
+          0.25079573001489625,
+          0.507390205232449
+        ]
+      },
+      "raw_quoted_odds": {
+        "regular": [
+          3.63,
+          3.5,
+          1.73
+        ],
+        "jc": [
+          1.8,
+          3.27,
+          3.6
+        ],
+        "goals": [
+          14,
+          5.75,
+          3.25,
+          3.1,
+          5.2,
+          10,
+          19,
+          30
+        ],
+        "euro_average": [
+          3.19,
+          3.49,
+          2.08
+        ],
+        "asian_home": 0.25,
+        "buy_share": [
+          0.24,
+          0.26,
+          0.5
+        ]
+      }
+    },
+    {
+      "match_id": "002",
+      "line": -2,
+      "regular_pair": null,
+      "jc_pair": "胜负",
+      "goals": [
+        3,
+        4,
+        2
+      ],
+      "scores": [
+        "3:0",
+        "2:0",
+        "3:1"
+      ],
+      "htft": [
+        "胜胜",
+        "平胜"
+      ],
+      "ht": [
+        1,
+        0
+      ],
+      "ft": [
+        3,
+        1
+      ],
+      "actual_wdl": "胜",
+      "actual_jc": "平",
+      "actual_htft": "胜胜",
+      "hits": {
+        "wdl_single": null,
+        "wdl_pair": null,
+        "jc_single": false,
+        "jc_pair": false,
+        "goal_top3": true,
+        "goal_double": true,
+        "score_top3": true,
+        "htft_single": true,
+        "htft_pair": true
+      },
+      "market_proxy_only": {
+        "jc_probabilities": [
+          0.3903302931019215,
+          0.23111662091561144,
+          0.37855308598246706
+        ],
+        "goals_probabilities": [
+          0.02747832147630744,
+          0.09265945614103673,
+          0.16098410561877086,
+          0.23437391847438702,
+          0.20173957539567486,
+          0.13063464308408457,
+          0.07968713228129158,
+          0.07244284752844689
+        ],
+        "goal_5plus": 0.28276462289382304,
+        "letdraw_prob": 0.23111662091561144,
+        "jc_top2_gap": 0.011777207119454458,
+        "draw_market_excess": null,
+        "jc_eu_favorite_diff": null,
+        "wdl_second_third_gap": null,
+        "high_best_vs_third_gap": 0.03034946253468629
+      },
+      "raw_quoted_odds": {
+        "regular": null,
+        "jc": [
+          2.25,
+          3.8,
+          2.32
+        ],
+        "goals": [
+          29,
+          8.6,
+          4.95,
+          3.4,
+          3.95,
+          6.1,
+          10,
+          11
+        ],
+        "euro_average": [
+          1.23,
+          6.25,
+          10.62
+        ],
+        "asian_home": -2,
+        "buy_share": null
+      }
+    },
+    {
+      "match_id": "003",
+      "line": 1,
+      "regular_pair": "负胜",
+      "jc_pair": "胜负",
+      "goals": [
+        3,
+        4,
+        2
+      ],
+      "scores": [
+        "1:2",
+        "1:1",
+        "0:1"
+      ],
+      "htft": [
+        "负负",
+        "平负"
+      ],
+      "ht": [
+        1,
+        0
+      ],
+      "ft": [
+        3,
+        0
+      ],
+      "actual_wdl": "胜",
+      "actual_jc": "胜",
+      "actual_htft": "胜胜",
+      "hits": {
+        "wdl_single": false,
+        "wdl_pair": true,
+        "jc_single": true,
+        "jc_pair": true,
+        "goal_top3": true,
+        "goal_double": true,
+        "score_top3": false,
+        "htft_single": false,
+        "htft_pair": false
+      },
+      "market_proxy_only": {
+        "jc_probabilities": [
+          0.4437806699381268,
+          0.27458928952421596,
+          0.28163004053765733
+        ],
+        "goals_probabilities": [
+          0.03986728819458965,
+          0.11074246720719348,
+          0.18542924741669606,
+          0.25720831093283647,
+          0.19447457655897393,
+          0.10631276851890574,
+          0.05906264917716985,
+          0.046902691993634886
+        ],
+        "goal_5plus": 0.21227810968971048,
+        "letdraw_prob": 0.27458928952421596,
+        "jc_top2_gap": 0.16215062940046948,
+        "draw_market_excess": -0.0021078136644620826,
+        "jc_eu_favorite_diff": 0.06896972434237142,
+        "wdl_second_third_gap": 0.004007099731059949,
+        "high_best_vs_third_gap": 0.07911647889779032,
+        "wdl_probabilities": [
+          0.22611491339552203,
+          0.22210781366446208,
+          0.551777272940016
+        ]
+      },
+      "raw_quoted_odds": {
+        "regular": [
+          3.88,
+          3.95,
+          1.59
+        ],
+        "jc": [
+          1.98,
+          3.2,
+          3.12
+        ],
+        "goals": [
+          20,
+          7.2,
+          4.3,
+          3.1,
+          4.1,
+          7.5,
+          13.5,
+          17
+        ],
+        "euro_average": [
+          3.52,
+          3.77,
+          1.95
+        ],
+        "asian_home": 0.5,
+        "buy_share": [
+          0.2,
+          0.22,
+          0.58
+        ]
+      }
+    },
+    {
+      "match_id": "004",
+      "line": -1,
+      "regular_pair": "胜平",
+      "jc_pair": "负平",
+      "goals": [
+        2,
+        3,
+        1
+      ],
+      "scores": [
+        "1:1",
+        "2:1",
+        "1:0"
+      ],
+      "htft": [
+        "胜胜",
+        "平平"
+      ],
+      "ht": [
+        1,
+        1
+      ],
+      "ft": [
+        2,
+        3
+      ],
+      "actual_wdl": "负",
+      "actual_jc": "负",
+      "actual_htft": "平负",
+      "hits": {
+        "wdl_single": false,
+        "wdl_pair": false,
+        "jc_single": true,
+        "jc_pair": true,
+        "goal_top3": false,
+        "goal_double": false,
+        "score_top3": false,
+        "htft_single": false,
+        "htft_pair": false
+      },
+      "market_proxy_only": {
+        "jc_probabilities": [
+          0.1671031953902567,
+          0.2278679937139864,
+          0.605028810895757
+        ],
+        "goals_probabilities": [
+          0.07590555545730933,
+          0.16433161490757695,
+          0.24906510384429625,
+          0.23441421538286708,
+          0.13982602321083298,
+          0.07245530293652255,
+          0.039850416615087404,
+          0.024151767645507517
+        ],
+        "goal_5plus": 0.13645748719711748,
+        "letdraw_prob": 0.2278679937139864,
+        "jc_top2_gap": 0.37716081718177064,
+        "draw_market_excess": 0.07316709823098083,
+        "jc_eu_favorite_diff": -0.015143071076487269,
+        "wdl_second_third_gap": 0.015242820016378944,
+        "high_best_vs_third_gap": 0.09187631197105439,
+        "wdl_probabilities": [
+          0.3815770164783405,
+          0.3168329017690192,
+          0.30159008175264024
+        ]
+      },
+      "raw_quoted_odds": {
+        "regular": [
+          2.3,
+          2.77,
+          2.91
+        ],
+        "jc": [
+          5.25,
+          3.85,
+          1.45
+        ],
+        "goals": [
+          10.5,
+          4.85,
+          3.2,
+          3.4,
+          5.7,
+          11,
+          20,
+          33
+        ],
+        "euro_average": [
+          2.32,
+          3.27,
+          2.86
+        ],
+        "asian_home": -0.25,
+        "buy_share": [
+          0.32,
+          0.39,
+          0.29
+        ]
+      }
+    },
+    {
+      "match_id": "005",
+      "line": -1,
+      "regular_pair": "胜负",
+      "jc_pair": "负平",
+      "goals": [
+        3,
+        2,
+        4
+      ],
+      "scores": [
+        "1:1",
+        "2:1",
+        "1:2"
+      ],
+      "htft": [
+        "胜胜",
+        "负负"
+      ],
+      "ht": [
+        2,
+        0
+      ],
+      "ft": [
+        4,
+        0
+      ],
+      "actual_wdl": "胜",
+      "actual_jc": "胜",
+      "actual_htft": "胜胜",
+      "hits": {
+        "wdl_single": true,
+        "wdl_pair": true,
+        "jc_single": false,
+        "jc_pair": false,
+        "goal_top3": true,
+        "goal_double": false,
+        "score_top3": false,
+        "htft_single": true,
+        "htft_pair": true
+      },
+      "market_proxy_only": {
+        "jc_probabilities": [
+          0.18754118303005732,
+          0.21942318414516704,
+          0.5930356328247758
+        ],
+        "goals_probabilities": [
+          0.056934555422869515,
+          0.13742823722761607,
+          0.23103877562903574,
+          0.25304246854608675,
+          0.15477354872236374,
+          0.0905777018091106,
+          0.04554764433829561,
+          0.03065706830462205
+        ],
+        "goal_5plus": 0.16678241445202827,
+        "letdraw_prob": 0.21942318414516704,
+        "jc_top2_gap": 0.37361244867960874,
+        "draw_market_excess": 0.06148017375548798,
+        "jc_eu_favorite_diff": -0.021251816521664135,
+        "wdl_second_third_gap": 0.0405119747264745,
+        "high_best_vs_third_gap": 0.06419584691325314,
+        "wdl_probabilities": [
+          0.40244837278450135,
+          0.27851982624451205,
+          0.31903180097098655
+        ]
+      },
+      "raw_quoted_odds": {
+        "regular": [
+          2.18,
+          3.15,
+          2.75
+        ],
+        "jc": [
+          4.68,
+          4.0,
+          1.48
+        ],
+        "goals": [
+          14,
+          5.8,
+          3.45,
+          3.15,
+          5.15,
+          8.8,
+          17.5,
+          26
+        ],
+        "euro_average": [
+          2.23,
+          3.48,
+          3.1
+        ],
+        "asian_home": -0.25,
+        "buy_share": [
+          0.32,
+          0.34,
+          0.34
+        ]
+      }
+    },
+    {
+      "match_id": "006",
+      "line": -1,
+      "regular_pair": "胜负",
+      "jc_pair": "负平",
+      "goals": [
+        3,
+        2,
+        4
+      ],
+      "scores": [
+        "2:1",
+        "1:1",
+        "1:0"
+      ],
+      "htft": [
+        "胜胜",
+        "平胜"
+      ],
+      "ht": [
+        0,
+        0
+      ],
+      "ft": [
+        1,
+        1
+      ],
+      "actual_wdl": "平",
+      "actual_jc": "负",
+      "actual_htft": "平平",
+      "hits": {
+        "wdl_single": false,
+        "wdl_pair": false,
+        "jc_single": true,
+        "jc_pair": true,
+        "goal_top3": true,
+        "goal_double": true,
+        "score_top3": true,
+        "htft_single": false,
+        "htft_pair": false
+      },
+      "market_proxy_only": {
+        "jc_probabilities": [
+          0.23398328690807801,
+          0.2785515320334262,
+          0.48746518105849584
+        ],
+        "goals_probabilities": [
+          0.0531695282211369,
+          0.12461608176828962,
+          0.1993857308292634,
+          0.2531882296244614,
+          0.18989117221834606,
+          0.0966718694929762,
+          0.04984643270731585,
+          0.03323095513821056
+        ],
+        "goal_5plus": 0.1797492573385026,
+        "letdraw_prob": 0.2785515320334262,
+        "jc_top2_gap": 0.20891364902506965,
+        "draw_market_excess": 0.0681859352473452,
+        "jc_eu_favorite_diff": 0.07543393099958662,
+        "wdl_second_third_gap": 0.00898166526224145,
+        "high_best_vs_third_gap": 0.09321930272536987,
+        "wdl_probabilities": [
+          0.507390205232449,
+          0.2418140647526548,
+          0.25079573001489625
+        ]
+      },
+      "raw_quoted_odds": {
+        "regular": [
+          1.73,
+          3.63,
+          3.5
+        ],
+        "jc": [
+          3.75,
+          3.15,
+          1.8
+        ],
+        "goals": [
+          15,
+          6.4,
+          4.0,
+          3.15,
+          4.2,
+          8.25,
+          16,
+          24
+        ],
+        "euro_average": [
+          2.18,
+          3.55,
+          3.11
+        ],
+        "asian_home": -0.25,
+        "buy_share": [
+          0.54,
+          0.31,
+          0.15
+        ]
+      }
+    },
+    {
+      "match_id": "007",
+      "line": -1,
+      "regular_pair": "胜平",
+      "jc_pair": "负平",
+      "goals": [
+        2,
+        3,
+        1
+      ],
+      "scores": [
+        "1:1",
+        "2:1",
+        "1:0"
+      ],
+      "htft": [
+        "胜胜",
+        "平平"
+      ],
+      "ht": [
+        0,
+        1
+      ],
+      "ft": [
+        1,
+        1
+      ],
+      "actual_wdl": "平",
+      "actual_jc": "负",
+      "actual_htft": "负平",
+      "hits": {
+        "wdl_single": false,
+        "wdl_pair": true,
+        "jc_single": true,
+        "jc_pair": true,
+        "goal_top3": true,
+        "goal_double": true,
+        "score_top3": true,
+        "htft_single": false,
+        "htft_pair": false
+      },
+      "market_proxy_only": {
+        "jc_probabilities": [
+          0.18954329260745797,
+          0.26196580440971057,
+          0.5484909029828315
+        ],
+        "goals_probabilities": [
+          0.06641237749336237,
+          0.1677786378779681,
+          0.2490464156001089,
+          0.24521493228318417,
+          0.1362305179351023,
+          0.07969485299203485,
+          0.03464993608349341,
+          0.020972329734746012
+        ],
+        "goal_5plus": 0.13531711881027428,
+        "letdraw_prob": 0.26196580440971057,
+        "jc_top2_gap": 0.286525098573121,
+        "draw_market_excess": 0.10511215803843893,
+        "jc_eu_favorite_diff": 0.028998538975204324,
+        "wdl_second_third_gap": 0.04662990524117988,
+        "high_best_vs_third_gap": 0.08808378488593324,
+        "wdl_probabilities": [
+          0.43685422131805773,
+          0.30488784196156105,
+          0.25825793672038116
+        ]
+      },
+      "raw_quoted_odds": {
+        "regular": [
+          2.01,
+          2.88,
+          3.4
+        ],
+        "jc": [
+          4.63,
+          3.35,
+          1.6
+        ],
+        "goals": [
+          12,
+          4.75,
+          3.2,
+          3.25,
+          5.85,
+          10,
+          23,
+          38
+        ],
+        "euro_average": [
+          2.28,
+          3.32,
+          2.98
+        ],
+        "asian_home": -0.25,
+        "buy_share": [
+          0.43,
+          0.41,
+          0.16
+        ]
+      }
+    },
+    {
+      "match_id": "008",
+      "line": -1,
+      "regular_pair": "胜负",
+      "jc_pair": "负平",
+      "goals": [
+        3,
+        2,
+        4
+      ],
+      "scores": [
+        "1:1",
+        "2:1",
+        "1:2"
+      ],
+      "htft": [
+        "胜胜",
+        "负负"
+      ],
+      "ht": [
+        1,
+        0
+      ],
+      "ft": [
+        3,
+        2
+      ],
+      "actual_wdl": "胜",
+      "actual_jc": "平",
+      "actual_htft": "胜胜",
+      "hits": {
+        "wdl_single": true,
+        "wdl_pair": true,
+        "jc_single": false,
+        "jc_pair": true,
+        "goal_top3": false,
+        "goal_double": false,
+        "score_top3": false,
+        "htft_single": true,
+        "htft_pair": true
+      },
+      "market_proxy_only": {
+        "jc_probabilities": [
+          0.17743031951053706,
+          0.21685927940176752,
+          0.6057104010876955
+        ],
+        "goals_probabilities": [
+          0.05313919156979279,
+          0.12077088993134727,
+          0.21255676627917117,
+          0.24908996048340373,
+          0.18115633489702088,
+          0.09720583823742586,
+          0.05142502409979948,
+          0.03465599450203878
+        ],
+        "goal_5plus": 0.18328685683926413,
+        "letdraw_prob": 0.21685927940176752,
+        "jc_top2_gap": 0.38885112168592795,
+        "draw_market_excess": 0.06394441101143417,
+        "jc_eu_favorite_diff": -0.0021287123850748935,
+        "wdl_second_third_gap": 0.05773025625236178,
+        "high_best_vs_third_gap": 0.08395049665959502,
+        "wdl_probabilities": [
+          0.39015856577050645,
+          0.27605558898856586,
+          0.33378584524092764
+        ]
+      },
+      "raw_quoted_odds": {
+        "regular": [
+          2.25,
+          3.18,
+          2.63
+        ],
+        "jc": [
+          4.95,
+          4.05,
+          1.45
+        ],
+        "goals": [
+          15,
+          6.6,
+          3.75,
+          3.2,
+          4.4,
+          8.2,
+          15.5,
+          23
+        ],
+        "euro_average": [
+          2.36,
+          3.53,
+          2.68
+        ],
+        "asian_home": -0.25,
+        "buy_share": [
+          0.4,
+          0.34,
+          0.26
+        ]
+      }
+    }
+  ]
+}
